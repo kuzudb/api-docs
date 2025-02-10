@@ -48,6 +48,7 @@ var menudata={children:[
 {text:"s",url:"namespacemembers.html#index_s"},
 {text:"t",url:"namespacemembers.html#index_t"},
 {text:"u",url:"namespacemembers.html#index_u"},
+{text:"v",url:"namespacemembers.html#index_v"},
 {text:"w",url:"namespacemembers.html#index_w"}]},
 {text:"Functions",url:"namespacemembers_func.html"},
 {text:"Variables",url:"namespacemembers_vars.html",children:[
@@ -67,6 +68,7 @@ var menudata={children:[
 {text:"Typedefs",url:"namespacemembers_type.html",children:[
 {text:"b",url:"namespacemembers_type.html#index_b"},
 {text:"c",url:"namespacemembers_type.html#index_c"},
+{text:"d",url:"namespacemembers_type.html#index_d"},
 {text:"e",url:"namespacemembers_type.html#index_e"},
 {text:"f",url:"namespacemembers_type.html#index_f"},
 {text:"g",url:"namespacemembers_type.html#index_g"},
@@ -79,7 +81,8 @@ var menudata={children:[
 {text:"r",url:"namespacemembers_type.html#index_r"},
 {text:"s",url:"namespacemembers_type.html#index_s"},
 {text:"t",url:"namespacemembers_type.html#index_t"},
-{text:"u",url:"namespacemembers_type.html#index_u"}]},
+{text:"u",url:"namespacemembers_type.html#index_u"},
+{text:"v",url:"namespacemembers_type.html#index_v"}]},
 {text:"Enumerations",url:"namespacemembers_enum.html"},
 {text:"Enumerator",url:"namespacemembers_eval.html"}]}]},
 {text:"Concepts",url:"concepts.html"},
@@ -139,6 +142,7 @@ var menudata={children:[
 {text:"v",url:"functions_func_v.html#index_v"},
 {text:"w",url:"functions_func_w.html#index_w"},
 {text:"x",url:"functions_func_x.html#index_x"},
+{text:"y",url:"functions_func_y.html#index_y"},
 {text:"~",url:"functions_func_~.html#index__7E"}]},
 {text:"Variables",url:"functions_vars.html",children:[
 {text:"a",url:"functions_vars.html#index_a"},
@@ -173,7 +177,6 @@ var menudata={children:[
 {text:"j",url:"functions_rela.html#index_j"},
 {text:"k",url:"functions_rela.html#index_k"},
 {text:"l",url:"functions_rela.html#index_l"},
-{text:"m",url:"functions_rela.html#index_m"},
 {text:"n",url:"functions_rela.html#index_n"},
 {text:"p",url:"functions_rela.html#index_p"},
 {text:"r",url:"functions_rela.html#index_r"},
@@ -183,19 +186,5 @@ var menudata={children:[
 {text:"Files",url:"files.html",children:[
 {text:"File List",url:"files.html"},
 {text:"File Members",url:"globals.html",children:[
-{text:"All",url:"globals.html",children:[
-{text:"a",url:"globals.html#index_a"},
-{text:"d",url:"globals.html#index_d"},
-{text:"e",url:"globals.html#index_e"},
-{text:"k",url:"globals.html#index_k"},
-{text:"m",url:"globals.html#index_m"},
-{text:"r",url:"globals.html#index_r"},
-{text:"v",url:"globals.html#index_v"}]},
-{text:"Macros",url:"globals_defs.html",children:[
-{text:"a",url:"globals_defs.html#index_a"},
-{text:"d",url:"globals_defs.html#index_d"},
-{text:"e",url:"globals_defs.html#index_e"},
-{text:"k",url:"globals_defs.html#index_k"},
-{text:"m",url:"globals_defs.html#index_m"},
-{text:"r",url:"globals_defs.html#index_r"},
-{text:"v",url:"globals_defs.html#index_v"}]}]}]}]}
+{text:"All",url:"globals.html"},
+{text:"Macros",url:"globals_defs.html"}]}]}]}

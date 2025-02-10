@@ -62,19 +62,20 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"classkuzu_1_1common_1_1_in_mem_overflow_buffer.html#af301f840e0288c7c7c09bf3e99531255",
-"classkuzu_1_1common_1_1_struct_field.html#a37f01378bcb5df406858963ac3b524ba",
-"classkuzu_1_1common_1_1_value.html#a8eafa65e2a6efad34e923ad78635928e",
-"classkuzu_1_1main_1_1_client_context.html#ab305e5ac3cfbe6bdf4e563b059b35df7",
-"classkuzu_1_1processor_1_1_flat_tuple.html#a2ff8555eb032499cababa1eba89a79e2",
-"expression__type_8h.html#aea96cbaccc7df791e248ca95ad97434bae61ad9b2553a293b4a3f4d3b4fa5ab31",
-"namespacekuzu_1_1common.html#a95fb02848b24d5e86e89c0e60efefbbd",
-"statement__type_8h.html#afeef9a771d4ab45b546f105ba325a557aff149905e61532412a2e7d33eb75a9c0",
-"structkuzu_1_1common_1_1dtime__t.html#a16049d8984b66dddc5a093f66108bf4c",
-"structkuzu_1_1common_1_1timestamp__ns__t.html#a38d03887b1eb82cf8b0c199202278a0c",
-"structkuzu_1_1function_1_1_table_func_input.html#ac024c31fd0e5952062836990850e5fe3",
-"structkuzu_1_1processor_1_1_populated_copy_from_error.html#ac4bebfbe023017b9c55d71fc5021fb28"
+"classkuzu_1_1common_1_1_int128__t.html",
+"classkuzu_1_1common_1_1_struct_field.html#a8f144f1971d0914e979415eb818ec33d",
+"classkuzu_1_1common_1_1_value.html#a960145422a898347728ff97c4134ccf9",
+"classkuzu_1_1main_1_1_client_context.html#aba22581fac079b2b3f2f97deee32fe51",
+"classkuzu_1_1processor_1_1_flat_tuple.html#a77f5720140bb65661cacc5726d8f63de",
+"conceptkuzu_1_1common_1_1_hashable_nested_types.html",
+"namespacekuzu_1_1common.html#a759dbaee0c6c80aba20c7024a9457cd6",
+"namespacekuzu_1_1processor.html#ae7631a42025df776a7d2fadacf3df54bae709bb346ebf26dccb94b57ed09ba487",
+"structkuzu_1_1common_1_1_path_semantic_utils.html",
+"structkuzu_1_1common_1_1ku__string__t.html#a6ad87d21d8c9f979e8bcf1bcae5a1adb",
+"structkuzu_1_1function_1_1_scalar_bind_func_input.html#ab48f50805e36ddaa6f7e661a45fefd1d",
+"structkuzu_1_1main_1_1_client_config.html#a2d1f6b4925a681fe38fa7d325e4c5918",
+"unionkuzu_1_1common_1_1_value_1_1_val.html#a1b93eefe0930af04741af425b33c96b2"
 ];
 
-var SYNCONMSG = 'click to disable panel synchronisation';
-var SYNCOFFMSG = 'click to enable panel synchronisation';
+var SYNCONMSG = 'click to disable panel synchronization';
+var SYNCOFFMSG = 'click to enable panel synchronization';
