@@ -245,9 +245,9 @@ var NAVTREEINDEX4 =
 "classkuzu_1_1parser_1_1_statement.html#ad9ad2c29beecd405078f025c70a48e65":[2,0,0,4,0,2],
 "classkuzu_1_1parser_1_1_statement.html#ae486ecda557bcf8a50170151c1ab6db8":[0,0,1,8,0,0],
 "classkuzu_1_1parser_1_1_statement.html#ae486ecda557bcf8a50170151c1ab6db8":[2,0,0,4,0,0],
-"classkuzu_1_1processor_1_1_flat_tuple.html":[0,0,1,10,3],
-"classkuzu_1_1processor_1_1_flat_tuple.html":[2,0,0,5,3],
-"classkuzu_1_1processor_1_1_flat_tuple.html#a2ff8555eb032499cababa1eba89a79e2":[0,0,1,10,3,1],
-"classkuzu_1_1processor_1_1_flat_tuple.html#a2ff8555eb032499cababa1eba89a79e2":[2,0,0,5,3,1],
-"classkuzu_1_1processor_1_1_flat_tuple.html#a77f5720140bb65661cacc5726d8f63de":[0,0,1,10,3,4]
+"classkuzu_1_1processor_1_1_flat_tuple.html":[0,0,1,10,1],
+"classkuzu_1_1processor_1_1_flat_tuple.html":[2,0,0,5,1],
+"classkuzu_1_1processor_1_1_flat_tuple.html#a2ff8555eb032499cababa1eba89a79e2":[0,0,1,10,1,1],
+"classkuzu_1_1processor_1_1_flat_tuple.html#a2ff8555eb032499cababa1eba89a79e2":[2,0,0,5,1,1],
+"classkuzu_1_1processor_1_1_flat_tuple.html#a77f5720140bb65661cacc5726d8f63de":[0,0,1,10,1,4]
 };
