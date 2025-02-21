@@ -2,7 +2,7 @@ var classkuzu_1_1main_1_1_database =
 [
     [ "Database", "classkuzu_1_1main_1_1_database.html#ade599ee8e84a9b8bfe25ffc01db736da", null ],
     [ "~Database", "classkuzu_1_1main_1_1_database.html#a994eb02bd8ada1298fb78eea0e24f603", null ],
-    [ "addExtensionOption", "classkuzu_1_1main_1_1_database.html#a0b3a9ce5b2d07aa144a63dae71d76e19", null ],
+    [ "addExtensionOption", "classkuzu_1_1main_1_1_database.html#a89fc135e0668e2a467c2167da7103caf", null ],
     [ "getCatalog", "classkuzu_1_1main_1_1_database.html#aead78f802ae8ce26c21a553ffb872261", null ],
     [ "getConfig", "classkuzu_1_1main_1_1_database.html#a6b1fcfee54bbb3951650512e6d60baa3", null ],
     [ "getNextQueryID", "classkuzu_1_1main_1_1_database.html#aa83e94d14ce275738198387c1f8945b5", null ],

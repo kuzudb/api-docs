@@ -115,10 +115,16 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ae0a2463b8e4db6d1ff3c66ea788daed2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9d36a5fc4783eb773b9211b8afdd283b" id="r_a9d36a5fc4783eb773b9211b8afdd283b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="api_8h.html#ae723a6ac7b0cca48a22a501787397769">KUZU_API</a> double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d36a5fc4783eb773b9211b8afdd283b">getExecutionTime</a> () const</td></tr>
 <tr class="separator:a9d36a5fc4783eb773b9211b8afdd283b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a075be02fe8016f1f02f48027dcd7717a" id="r_a075be02fe8016f1f02f48027dcd7717a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a075be02fe8016f1f02f48027dcd7717a">incrementCompilingTime</a> (double increment)</td></tr>
+<tr class="separator:a075be02fe8016f1f02f48027dcd7717a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17a34bd504b31cc398493b63c5d755fe" id="r_a17a34bd504b31cc398493b63c5d755fe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a17a34bd504b31cc398493b63c5d755fe">incrementExecutionTime</a> (double increment)</td></tr>
+<tr class="separator:a17a34bd504b31cc398493b63c5d755fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a810414800c53b49b82ad4b053c11b13a" id="r_a810414800c53b49b82ad4b053c11b13a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a810414800c53b49b82ad4b053c11b13a">setPreparedSummary</a> (<a class="el" href="structkuzu_1_1main_1_1_prepared_summary.html">PreparedSummary</a> preparedSummary_)</td></tr>
 <tr class="separator:a810414800c53b49b82ad4b053c11b13a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a70a3ce52c4c096d93ae22b2fc6f0cca6" id="r_a70a3ce52c4c096d93ae22b2fc6f0cca6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a70a3ce52c4c096d93ae22b2fc6f0cca6">isExplain</a> () const</td></tr>
 <tr class="separator:a70a3ce52c4c096d93ae22b2fc6f0cca6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6fbabbdabf7c223ced044ab8a546c98" id="r_aa6fbabbdabf7c223ced044ab8a546c98"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacekuzu_1_1common.html#afeef9a771d4ab45b546f105ba325a557">common::StatementType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa6fbabbdabf7c223ced044ab8a546c98">getStatementType</a> () const</td></tr>
+<tr class="separator:aa6fbabbdabf7c223ced044ab8a546c98"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="friends" name="friends"></a>
 Friends</h2></td></tr>
@@ -163,6 +169,58 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>query execution time in milliseconds. </dd></dl>
+
+</div>
+</div>
+<a id="aa6fbabbdabf7c223ced044ab8a546c98" name="aa6fbabbdabf7c223ced044ab8a546c98"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa6fbabbdabf7c223ced044ab8a546c98">&#9670;&#160;</a></span>getStatementType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespacekuzu_1_1common.html#afeef9a771d4ab45b546f105ba325a557">common::StatementType</a> kuzu::main::QuerySummary::getStatementType </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Returns</dt><dd>the statement type of the query. </dd></dl>
+
+</div>
+</div>
+<a id="a075be02fe8016f1f02f48027dcd7717a" name="a075be02fe8016f1f02f48027dcd7717a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a075be02fe8016f1f02f48027dcd7717a">&#9670;&#160;</a></span>incrementCompilingTime()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void kuzu::main::QuerySummary::incrementCompilingTime </td>
+          <td>(</td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>increment</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a17a34bd504b31cc398493b63c5d755fe" name="a17a34bd504b31cc398493b63c5d755fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a17a34bd504b31cc398493b63c5d755fe">&#9670;&#160;</a></span>incrementExecutionTime()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void kuzu::main::QuerySummary::incrementExecutionTime </td>
+          <td>(</td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>increment</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
