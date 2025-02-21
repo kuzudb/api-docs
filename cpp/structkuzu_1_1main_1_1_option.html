@@ -118,8 +118,8 @@ Inheritance diagram for kuzu::main::Option:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:acb05b370c250ea292d81974d1b19408c" id="r_acb05b370c250ea292d81974d1b19408c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acb05b370c250ea292d81974d1b19408c">Option</a> (std::string <a class="el" href="#a73efd8949d96fd3e0d088e9952648d32">name</a>, <a class="el" href="namespacekuzu_1_1common.html#ae13725cc7f400e324b5f2bc1f53da741">common::LogicalTypeID</a> <a class="el" href="#a9a7534ac778c574d3c567339ea550dbc">parameterType</a>, <a class="el" href="namespacekuzu_1_1main.html#a3713a055e67675e295dc717fc92c5ecf">OptionType</a> <a class="el" href="#a9860ba753c80a07f7d02ebfcbf5fda3e">optionType</a>)</td></tr>
-<tr class="separator:acb05b370c250ea292d81974d1b19408c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaba8067fd7a2d02162452b551f3526b9" id="r_aaba8067fd7a2d02162452b551f3526b9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaba8067fd7a2d02162452b551f3526b9">Option</a> (std::string <a class="el" href="#a73efd8949d96fd3e0d088e9952648d32">name</a>, <a class="el" href="namespacekuzu_1_1common.html#ae13725cc7f400e324b5f2bc1f53da741">common::LogicalTypeID</a> <a class="el" href="#a9a7534ac778c574d3c567339ea550dbc">parameterType</a>, <a class="el" href="namespacekuzu_1_1main.html#a3713a055e67675e295dc717fc92c5ecf">OptionType</a> <a class="el" href="#a9860ba753c80a07f7d02ebfcbf5fda3e">optionType</a>, bool <a class="el" href="#a217fea129b70d6215099b3310231ed11">isConfidential</a>)</td></tr>
+<tr class="separator:aaba8067fd7a2d02162452b551f3526b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aab1aa160616cc9539e6aea6e98858a3b" id="r_aab1aa160616cc9539e6aea6e98858a3b"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aab1aa160616cc9539e6aea6e98858a3b">~Option</a> ()=default</td></tr>
 <tr class="separator:aab1aa160616cc9539e6aea6e98858a3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -131,10 +131,12 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a9a7534ac778c574d3c567339ea550dbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9860ba753c80a07f7d02ebfcbf5fda3e" id="r_a9860ba753c80a07f7d02ebfcbf5fda3e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacekuzu_1_1main.html#a3713a055e67675e295dc717fc92c5ecf">OptionType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9860ba753c80a07f7d02ebfcbf5fda3e">optionType</a></td></tr>
 <tr class="separator:a9860ba753c80a07f7d02ebfcbf5fda3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a217fea129b70d6215099b3310231ed11" id="r_a217fea129b70d6215099b3310231ed11"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a217fea129b70d6215099b3310231ed11">isConfidential</a></td></tr>
+<tr class="separator:a217fea129b70d6215099b3310231ed11"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="acb05b370c250ea292d81974d1b19408c" name="acb05b370c250ea292d81974d1b19408c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acb05b370c250ea292d81974d1b19408c">&#9670;&#160;</a></span>Option()</h2>
+<a id="aaba8067fd7a2d02162452b551f3526b9" name="aaba8067fd7a2d02162452b551f3526b9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaba8067fd7a2d02162452b551f3526b9">&#9670;&#160;</a></span>Option()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -155,7 +157,12 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="namespacekuzu_1_1main.html#a3713a055e67675e295dc717fc92c5ecf">OptionType</a></td>          <td class="paramname"><span class="paramname"><em>optionType</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="namespacekuzu_1_1main.html#a3713a055e67675e295dc717fc92c5ecf">OptionType</a></td>          <td class="paramname"><span class="paramname"><em>optionType</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>isConfidential</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -193,6 +200,20 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a217fea129b70d6215099b3310231ed11" name="a217fea129b70d6215099b3310231ed11"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a217fea129b70d6215099b3310231ed11">&#9670;&#160;</a></span>isConfidential</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool kuzu::main::Option::isConfidential</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a73efd8949d96fd3e0d088e9952648d32" name="a73efd8949d96fd3e0d088e9952648d32"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a73efd8949d96fd3e0d088e9952648d32">&#9670;&#160;</a></span>name</h2>
 

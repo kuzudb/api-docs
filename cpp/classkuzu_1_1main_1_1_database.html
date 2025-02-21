@@ -121,8 +121,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:affc81746d037fa5276536b784b7aa1ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6423f56e9e82aacfa09757246d317833" id="r_a6423f56e9e82aacfa09757246d317833"><td class="memItemLeft" align="right" valign="top"><a class="el" href="api_8h.html#ae723a6ac7b0cca48a22a501787397769">KUZU_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6423f56e9e82aacfa09757246d317833">registerStorageExtension</a> (std::string name, std::unique_ptr&lt; storage::StorageExtension &gt; storageExtension)</td></tr>
 <tr class="separator:a6423f56e9e82aacfa09757246d317833"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0b3a9ce5b2d07aa144a63dae71d76e19" id="r_a0b3a9ce5b2d07aa144a63dae71d76e19"><td class="memItemLeft" align="right" valign="top"><a class="el" href="api_8h.html#ae723a6ac7b0cca48a22a501787397769">KUZU_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0b3a9ce5b2d07aa144a63dae71d76e19">addExtensionOption</a> (std::string name, <a class="el" href="namespacekuzu_1_1common.html#ae13725cc7f400e324b5f2bc1f53da741">common::LogicalTypeID</a> type, <a class="el" href="classkuzu_1_1common_1_1_value.html">common::Value</a> defaultValue)</td></tr>
-<tr class="separator:a0b3a9ce5b2d07aa144a63dae71d76e19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89fc135e0668e2a467c2167da7103caf" id="r_a89fc135e0668e2a467c2167da7103caf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="api_8h.html#ae723a6ac7b0cca48a22a501787397769">KUZU_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a89fc135e0668e2a467c2167da7103caf">addExtensionOption</a> (std::string name, <a class="el" href="namespacekuzu_1_1common.html#ae13725cc7f400e324b5f2bc1f53da741">common::LogicalTypeID</a> type, <a class="el" href="classkuzu_1_1common_1_1_value.html">common::Value</a> defaultValue, bool isConfidential=false)</td></tr>
+<tr class="separator:a89fc135e0668e2a467c2167da7103caf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aead78f802ae8ce26c21a553ffb872261" id="r_aead78f802ae8ce26c21a553ffb872261"><td class="memItemLeft" align="right" valign="top"><a class="el" href="api_8h.html#ae723a6ac7b0cca48a22a501787397769">KUZU_API</a> catalog::Catalog *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aead78f802ae8ce26c21a553ffb872261">getCatalog</a> ()</td></tr>
 <tr class="separator:aead78f802ae8ce26c21a553ffb872261"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6b1fcfee54bbb3951650512e6d60baa3" id="r_a6b1fcfee54bbb3951650512e6d60baa3"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structkuzu_1_1main_1_1_d_b_config.html">DBConfig</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6b1fcfee54bbb3951650512e6d60baa3">getConfig</a> () const</td></tr>
@@ -212,8 +212,8 @@ Friends</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a0b3a9ce5b2d07aa144a63dae71d76e19" name="a0b3a9ce5b2d07aa144a63dae71d76e19"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0b3a9ce5b2d07aa144a63dae71d76e19">&#9670;&#160;</a></span>addExtensionOption()</h2>
+<a id="a89fc135e0668e2a467c2167da7103caf" name="a89fc135e0668e2a467c2167da7103caf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a89fc135e0668e2a467c2167da7103caf">&#9670;&#160;</a></span>addExtensionOption()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -231,7 +231,12 @@ Friends</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classkuzu_1_1common_1_1_value.html">common::Value</a></td>          <td class="paramname"><span class="paramname"><em>defaultValue</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="classkuzu_1_1common_1_1_value.html">common::Value</a></td>          <td class="paramname"><span class="paramname"><em>defaultValue</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>isConfidential</em></span><span class="paramdefsep"> = </span><span class="paramdefval">false</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
