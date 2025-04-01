@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.13.2"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Kùzu C++ API: kuzu::main::Connection Class Reference</title>
+<title>Kuzu C++ API: kuzu::main::Connection Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -27,7 +27,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Kùzu C++ API
+   <div id="projectname">Kuzu C++ API
    </div>
   </td>
  </tr>
@@ -104,7 +104,7 @@ $(function(){initNavTree('classkuzu_1_1main_1_1_connection.html',''); initResiza
 </div><!--header-->
 <div class="contents">
 
-<p><a class="el" href="classkuzu_1_1main_1_1_connection.html" title="Connection is used to interact with a Database instance. Each Connection is thread-safe....">Connection</a> is used to interact with a <a class="el" href="classkuzu_1_1main_1_1_database.html" title="Database class is the main class of KùzuDB. It manages all database components.">Database</a> instance. Each <a class="el" href="classkuzu_1_1main_1_1_connection.html" title="Connection is used to interact with a Database instance. Each Connection is thread-safe....">Connection</a> is thread-safe. Multiple connections can connect to the same <a class="el" href="classkuzu_1_1main_1_1_database.html" title="Database class is the main class of KùzuDB. It manages all database components.">Database</a> instance in a multi-threaded environment.  
+<p><a class="el" href="classkuzu_1_1main_1_1_connection.html" title="Connection is used to interact with a Database instance. Each Connection is thread-safe....">Connection</a> is used to interact with a <a class="el" href="classkuzu_1_1main_1_1_database.html" title="Database class is the main class of Kuzu. It manages all database components.">Database</a> instance. Each <a class="el" href="classkuzu_1_1main_1_1_connection.html" title="Connection is used to interact with a Database instance. Each Connection is thread-safe....">Connection</a> is thread-safe. Multiple connections can connect to the same <a class="el" href="classkuzu_1_1main_1_1_database.html" title="Database class is the main class of Kuzu. It manages all database components.">Database</a> instance in a multi-threaded environment.  
  <a href="#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="connection_8h_source.html">connection.h</a>&gt;</code></p>
@@ -153,9 +153,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a3cc389d66982889f4ca07779525c18d6" id="r_a3cc389d66982889f4ca07779525c18d6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3cc389d66982889f4ca07779525c18d6">removeUDFFunction</a> (std::string name)</td></tr>
 <tr class="separator:a3cc389d66982889f4ca07779525c18d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abf237cd082645cf871371ad00dce4df8" id="r_abf237cd082645cf871371ad00dce4df8"><td class="memTemplParams" colspan="2">template&lt;typename TR, typename... Args&gt; </td></tr>
-<tr class="memitem:abf237cd082645cf871371ad00dce4df8"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#abf237cd082645cf871371ad00dce4df8">createVectorizedFunction</a> (std::string name, <a class="el" href="namespacekuzu_1_1function.html#a85dea526ec46a7fa6e6bacbde1f902cb">function::scalar_func_exec_t</a> scalarFunc)</td></tr>
+<tr class="memitem:abf237cd082645cf871371ad00dce4df8"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#abf237cd082645cf871371ad00dce4df8">createVectorizedFunction</a> (std::string name, <a class="el" href="namespacekuzu_1_1function.html#a94fd66531f6892160c87120455ff9f40">function::scalar_func_exec_t</a> scalarFunc)</td></tr>
 <tr class="separator:abf237cd082645cf871371ad00dce4df8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4c66848620ddc917a338edfd671a65f2" id="r_a4c66848620ddc917a338edfd671a65f2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4c66848620ddc917a338edfd671a65f2">createVectorizedFunction</a> (std::string name, std::vector&lt; <a class="el" href="namespacekuzu_1_1common.html#ae13725cc7f400e324b5f2bc1f53da741">common::LogicalTypeID</a> &gt; parameterTypes, <a class="el" href="namespacekuzu_1_1common.html#ae13725cc7f400e324b5f2bc1f53da741">common::LogicalTypeID</a> returnType, <a class="el" href="namespacekuzu_1_1function.html#a85dea526ec46a7fa6e6bacbde1f902cb">function::scalar_func_exec_t</a> scalarFunc)</td></tr>
+<tr class="memitem:a4c66848620ddc917a338edfd671a65f2" id="r_a4c66848620ddc917a338edfd671a65f2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4c66848620ddc917a338edfd671a65f2">createVectorizedFunction</a> (std::string name, std::vector&lt; <a class="el" href="namespacekuzu_1_1common.html#ae13725cc7f400e324b5f2bc1f53da741">common::LogicalTypeID</a> &gt; parameterTypes, <a class="el" href="namespacekuzu_1_1common.html#ae13725cc7f400e324b5f2bc1f53da741">common::LogicalTypeID</a> returnType, <a class="el" href="namespacekuzu_1_1function.html#a94fd66531f6892160c87120455ff9f40">function::scalar_func_exec_t</a> scalarFunc)</td></tr>
 <tr class="separator:a4c66848620ddc917a338edfd671a65f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acd3dce836c46d89693185f87eb93d021" id="r_acd3dce836c46d89693185f87eb93d021"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classkuzu_1_1main_1_1_client_context.html">ClientContext</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acd3dce836c46d89693185f87eb93d021">getClientContext</a> ()</td></tr>
 <tr class="separator:acd3dce836c46d89693185f87eb93d021"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -178,7 +178,7 @@ Friends</h2></td></tr>
 <tr class="separator:ae167f0701882a0d9e73e012483943a4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p><a class="el" href="classkuzu_1_1main_1_1_connection.html" title="Connection is used to interact with a Database instance. Each Connection is thread-safe....">Connection</a> is used to interact with a <a class="el" href="classkuzu_1_1main_1_1_database.html" title="Database class is the main class of KùzuDB. It manages all database components.">Database</a> instance. Each <a class="el" href="classkuzu_1_1main_1_1_connection.html" title="Connection is used to interact with a Database instance. Each Connection is thread-safe....">Connection</a> is thread-safe. Multiple connections can connect to the same <a class="el" href="classkuzu_1_1main_1_1_database.html" title="Database class is the main class of KùzuDB. It manages all database components.">Database</a> instance in a multi-threaded environment. </p>
+<div class="textblock"><p><a class="el" href="classkuzu_1_1main_1_1_connection.html" title="Connection is used to interact with a Database instance. Each Connection is thread-safe....">Connection</a> is used to interact with a <a class="el" href="classkuzu_1_1main_1_1_database.html" title="Database class is the main class of Kuzu. It manages all database components.">Database</a> instance. Each <a class="el" href="classkuzu_1_1main_1_1_connection.html" title="Connection is used to interact with a Database instance. Each Connection is thread-safe....">Connection</a> is thread-safe. Multiple connections can connect to the same <a class="el" href="classkuzu_1_1main_1_1_database.html" title="Database class is the main class of Kuzu. It manages all database components.">Database</a> instance in a multi-threaded environment. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a90b73aef0475cf7513235718754c2888" name="a90b73aef0475cf7513235718754c2888"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a90b73aef0475cf7513235718754c2888">&#9670;&#160;</a></span>Connection()</h2>
@@ -353,7 +353,7 @@ template&lt;typename TR, typename... Args&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="namespacekuzu_1_1function.html#a85dea526ec46a7fa6e6bacbde1f902cb">function::scalar_func_exec_t</a></td>          <td class="paramname"><span class="paramname"><em>scalarFunc</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="namespacekuzu_1_1function.html#a94fd66531f6892160c87120455ff9f40">function::scalar_func_exec_t</a></td>          <td class="paramname"><span class="paramname"><em>scalarFunc</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -392,7 +392,7 @@ template&lt;typename TR, typename... Args&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="namespacekuzu_1_1function.html#a85dea526ec46a7fa6e6bacbde1f902cb">function::scalar_func_exec_t</a></td>          <td class="paramname"><span class="paramname"><em>scalarFunc</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="namespacekuzu_1_1function.html#a94fd66531f6892160c87120455ff9f40">function::scalar_func_exec_t</a></td>          <td class="paramname"><span class="paramname"><em>scalarFunc</em></span>&#160;)</td>
         </tr>
       </table>
   </td>

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.13.2"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Kùzu C++ API: headers/result_set_descriptor.h Source File</title>
+<title>Kuzu C++ API: headers/result_set_descriptor.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -27,7 +27,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Kùzu C++ API
+   <div id="projectname">Kuzu C++ API
    </div>
   </td>
  </tr>
@@ -131,7 +131,7 @@ $(function(){initNavTree('result__set__descriptor_8h_source.html',''); initResiz
 </div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
 <div class="foldopen" id="foldopen00026" data-start="{" data-end="};">
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="structkuzu_1_1processor_1_1_result_set_descriptor.html">   26</a></span><span class="keyword">struct </span><a class="code hl_function" href="structkuzu_1_1processor_1_1_result_set_descriptor.html#a5bce3d0a24e8c354cd944fad6d188f06">ResultSetDescriptor</a> {</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="structkuzu_1_1processor_1_1_result_set_descriptor.html">   26</a></span><span class="keyword">struct </span><a class="code hl_define" href="api_8h.html#ae723a6ac7b0cca48a22a501787397769">KUZU_API</a> <a class="code hl_function" href="structkuzu_1_1processor_1_1_result_set_descriptor.html#a5bce3d0a24e8c354cd944fad6d188f06">ResultSetDescriptor</a> {</div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="structkuzu_1_1processor_1_1_result_set_descriptor.html#a2b83687c613bd062502c3b8728a89703">   27</a></span>    std::vector&lt;std::unique_ptr&lt;DataChunkDescriptor&gt;&gt; <a class="code hl_variable" href="structkuzu_1_1processor_1_1_result_set_descriptor.html#a2b83687c613bd062502c3b8728a89703">dataChunkDescriptors</a>;</div>
 <div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="structkuzu_1_1processor_1_1_result_set_descriptor.html#a5bce3d0a24e8c354cd944fad6d188f06">   29</a></span>    <a class="code hl_function" href="structkuzu_1_1processor_1_1_result_set_descriptor.html#a5bce3d0a24e8c354cd944fad6d188f06">ResultSetDescriptor</a>() = <span class="keywordflow">default</span>;</div>
@@ -141,13 +141,15 @@ $(function(){initNavTree('result__set__descriptor_8h_source.html',''); initResiz
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>        : <a class="code hl_variable" href="structkuzu_1_1processor_1_1_result_set_descriptor.html#a2b83687c613bd062502c3b8728a89703">dataChunkDescriptors</a>{std::move(<a class="code hl_variable" href="structkuzu_1_1processor_1_1_result_set_descriptor.html#a2b83687c613bd062502c3b8728a89703">dataChunkDescriptors</a>)} {}</div>
 </div>
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="structkuzu_1_1processor_1_1_result_set_descriptor.html#af2ad6b61a9d496c07953e34aab3dd223">   33</a></span>    <span class="keyword">explicit</span> <a class="code hl_function" href="structkuzu_1_1processor_1_1_result_set_descriptor.html#af2ad6b61a9d496c07953e34aab3dd223">ResultSetDescriptor</a>(planner::Schema* schema);</div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span> </div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="structkuzu_1_1processor_1_1_result_set_descriptor.html#a494c39b338684ee6697986a183b71731">   35</a></span>    std::unique_ptr&lt;ResultSetDescriptor&gt; <a class="code hl_function" href="structkuzu_1_1processor_1_1_result_set_descriptor.html#a494c39b338684ee6697986a183b71731">copy</a>() <span class="keyword">const</span>;</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>};</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="structkuzu_1_1processor_1_1_result_set_descriptor.html#a03f6f03885c6ef17fa93c287f480bae3">   34</a></span>    <a class="code hl_function" href="structkuzu_1_1processor_1_1_result_set_descriptor.html#a03f6f03885c6ef17fa93c287f480bae3">DELETE_BOTH_COPY</a>(<a class="code hl_function" href="structkuzu_1_1processor_1_1_result_set_descriptor.html#a5bce3d0a24e8c354cd944fad6d188f06">ResultSetDescriptor</a>);</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="structkuzu_1_1processor_1_1_result_set_descriptor.html#a494c39b338684ee6697986a183b71731">   36</a></span>    std::unique_ptr&lt;ResultSetDescriptor&gt; <a class="code hl_function" href="structkuzu_1_1processor_1_1_result_set_descriptor.html#a494c39b338684ee6697986a183b71731">copy</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>};</div>
 </div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>} <span class="comment">// namespace processor</span></div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>} <span class="comment">// namespace kuzu</span></div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>} <span class="comment">// namespace processor</span></div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>} <span class="comment">// namespace kuzu</span></div>
+<div class="ttc" id="aapi_8h_html_ae723a6ac7b0cca48a22a501787397769"><div class="ttname"><a href="api_8h.html#ae723a6ac7b0cca48a22a501787397769">KUZU_API</a></div><div class="ttdeci">#define KUZU_API</div><div class="ttdef"><b>Definition</b> api.h:25</div></div>
 <div class="ttc" id="anamespacekuzu_1_1common_html"><div class="ttname"><a href="namespacekuzu_1_1common.html">kuzu::common</a></div><div class="ttdef"><b>Definition</b> array_utils.h:7</div></div>
 <div class="ttc" id="anamespacekuzu_1_1planner_html"><div class="ttname"><a href="namespacekuzu_1_1planner.html">kuzu::planner</a></div><div class="ttdef"><b>Definition</b> kuzu_fwd.h:45</div></div>
 <div class="ttc" id="anamespacekuzu_1_1processor_html"><div class="ttname"><a href="namespacekuzu_1_1processor.html">kuzu::processor</a></div><div class="ttdef"><b>Definition</b> client_context.h:38</div></div>
@@ -157,6 +159,7 @@ $(function(){initNavTree('result__set__descriptor_8h_source.html',''); initResiz
 <div class="ttc" id="astructkuzu_1_1processor_1_1_data_chunk_descriptor_html_a707602c182b386552f5259eac5f368fd"><div class="ttname"><a href="structkuzu_1_1processor_1_1_data_chunk_descriptor.html#a707602c182b386552f5259eac5f368fd">kuzu::processor::DataChunkDescriptor::DataChunkDescriptor</a></div><div class="ttdeci">DataChunkDescriptor(const DataChunkDescriptor &amp;other)</div><div class="ttdef"><b>Definition</b> result_set_descriptor.h:17</div></div>
 <div class="ttc" id="astructkuzu_1_1processor_1_1_data_chunk_descriptor_html_aa3acb5d62a0551db65dad240c26e7b12"><div class="ttname"><a href="structkuzu_1_1processor_1_1_data_chunk_descriptor.html#aa3acb5d62a0551db65dad240c26e7b12">kuzu::processor::DataChunkDescriptor::logicalTypes</a></div><div class="ttdeci">std::vector&lt; common::LogicalType &gt; logicalTypes</div><div class="ttdef"><b>Definition</b> result_set_descriptor.h:14</div></div>
 <div class="ttc" id="astructkuzu_1_1processor_1_1_data_chunk_descriptor_html_ac9183ebaaed8261fd8f8960b35471281"><div class="ttname"><a href="structkuzu_1_1processor_1_1_data_chunk_descriptor.html#ac9183ebaaed8261fd8f8960b35471281">kuzu::processor::DataChunkDescriptor::DataChunkDescriptor</a></div><div class="ttdeci">DataChunkDescriptor(bool isSingleState)</div><div class="ttdef"><b>Definition</b> result_set_descriptor.h:16</div></div>
+<div class="ttc" id="astructkuzu_1_1processor_1_1_result_set_descriptor_html_a03f6f03885c6ef17fa93c287f480bae3"><div class="ttname"><a href="structkuzu_1_1processor_1_1_result_set_descriptor.html#a03f6f03885c6ef17fa93c287f480bae3">kuzu::processor::ResultSetDescriptor::DELETE_BOTH_COPY</a></div><div class="ttdeci">DELETE_BOTH_COPY(ResultSetDescriptor)</div></div>
 <div class="ttc" id="astructkuzu_1_1processor_1_1_result_set_descriptor_html_a114c25261def549d4513b2932d554bfe"><div class="ttname"><a href="structkuzu_1_1processor_1_1_result_set_descriptor.html#a114c25261def549d4513b2932d554bfe">kuzu::processor::ResultSetDescriptor::ResultSetDescriptor</a></div><div class="ttdeci">ResultSetDescriptor(std::vector&lt; std::unique_ptr&lt; DataChunkDescriptor &gt; &gt; dataChunkDescriptors)</div><div class="ttdef"><b>Definition</b> result_set_descriptor.h:30</div></div>
 <div class="ttc" id="astructkuzu_1_1processor_1_1_result_set_descriptor_html_a2b83687c613bd062502c3b8728a89703"><div class="ttname"><a href="structkuzu_1_1processor_1_1_result_set_descriptor.html#a2b83687c613bd062502c3b8728a89703">kuzu::processor::ResultSetDescriptor::dataChunkDescriptors</a></div><div class="ttdeci">std::vector&lt; std::unique_ptr&lt; DataChunkDescriptor &gt; &gt; dataChunkDescriptors</div><div class="ttdef"><b>Definition</b> result_set_descriptor.h:27</div></div>
 <div class="ttc" id="astructkuzu_1_1processor_1_1_result_set_descriptor_html_a494c39b338684ee6697986a183b71731"><div class="ttname"><a href="structkuzu_1_1processor_1_1_result_set_descriptor.html#a494c39b338684ee6697986a183b71731">kuzu::processor::ResultSetDescriptor::copy</a></div><div class="ttdeci">std::unique_ptr&lt; ResultSetDescriptor &gt; copy() const</div></div>

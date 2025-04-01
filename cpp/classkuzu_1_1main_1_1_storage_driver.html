@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.13.2"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Kùzu C++ API: kuzu::main::StorageDriver Class Reference</title>
+<title>Kuzu C++ API: kuzu::main::StorageDriver Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -27,7 +27,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Kùzu C++ API
+   <div id="projectname">Kuzu C++ API
    </div>
   </td>
  </tr>
@@ -113,10 +113,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a056fcc0e3fbc2acdce53dc5d9ece83bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a01955d7b769cadb407276b280ebe0618" id="r_a01955d7b769cadb407276b280ebe0618"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a01955d7b769cadb407276b280ebe0618">scan</a> (const std::string &amp;nodeName, const std::string &amp;propertyName, <a class="el" href="namespacekuzu_1_1common.html#ae224e72d8bf556b4e2249ac626d183cc">common::offset_t</a> *offsets, size_t numOffsets, uint8_t *result, size_t numThreads)</td></tr>
 <tr class="separator:a01955d7b769cadb407276b280ebe0618"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abaefafeec09aad706688824954d12e37" id="r_abaefafeec09aad706688824954d12e37"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abaefafeec09aad706688824954d12e37">getNumNodes</a> (const std::string &amp;nodeName)</td></tr>
-<tr class="separator:abaefafeec09aad706688824954d12e37"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1ed7be309a459bc0b897c74038ab96c7" id="r_a1ed7be309a459bc0b897c74038ab96c7"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1ed7be309a459bc0b897c74038ab96c7">getNumRels</a> (const std::string &amp;relName)</td></tr>
-<tr class="separator:a1ed7be309a459bc0b897c74038ab96c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ca3106b5d89a1bdff0b09966454ca99" id="r_a8ca3106b5d89a1bdff0b09966454ca99"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8ca3106b5d89a1bdff0b09966454ca99">getNumNodes</a> (const std::string &amp;nodeName) const</td></tr>
+<tr class="separator:a8ca3106b5d89a1bdff0b09966454ca99"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae474b4745f72f66e69034686404acc70" id="r_ae474b4745f72f66e69034686404acc70"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae474b4745f72f66e69034686404acc70">getNumRels</a> (const std::string &amp;relName) const</td></tr>
+<tr class="separator:ae474b4745f72f66e69034686404acc70"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a8d764d4787298003b9e4b37f1b7a40d6" name="a8d764d4787298003b9e4b37f1b7a40d6"></a>
@@ -162,8 +162,8 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="abaefafeec09aad706688824954d12e37" name="abaefafeec09aad706688824954d12e37"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abaefafeec09aad706688824954d12e37">&#9670;&#160;</a></span>getNumNodes()</h2>
+<a id="a8ca3106b5d89a1bdff0b09966454ca99" name="a8ca3106b5d89a1bdff0b09966454ca99"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ca3106b5d89a1bdff0b09966454ca99">&#9670;&#160;</a></span>getNumNodes()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -172,15 +172,15 @@ Public Member Functions</h2></td></tr>
           <td class="memname">uint64_t kuzu::main::StorageDriver::getNumNodes </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>nodeName</em></span></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a1ed7be309a459bc0b897c74038ab96c7" name="a1ed7be309a459bc0b897c74038ab96c7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1ed7be309a459bc0b897c74038ab96c7">&#9670;&#160;</a></span>getNumRels()</h2>
+<a id="ae474b4745f72f66e69034686404acc70" name="ae474b4745f72f66e69034686404acc70"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae474b4745f72f66e69034686404acc70">&#9670;&#160;</a></span>getNumRels()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -189,7 +189,7 @@ Public Member Functions</h2></td></tr>
           <td class="memname">uint64_t kuzu::main::StorageDriver::getNumRels </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>relName</em></span></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">

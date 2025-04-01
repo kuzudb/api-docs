@@ -6,6 +6,5 @@ var searchData=
   ['valuevectorpos_3',['valueVectorPos',['../structkuzu_1_1processor_1_1_data_pos.html#a5bf181cbc5743de869197f15f0efd50b',1,'kuzu::processor::DataPos']]],
   ['valuevectors_4',['valueVectors',['../classkuzu_1_1common_1_1_data_chunk.html#adcb10043cdb24a7cfe92d36c11e5a2a8',1,'kuzu::common::DataChunk']]],
   ['var_5flength_5fmax_5fdepth_5',['VAR_LENGTH_MAX_DEPTH',['../structkuzu_1_1main_1_1_client_config_default.html#a26a8a234b48ee9815cf8752d56916c45',1,'kuzu::main::ClientConfigDefault']]],
-  ['varlengthmaxdepth_6',['varLengthMaxDepth',['../structkuzu_1_1main_1_1_client_config.html#a5c65fac8e74edc5cc3a0a82cfd921a8f',1,'kuzu::main::ClientConfig']]],
-  ['vectors_7',['vectors',['../structkuzu_1_1function_1_1_table_func_output.html#ad21716dc70ac3e3e06cb0362e9d7308a',1,'kuzu::function::TableFuncOutput']]]
+  ['varlengthmaxdepth_6',['varLengthMaxDepth',['../structkuzu_1_1main_1_1_client_config.html#a5c65fac8e74edc5cc3a0a82cfd921a8f',1,'kuzu::main::ClientConfig']]]
 ];

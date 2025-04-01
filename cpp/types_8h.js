@@ -22,6 +22,7 @@ var types_8h =
     [ "kuzu::common::UnionType", "structkuzu_1_1common_1_1_union_type.html", null ],
     [ "kuzu::common::PhysicalTypeUtils", "structkuzu_1_1common_1_1_physical_type_utils.html", null ],
     [ "kuzu::common::LogicalTypeUtils", "structkuzu_1_1common_1_1_logical_type_utils.html", null ],
+    [ "kuzu::common::SignedIntegerTypes", "conceptkuzu_1_1common_1_1_signed_integer_types.html", null ],
     [ "kuzu::common::IntegerTypes", "conceptkuzu_1_1common_1_1_integer_types.html", null ],
     [ "kuzu::common::FloatingPointTypes", "conceptkuzu_1_1common_1_1_floating_point_types.html", null ],
     [ "kuzu::common::NumericTypes", "conceptkuzu_1_1common_1_1_numeric_types.html", null ],

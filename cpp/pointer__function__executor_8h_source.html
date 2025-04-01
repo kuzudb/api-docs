@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.13.2"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Kùzu C++ API: headers/pointer_function_executor.h Source File</title>
+<title>Kuzu C++ API: headers/pointer_function_executor.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -27,7 +27,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Kùzu C++ API
+   <div id="projectname">Kuzu C++ API
    </div>
   </td>
  </tr>
@@ -110,14 +110,14 @@ $(function(){initNavTree('pointer__function__executor_8h_source.html',''); initR
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno"><a class="line" href="structkuzu_1_1function_1_1_pointer_function_executor.html">    8</a></span><span class="keyword">struct </span><a class="code hl_struct" href="structkuzu_1_1function_1_1_pointer_function_executor.html">PointerFunctionExecutor</a> {</div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span>    <span class="keyword">template</span>&lt;<span class="keyword">typename</span> RESULT_TYPE, <span class="keyword">typename</span> OP&gt;</div>
 <div class="foldopen" id="foldopen00010" data-start="{" data-end="}">
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno"><a class="line" href="structkuzu_1_1function_1_1_pointer_function_executor.html#a165108c5f1baa0c2e089c1442c4e978c">   10</a></span>    <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code hl_function" href="structkuzu_1_1function_1_1_pointer_function_executor.html#a165108c5f1baa0c2e089c1442c4e978c">execute</a>(<a class="code hl_class" href="classkuzu_1_1common_1_1_value_vector.html">common::ValueVector</a>&amp; result, <span class="keywordtype">void</span>* dataPtr) {</div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>        <span class="keywordflow">if</span> (result.<a class="code hl_variable" href="classkuzu_1_1common_1_1_value_vector.html#aed355978414b9b29385aed6497213f17">state</a>-&gt;getSelVector().isUnfiltered()) {</div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>            <span class="keywordflow">for</span> (<span class="keyword">auto</span> i = 0u; i &lt; result.<a class="code hl_variable" href="classkuzu_1_1common_1_1_value_vector.html#aed355978414b9b29385aed6497213f17">state</a>-&gt;getSelVector().getSelSize(); i++) {</div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno"><a class="line" href="structkuzu_1_1function_1_1_pointer_function_executor.html#af1376254590af507af5fd41c764dad1b">   10</a></span>    <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code hl_function" href="structkuzu_1_1function_1_1_pointer_function_executor.html#af1376254590af507af5fd41c764dad1b">execute</a>(<a class="code hl_class" href="classkuzu_1_1common_1_1_value_vector.html">common::ValueVector</a>&amp; result, <a class="code hl_class" href="classkuzu_1_1common_1_1_selection_vector.html">common::SelectionVector</a>&amp; sel, <span class="keywordtype">void</span>* dataPtr) {</div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>        <span class="keywordflow">if</span> (sel.<a class="code hl_function" href="classkuzu_1_1common_1_1_selection_view.html#aa33f8b843a91f33da832d99e57d1d823">isUnfiltered</a>()) {</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>            <span class="keywordflow">for</span> (<span class="keyword">auto</span> i = 0u; i &lt; sel.<a class="code hl_function" href="classkuzu_1_1common_1_1_selection_view.html#a06169e554b2618d3ca8534d0880cf380">getSelSize</a>(); i++) {</div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>                OP::operation(result.<a class="code hl_function" href="classkuzu_1_1common_1_1_value_vector.html#a8e6b422ea350d54333604390215c8cb6">getValue</a>&lt;RESULT_TYPE&gt;(i), dataPtr);</div>
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>            }</div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>        } <span class="keywordflow">else</span> {</div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>            <span class="keywordflow">for</span> (<span class="keyword">auto</span> i = 0u; i &lt; result.<a class="code hl_variable" href="classkuzu_1_1common_1_1_value_vector.html#aed355978414b9b29385aed6497213f17">state</a>-&gt;getSelVector().getSelSize(); i++) {</div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>                <span class="keyword">auto</span> pos = result.<a class="code hl_variable" href="classkuzu_1_1common_1_1_value_vector.html#aed355978414b9b29385aed6497213f17">state</a>-&gt;getSelVector()[i];</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>            <span class="keywordflow">for</span> (<span class="keyword">auto</span> i = 0u; i &lt; sel.<a class="code hl_function" href="classkuzu_1_1common_1_1_selection_view.html#a06169e554b2618d3ca8534d0880cf380">getSelSize</a>(); i++) {</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>                <span class="keyword">auto</span> pos = sel[i];</div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>                OP::operation(result.<a class="code hl_function" href="classkuzu_1_1common_1_1_value_vector.html#a8e6b422ea350d54333604390215c8cb6">getValue</a>&lt;RESULT_TYPE&gt;(pos), dataPtr);</div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>            }</div>
 <div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>        }</div>
@@ -128,13 +128,15 @@ $(function(){initNavTree('pointer__function__executor_8h_source.html',''); initR
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
 <div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>} <span class="comment">// namespace function</span></div>
 <div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>} <span class="comment">// namespace kuzu</span></div>
-<div class="ttc" id="aclasskuzu_1_1common_1_1_value_vector_html"><div class="ttname"><a href="classkuzu_1_1common_1_1_value_vector.html">kuzu::common::ValueVector</a></div><div class="ttdef"><b>Definition</b> value_vector.h:20</div></div>
-<div class="ttc" id="aclasskuzu_1_1common_1_1_value_vector_html_a8e6b422ea350d54333604390215c8cb6"><div class="ttname"><a href="classkuzu_1_1common_1_1_value_vector.html#a8e6b422ea350d54333604390215c8cb6">kuzu::common::ValueVector::getValue</a></div><div class="ttdeci">const T &amp; getValue(uint32_t pos) const</div><div class="ttdef"><b>Definition</b> value_vector.h:77</div></div>
-<div class="ttc" id="aclasskuzu_1_1common_1_1_value_vector_html_aed355978414b9b29385aed6497213f17"><div class="ttname"><a href="classkuzu_1_1common_1_1_value_vector.html#aed355978414b9b29385aed6497213f17">kuzu::common::ValueVector::state</a></div><div class="ttdeci">std::shared_ptr&lt; DataChunkState &gt; state</div><div class="ttdef"><b>Definition</b> value_vector.h:122</div></div>
+<div class="ttc" id="aclasskuzu_1_1common_1_1_selection_vector_html"><div class="ttname"><a href="classkuzu_1_1common_1_1_selection_vector.html">kuzu::common::SelectionVector</a></div><div class="ttdef"><b>Definition</b> sel_vector.h:98</div></div>
+<div class="ttc" id="aclasskuzu_1_1common_1_1_selection_view_html_a06169e554b2618d3ca8534d0880cf380"><div class="ttname"><a href="classkuzu_1_1common_1_1_selection_view.html#a06169e554b2618d3ca8534d0880cf380">kuzu::common::SelectionView::getSelSize</a></div><div class="ttdeci">sel_t getSelSize() const</div><div class="ttdef"><b>Definition</b> sel_vector.h:68</div></div>
+<div class="ttc" id="aclasskuzu_1_1common_1_1_selection_view_html_aa33f8b843a91f33da832d99e57d1d823"><div class="ttname"><a href="classkuzu_1_1common_1_1_selection_view.html#aa33f8b843a91f33da832d99e57d1d823">kuzu::common::SelectionView::isUnfiltered</a></div><div class="ttdeci">bool isUnfiltered() const</div><div class="ttdef"><b>Definition</b> sel_vector.h:75</div></div>
+<div class="ttc" id="aclasskuzu_1_1common_1_1_value_vector_html"><div class="ttname"><a href="classkuzu_1_1common_1_1_value_vector.html">kuzu::common::ValueVector</a></div><div class="ttdef"><b>Definition</b> value_vector.h:21</div></div>
+<div class="ttc" id="aclasskuzu_1_1common_1_1_value_vector_html_a8e6b422ea350d54333604390215c8cb6"><div class="ttname"><a href="classkuzu_1_1common_1_1_value_vector.html#a8e6b422ea350d54333604390215c8cb6">kuzu::common::ValueVector::getValue</a></div><div class="ttdeci">const T &amp; getValue(uint32_t pos) const</div><div class="ttdef"><b>Definition</b> value_vector.h:97</div></div>
 <div class="ttc" id="anamespacekuzu_1_1function_html"><div class="ttname"><a href="namespacekuzu_1_1function.html">kuzu::function</a></div><div class="ttdef"><b>Definition</b> binary_function_executor.h:6</div></div>
 <div class="ttc" id="anamespacekuzu_html"><div class="ttname"><a href="namespacekuzu.html">kuzu</a></div><div class="ttdef"><b>Definition</b> array_utils.h:7</div></div>
 <div class="ttc" id="astructkuzu_1_1function_1_1_pointer_function_executor_html"><div class="ttname"><a href="structkuzu_1_1function_1_1_pointer_function_executor.html">kuzu::function::PointerFunctionExecutor</a></div><div class="ttdef"><b>Definition</b> pointer_function_executor.h:8</div></div>
-<div class="ttc" id="astructkuzu_1_1function_1_1_pointer_function_executor_html_a165108c5f1baa0c2e089c1442c4e978c"><div class="ttname"><a href="structkuzu_1_1function_1_1_pointer_function_executor.html#a165108c5f1baa0c2e089c1442c4e978c">kuzu::function::PointerFunctionExecutor::execute</a></div><div class="ttdeci">static void execute(common::ValueVector &amp;result, void *dataPtr)</div><div class="ttdef"><b>Definition</b> pointer_function_executor.h:10</div></div>
+<div class="ttc" id="astructkuzu_1_1function_1_1_pointer_function_executor_html_af1376254590af507af5fd41c764dad1b"><div class="ttname"><a href="structkuzu_1_1function_1_1_pointer_function_executor.html#af1376254590af507af5fd41c764dad1b">kuzu::function::PointerFunctionExecutor::execute</a></div><div class="ttdeci">static void execute(common::ValueVector &amp;result, common::SelectionVector &amp;sel, void *dataPtr)</div><div class="ttdef"><b>Definition</b> pointer_function_executor.h:10</div></div>
 <div class="ttc" id="avalue__vector_8h_html"><div class="ttname"><a href="value__vector_8h.html">value_vector.h</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

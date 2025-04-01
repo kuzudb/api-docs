@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.13.2"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Kùzu C++ API: kuzu::common::ListVector Class Reference</title>
+<title>Kuzu C++ API: kuzu::common::ListVector Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -27,7 +27,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Kùzu C++ API
+   <div id="projectname">Kuzu C++ API
    </div>
   </td>
  </tr>
@@ -113,8 +113,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:a9bc3022ef0235beb83611e1cc26d5f79"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a115ce5b918c58059ef86500462a6b5bf" id="r_a115ce5b918c58059ef86500462a6b5bf"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a115ce5b918c58059ef86500462a6b5bf">setDataVector</a> (const <a class="el" href="classkuzu_1_1common_1_1_value_vector.html">ValueVector</a> *vector, std::shared_ptr&lt; <a class="el" href="classkuzu_1_1common_1_1_value_vector.html">ValueVector</a> &gt; dataVector)</td></tr>
 <tr class="separator:a115ce5b918c58059ef86500462a6b5bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a90c3189434bf5fed9a06ce3f25f27e1a" id="r_a90c3189434bf5fed9a06ce3f25f27e1a"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a90c3189434bf5fed9a06ce3f25f27e1a">copyListEntryAndBufferMetaData</a> (<a class="el" href="classkuzu_1_1common_1_1_value_vector.html">ValueVector</a> &amp;vector, const <a class="el" href="classkuzu_1_1common_1_1_value_vector.html">ValueVector</a> &amp;other)</td></tr>
-<tr class="separator:a90c3189434bf5fed9a06ce3f25f27e1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a955ef5cb13c05eeb165cbed79a442017" id="r_a955ef5cb13c05eeb165cbed79a442017"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a955ef5cb13c05eeb165cbed79a442017">copyListEntryAndBufferMetaData</a> (<a class="el" href="classkuzu_1_1common_1_1_value_vector.html">ValueVector</a> &amp;vector, const <a class="el" href="classkuzu_1_1common_1_1_selection_vector.html">SelectionVector</a> &amp;selVector, const <a class="el" href="classkuzu_1_1common_1_1_value_vector.html">ValueVector</a> &amp;other, const <a class="el" href="classkuzu_1_1common_1_1_selection_vector.html">SelectionVector</a> &amp;otherSelVector)</td></tr>
+<tr class="separator:a955ef5cb13c05eeb165cbed79a442017"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adb22aa5aa4b2130cc68abc77cd76842f" id="r_adb22aa5aa4b2130cc68abc77cd76842f"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classkuzu_1_1common_1_1_value_vector.html">ValueVector</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb22aa5aa4b2130cc68abc77cd76842f">getDataVector</a> (const <a class="el" href="classkuzu_1_1common_1_1_value_vector.html">ValueVector</a> *vector)</td></tr>
 <tr class="separator:adb22aa5aa4b2130cc68abc77cd76842f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afa54c5a570e8a79c45febaa157c6a6d3" id="r_afa54c5a570e8a79c45febaa157c6a6d3"><td class="memItemLeft" align="right" valign="top">static std::shared_ptr&lt; <a class="el" href="classkuzu_1_1common_1_1_value_vector.html">ValueVector</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afa54c5a570e8a79c45febaa157c6a6d3">getSharedDataVector</a> (const <a class="el" href="classkuzu_1_1common_1_1_value_vector.html">ValueVector</a> *vector)</td></tr>
@@ -277,8 +277,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a90c3189434bf5fed9a06ce3f25f27e1a" name="a90c3189434bf5fed9a06ce3f25f27e1a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a90c3189434bf5fed9a06ce3f25f27e1a">&#9670;&#160;</a></span>copyListEntryAndBufferMetaData()</h2>
+<a id="a955ef5cb13c05eeb165cbed79a442017" name="a955ef5cb13c05eeb165cbed79a442017"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a955ef5cb13c05eeb165cbed79a442017">&#9670;&#160;</a></span>copyListEntryAndBufferMetaData()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -294,7 +294,17 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classkuzu_1_1common_1_1_value_vector.html">ValueVector</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>other</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="classkuzu_1_1common_1_1_selection_vector.html">SelectionVector</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>selVector</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classkuzu_1_1common_1_1_value_vector.html">ValueVector</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>other</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classkuzu_1_1common_1_1_selection_vector.html">SelectionVector</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>otherSelVector</em></span>&#160;)</td>
         </tr>
       </table>
   </td>

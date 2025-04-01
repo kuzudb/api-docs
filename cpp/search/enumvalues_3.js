@@ -7,5 +7,6 @@ var searchData=
   ['double_4',['DOUBLE',['../namespacekuzu_1_1common.html#ae13725cc7f400e324b5f2bc1f53da741afd3e4ece78a7d422280d5ed379482229',1,'kuzu::common::DOUBLE'],['../namespacekuzu_1_1common.html#a504e5277d0488eb4ad21b76eb84e2368afd3e4ece78a7d422280d5ed379482229',1,'kuzu::common::DOUBLE']]],
   ['drop_5',['DROP',['../namespacekuzu_1_1processor.html#ae7631a42025df776a7d2fadacf3df54babf8f3be424eb6a72b21549fbb24ffb57',1,'kuzu::processor::DROP'],['../namespacekuzu_1_1common.html#afeef9a771d4ab45b546f105ba325a557abf8f3be424eb6a72b21549fbb24ffb57',1,'kuzu::common::DROP']]],
   ['dummy_6',['DUMMY',['../namespacekuzu_1_1transaction.html#a069cf26fb4f925fd7696e1f206a5fb90abd2103035a8021942390a78a431ba0c4',1,'kuzu::transaction']]],
-  ['dummy_5fsink_7',['DUMMY_SINK',['../namespacekuzu_1_1processor.html#ae7631a42025df776a7d2fadacf3df54bab23b9eff83f48fb9d6693c11c975abb4',1,'kuzu::processor']]]
+  ['dummy_5fsink_7',['DUMMY_SINK',['../namespacekuzu_1_1processor.html#ae7631a42025df776a7d2fadacf3df54bab23b9eff83f48fb9d6693c11c975abb4',1,'kuzu::processor']]],
+  ['dynamic_8',['DYNAMIC',['../classkuzu_1_1common_1_1_selection_view.html#a3426b91d288f2c4f02c31ebf3aba2228a0fcc90da4811c877ba9f9c12f7d60bc9',1,'kuzu::common::SelectionView']]]
 ];
