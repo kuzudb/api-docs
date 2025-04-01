@@ -8,6 +8,7 @@ var structkuzu_1_1function_1_1_table_func_bind_input =
     [ "binder", "structkuzu_1_1function_1_1_table_func_bind_input.html#acefeab945c7a8c4f1c63abd0ff77275d", null ],
     [ "extraInput", "structkuzu_1_1function_1_1_table_func_bind_input.html#a02e536d95cabd80826daeb12662acb6a", null ],
     [ "optionalParams", "structkuzu_1_1function_1_1_table_func_bind_input.html#a0135a14322414dda166840430134681a", null ],
+    [ "optionalParamsLegacy", "structkuzu_1_1function_1_1_table_func_bind_input.html#aaf31cde2fa07976fa32cda59b8ef2644", null ],
     [ "params", "structkuzu_1_1function_1_1_table_func_bind_input.html#ae812d3d7bf5dbee4ffabfe5fba848f56", null ],
     [ "yieldVariables", "structkuzu_1_1function_1_1_table_func_bind_input.html#a86378d3a8746a5c4e848a9c218e03f4c", null ]
 ];

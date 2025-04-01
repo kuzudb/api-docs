@@ -10,7 +10,5 @@ var classkuzu_1_1main_1_1_prepared_statement =
     [ "ClientContext", "classkuzu_1_1main_1_1_prepared_statement.html#adf703640bc2bb6db62ee885a1c9ca4e9", null ],
     [ "Connection", "classkuzu_1_1main_1_1_prepared_statement.html#a54a11fdc71e1679a42fa0c0e3856673d", null ],
     [ "testing::TestHelper", "classkuzu_1_1main_1_1_prepared_statement.html#a7e9f8a6faa17af6e7e01406ef39fbd3a", null ],
-    [ "testing::TestRunner", "classkuzu_1_1main_1_1_prepared_statement.html#a3cf21cec353b9e1788095c6555e2f45d", null ],
-    [ "testing::TinySnbCopyCSVTransactionTest", "classkuzu_1_1main_1_1_prepared_statement.html#aa42bde737ed2cfa1c9da062bb72d2b03", null ],
-    [ "testing::TinySnbDDLTest", "classkuzu_1_1main_1_1_prepared_statement.html#aab45a28a4f41b6ffdce3bca0cafedc6f", null ]
+    [ "testing::TestRunner", "classkuzu_1_1main_1_1_prepared_statement.html#a3cf21cec353b9e1788095c6555e2f45d", null ]
 ];

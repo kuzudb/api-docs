@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.13.2"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Kùzu C++ API: Member List</title>
+<title>Kuzu C++ API: Member List</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -27,7 +27,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Kùzu C++ API
+   <div id="projectname">Kuzu C++ API
    </div>
   </td>
  </tr>
@@ -102,11 +102,12 @@ $(function(){initNavTree('structkuzu_1_1function_1_1_unary_function_executor.htm
 
 <p>This is the complete list of members for <a class="el" href="structkuzu_1_1function_1_1_unary_function_executor.html">kuzu::function::UnaryFunctionExecutor</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="structkuzu_1_1function_1_1_unary_function_executor.html#a23232243b8cfcba19f99454e10d8ee9a">execute</a>(common::ValueVector &amp;operand, common::ValueVector &amp;result)</td><td class="entry"><a class="el" href="structkuzu_1_1function_1_1_unary_function_executor.html">kuzu::function::UnaryFunctionExecutor</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="structkuzu_1_1function_1_1_unary_function_executor.html#a05ffd45cb718fb9d69a9045282ee3b53">executeOnValue</a>(common::ValueVector &amp;inputVector, uint64_t inputPos, common::ValueVector &amp;resultVector, uint64_t resultPos, void *dataPtr)</td><td class="entry"><a class="el" href="structkuzu_1_1function_1_1_unary_function_executor.html">kuzu::function::UnaryFunctionExecutor</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="structkuzu_1_1function_1_1_unary_function_executor.html#ab90c88579a3c755c184f103c48920dee">executeSequence</a>(common::ValueVector &amp;operand, common::ValueVector &amp;result, void *dataPtr)</td><td class="entry"><a class="el" href="structkuzu_1_1function_1_1_unary_function_executor.html">kuzu::function::UnaryFunctionExecutor</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="structkuzu_1_1function_1_1_unary_function_executor.html#a7f7d85afb993f5f6dbba900e9db34701">executeSwitch</a>(common::ValueVector &amp;operand, common::ValueVector &amp;result, void *dataPtr)</td><td class="entry"><a class="el" href="structkuzu_1_1function_1_1_unary_function_executor.html">kuzu::function::UnaryFunctionExecutor</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="structkuzu_1_1function_1_1_unary_function_executor.html#a9cad7819aae8e979e01b6ac7bcb2b0ea">executeUDF</a>(common::ValueVector &amp;operand, common::ValueVector &amp;result, void *dataPtr)</td><td class="entry"><a class="el" href="structkuzu_1_1function_1_1_unary_function_executor.html">kuzu::function::UnaryFunctionExecutor</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="structkuzu_1_1function_1_1_unary_function_executor.html#ad3f029b921f00a61acdfcd51dda5f137">execute</a>(common::ValueVector &amp;operand, common::SelectionVector *operandSelVector, common::ValueVector &amp;result, common::SelectionVector *resultSelVector)</td><td class="entry"><a class="el" href="structkuzu_1_1function_1_1_unary_function_executor.html">kuzu::function::UnaryFunctionExecutor</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="structkuzu_1_1function_1_1_unary_function_executor.html#ab1f943db31bd7632920f51d4539b285f">executeOnSelectedValues</a>(common::ValueVector &amp;operand, common::SelectionVector *operandSelVector, common::ValueVector &amp;result, common::SelectionVector *resultSelVector, void *dataPtr)</td><td class="entry"><a class="el" href="structkuzu_1_1function_1_1_unary_function_executor.html">kuzu::function::UnaryFunctionExecutor</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="structkuzu_1_1function_1_1_unary_function_executor.html#a05ffd45cb718fb9d69a9045282ee3b53">executeOnValue</a>(common::ValueVector &amp;inputVector, uint64_t inputPos, common::ValueVector &amp;resultVector, uint64_t resultPos, void *dataPtr)</td><td class="entry"><a class="el" href="structkuzu_1_1function_1_1_unary_function_executor.html">kuzu::function::UnaryFunctionExecutor</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="structkuzu_1_1function_1_1_unary_function_executor.html#a647dbf8088624014440d49b205a41379">executeSequence</a>(common::ValueVector &amp;operand, common::SelectionVector *operandSelVector, common::ValueVector &amp;result, common::SelectionVector *resultSelVector, void *dataPtr)</td><td class="entry"><a class="el" href="structkuzu_1_1function_1_1_unary_function_executor.html">kuzu::function::UnaryFunctionExecutor</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="structkuzu_1_1function_1_1_unary_function_executor.html#a8d94b40f2c91cd12fdd067e76ed11248">executeSwitch</a>(common::ValueVector &amp;operand, common::SelectionVector *operandSelVector, common::ValueVector &amp;result, common::SelectionVector *resultSelVector, void *dataPtr)</td><td class="entry"><a class="el" href="structkuzu_1_1function_1_1_unary_function_executor.html">kuzu::function::UnaryFunctionExecutor</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="structkuzu_1_1function_1_1_unary_function_executor.html#a3a94dc75245a63abe8f7e3b766d66965">getSelectedPos</a>(common::idx_t selIdx, common::SelectionVector *operandSelVector, common::SelectionVector *resultSelVector, bool operandIsUnfiltered, bool resultIsUnfiltered)</td><td class="entry"><a class="el" href="structkuzu_1_1function_1_1_unary_function_executor.html">kuzu::function::UnaryFunctionExecutor</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">static</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

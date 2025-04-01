@@ -1,5 +1,7 @@
 var namespacekuzu_1_1transaction =
 [
+    [ "LocalCacheManager", "classkuzu_1_1transaction_1_1_local_cache_manager.html", "classkuzu_1_1transaction_1_1_local_cache_manager" ],
+    [ "LocalCacheObject", "classkuzu_1_1transaction_1_1_local_cache_object.html", "classkuzu_1_1transaction_1_1_local_cache_object" ],
     [ "Transaction", "classkuzu_1_1transaction_1_1_transaction.html", "classkuzu_1_1transaction_1_1_transaction" ],
     [ "TransactionContext", "classkuzu_1_1transaction_1_1_transaction_context.html", "classkuzu_1_1transaction_1_1_transaction_context" ],
     [ "TransactionMode", "namespacekuzu_1_1transaction.html#ae57d6aa64aae1d37681439c63942a807", [

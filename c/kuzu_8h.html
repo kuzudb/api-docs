@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.13.2"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Kùzu C API: kuzu.h File Reference</title>
+<title>Kuzu C API: kuzu.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -25,7 +25,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Kùzu C API
+   <div id="projectname">Kuzu C API
    </div>
   </td>
  </tr>
@@ -670,10 +670,10 @@ Functions</h2></td></tr>
 <tr class="memdesc:af736f1dd89275e118e09d3417b9e90d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts the given rel value to string.  <br /></td></tr>
 <tr class="separator:af736f1dd89275e118e09d3417b9e90d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3b3b54e308836fde5ffe823f1b587911" id="r_a3b3b54e308836fde5ffe823f1b587911"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a4c6ca4127ef18db01d41608c5e59aa3b">KUZU_C_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3b3b54e308836fde5ffe823f1b587911">kuzu_destroy_string</a> (char *str)</td></tr>
-<tr class="memdesc:a3b3b54e308836fde5ffe823f1b587911"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys any string created by the Kùzu C API, including both the error message and the values returned by the API functions. This function is provided to avoid the inconsistency between the memory allocation and deallocation across different libraries and is preferred over using the standard C free function.  <br /></td></tr>
+<tr class="memdesc:a3b3b54e308836fde5ffe823f1b587911"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys any string created by the Kuzu C API, including both the error message and the values returned by the API functions. This function is provided to avoid the inconsistency between the memory allocation and deallocation across different libraries and is preferred over using the standard C free function.  <br /></td></tr>
 <tr class="separator:a3b3b54e308836fde5ffe823f1b587911"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeaff931b1ba093c45c1f72dd316421c0" id="r_aeaff931b1ba093c45c1f72dd316421c0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a4c6ca4127ef18db01d41608c5e59aa3b">KUZU_C_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeaff931b1ba093c45c1f72dd316421c0">kuzu_destroy_blob</a> (uint8_t *blob)</td></tr>
-<tr class="memdesc:aeaff931b1ba093c45c1f72dd316421c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys any blob created by the Kùzu C API. This function is provided to avoid the inconsistency between the memory allocation and deallocation across different libraries and is preferred over using the standard C free function.  <br /></td></tr>
+<tr class="memdesc:aeaff931b1ba093c45c1f72dd316421c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys any blob created by the Kuzu C API. This function is provided to avoid the inconsistency between the memory allocation and deallocation across different libraries and is preferred over using the standard C free function.  <br /></td></tr>
 <tr class="separator:aeaff931b1ba093c45c1f72dd316421c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a26d1ca25a5cca7e38eede65dcceb82d6" id="r_a26d1ca25a5cca7e38eede65dcceb82d6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a4c6ca4127ef18db01d41608c5e59aa3b">KUZU_C_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a26d1ca25a5cca7e38eede65dcceb82d6">kuzu_query_summary_destroy</a> (<a class="el" href="structkuzu__query__summary.html">kuzu_query_summary</a> *query_summary)</td></tr>
 <tr class="memdesc:a26d1ca25a5cca7e38eede65dcceb82d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys the given query summary.  <br /></td></tr>
@@ -733,10 +733,10 @@ Functions</h2></td></tr>
 <tr class="memdesc:a4cc27dcf6a437c582b0ec9707ec9271d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert difftime value in seconds to interval.  <br /></td></tr>
 <tr class="separator:a4cc27dcf6a437c582b0ec9707ec9271d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a30633438adfe0b8dcde9f6a3831bfc47" id="r_a30633438adfe0b8dcde9f6a3831bfc47"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a4c6ca4127ef18db01d41608c5e59aa3b">KUZU_C_API</a> char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a30633438adfe0b8dcde9f6a3831bfc47">kuzu_get_version</a> ()</td></tr>
-<tr class="memdesc:a30633438adfe0b8dcde9f6a3831bfc47"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the version of the Kùzu library.  <br /></td></tr>
+<tr class="memdesc:a30633438adfe0b8dcde9f6a3831bfc47"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the version of the Kuzu library.  <br /></td></tr>
 <tr class="separator:a30633438adfe0b8dcde9f6a3831bfc47"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a724ab239aaf818c121c9d76d63b4c57b" id="r_a724ab239aaf818c121c9d76d63b4c57b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a4c6ca4127ef18db01d41608c5e59aa3b">KUZU_C_API</a> uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a724ab239aaf818c121c9d76d63b4c57b">kuzu_get_storage_version</a> ()</td></tr>
-<tr class="memdesc:a724ab239aaf818c121c9d76d63b4c57b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the storage version of the Kùzu library.  <br /></td></tr>
+<tr class="memdesc:a724ab239aaf818c121c9d76d63b4c57b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the storage version of the Kuzu library.  <br /></td></tr>
 <tr class="separator:a724ab239aaf818c121c9d76d63b4c57b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
@@ -1671,7 +1671,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Destroys any blob created by the Kùzu C API. This function is provided to avoid the inconsistency between the memory allocation and deallocation across different libraries and is preferred over using the standard C free function. </p>
+<p>Destroys any blob created by the Kuzu C API. This function is provided to avoid the inconsistency between the memory allocation and deallocation across different libraries and is preferred over using the standard C free function. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">blob</td><td>The blob to destroy. </td></tr>
@@ -1696,7 +1696,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Destroys any string created by the Kùzu C API, including both the error message and the values returned by the API functions. This function is provided to avoid the inconsistency between the memory allocation and deallocation across different libraries and is preferred over using the standard C free function. </p>
+<p>Destroys any string created by the Kuzu C API, including both the error message and the values returned by the API functions. This function is provided to avoid the inconsistency between the memory allocation and deallocation across different libraries and is preferred over using the standard C free function. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">str</td><td>The string to destroy. </td></tr>
@@ -1809,7 +1809,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Returns the storage version of the Kùzu library. </p>
+<p>Returns the storage version of the Kuzu library. </p>
 
 </div>
 </div>
@@ -1828,7 +1828,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Returns the version of the Kùzu library. </p>
+<p>Returns the version of the Kuzu library. </p>
 
 </div>
 </div>

@@ -2,6 +2,7 @@ var concepts =
 [
     [ "kuzu", "namespacekuzu.html", [
       [ "common", "namespacekuzu_1_1common.html", [
+        [ "SignedIntegerTypes", "conceptkuzu_1_1common_1_1_signed_integer_types.html", null ],
         [ "IntegerTypes", "conceptkuzu_1_1common_1_1_integer_types.html", null ],
         [ "FloatingPointTypes", "conceptkuzu_1_1common_1_1_floating_point_types.html", null ],
         [ "NumericTypes", "conceptkuzu_1_1common_1_1_numeric_types.html", null ],

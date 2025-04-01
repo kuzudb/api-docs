@@ -1,11 +1,12 @@
 var structkuzu_1_1function_1_1_table_func_shared_state =
 [
-    [ "TableFuncSharedState", "structkuzu_1_1function_1_1_table_func_shared_state.html#a0c942f5d1a382d0f09a2a48747037c76", null ],
-    [ "TableFuncSharedState", "structkuzu_1_1function_1_1_table_func_shared_state.html#ade6f7ad47038fa0ef4856ea390ef2e8b", null ],
+    [ "TableFuncSharedState", "structkuzu_1_1function_1_1_table_func_shared_state.html#a96391b9ce5ac84081b68ef28e8cb9118", null ],
+    [ "TableFuncSharedState", "structkuzu_1_1function_1_1_table_func_shared_state.html#a1517115d2361670aee45f7e651e19c63", null ],
     [ "~TableFuncSharedState", "structkuzu_1_1function_1_1_table_func_shared_state.html#aa92110b46aa02095706f334cc60e9b41", null ],
-    [ "getMorsel", "structkuzu_1_1function_1_1_table_func_shared_state.html#a48b6ae587bcd19a60138e00819ab1b90", null ],
+    [ "getNumRows", "structkuzu_1_1function_1_1_table_func_shared_state.html#a76ce1da8d74e95e1dd675c52aabf6a6f", null ],
+    [ "getSemiMasks", "structkuzu_1_1function_1_1_table_func_shared_state.html#a85d71e810d9fe3f06a49c16a2b5853cb", null ],
     [ "ptrCast", "structkuzu_1_1function_1_1_table_func_shared_state.html#a5c5dfd223020c9817c09c83c41e4c712", null ],
-    [ "curOffset", "structkuzu_1_1function_1_1_table_func_shared_state.html#aa5d3b77fec4d32b42aded09a98b9b862", null ],
-    [ "maxOffset", "structkuzu_1_1function_1_1_table_func_shared_state.html#ae455520b174be67acf45ee254c3128bd", null ],
-    [ "mtx", "structkuzu_1_1function_1_1_table_func_shared_state.html#ab5efde8c46dac5ea85e873e952b79a68", null ]
+    [ "mtx", "structkuzu_1_1function_1_1_table_func_shared_state.html#ab5efde8c46dac5ea85e873e952b79a68", null ],
+    [ "numRows", "structkuzu_1_1function_1_1_table_func_shared_state.html#a04f6e74b7163c35d1d0ccda88fa788b6", null ],
+    [ "semiMasks", "structkuzu_1_1function_1_1_table_func_shared_state.html#a7a62f9d4ed29caed51407df0f51d51ef", null ]
 ];

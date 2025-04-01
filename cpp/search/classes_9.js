@@ -6,6 +6,8 @@ var searchData=
   ['listtype_3',['ListType',['../structkuzu_1_1common_1_1_list_type.html',1,'kuzu::common']]],
   ['listtypeinfo_4',['ListTypeInfo',['../classkuzu_1_1common_1_1_list_type_info.html',1,'kuzu::common']]],
   ['listvector_5',['ListVector',['../classkuzu_1_1common_1_1_list_vector.html',1,'kuzu::common']]],
-  ['logicaltype_6',['LogicalType',['../classkuzu_1_1common_1_1_logical_type.html',1,'kuzu::common']]],
-  ['logicaltypeutils_7',['LogicalTypeUtils',['../structkuzu_1_1common_1_1_logical_type_utils.html',1,'kuzu::common']]]
+  ['localcachemanager_6',['LocalCacheManager',['../classkuzu_1_1transaction_1_1_local_cache_manager.html',1,'kuzu::transaction']]],
+  ['localcacheobject_7',['LocalCacheObject',['../classkuzu_1_1transaction_1_1_local_cache_object.html',1,'kuzu::transaction']]],
+  ['logicaltype_8',['LogicalType',['../classkuzu_1_1common_1_1_logical_type.html',1,'kuzu::common']]],
+  ['logicaltypeutils_9',['LogicalTypeUtils',['../structkuzu_1_1common_1_1_logical_type_utils.html',1,'kuzu::common']]]
 ];

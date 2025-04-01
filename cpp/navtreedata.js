@@ -24,7 +24,7 @@
 */
 var NAVTREE =
 [
-  [ "Kùzu C++ API", "index.html", [
+  [ "Kuzu C++ API", "index.html", [
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ],
       [ "Namespace Members", "namespacemembers.html", [
@@ -46,6 +46,7 @@ var NAVTREE =
         [ "Functions", "functions_func.html", "functions_func" ],
         [ "Variables", "functions_vars.html", "functions_vars" ],
         [ "Typedefs", "functions_type.html", null ],
+        [ "Enumerations", "functions_enum.html", null ],
         [ "Related Symbols", "functions_rela.html", null ]
       ] ]
     ] ],
@@ -63,18 +64,18 @@ var NAVTREEINDEX =
 [
 "annotated.html",
 "classkuzu_1_1common_1_1_int128__t.html",
-"classkuzu_1_1common_1_1_struct_field.html#a8f144f1971d0914e979415eb818ec33d",
-"classkuzu_1_1common_1_1_value.html#a960145422a898347728ff97c4134ccf9",
-"classkuzu_1_1main_1_1_client_context.html#ab431d590d719676926b7fd6a058cd1bb",
-"classkuzu_1_1parser_1_1_statement.html#ad9ad2c29beecd405078f025c70a48e65",
-"client__config_8h_source.html",
-"namespacekuzu_1_1common.html#a63c7127dbb04705764f052909aca906d",
-"namespacekuzu_1_1processor.html#ae7631a42025df776a7d2fadacf3df54babf8f3be424eb6a72b21549fbb24ffb57",
-"structkuzu_1_1common_1_1_list_type.html",
-"structkuzu_1_1common_1_1ku__string__t.html#a3b868a5b941ee65055403b2136d87276",
-"structkuzu_1_1function_1_1_pointer_function_executor.html",
-"structkuzu_1_1main_1_1_active_query.html#ac1ba609eb92578a2b241578075cf809b",
-"type__utils_8h_source.html"
+"classkuzu_1_1common_1_1_selection_view.html#a36c7ded71b81abf287de2b2149551190",
+"classkuzu_1_1common_1_1_value.html#a4293d4560a8cd7ff6795cda1ce1e7989",
+"classkuzu_1_1common_1_1_value_vector.html#aed355978414b9b29385aed6497213f17",
+"classkuzu_1_1main_1_1_query_result.html#a54a11fdc71e1679a42fa0c0e3856673d",
+"classkuzu_1_1transaction_1_1_transaction.html#a051934b2e9b52331991aed298e3f0096",
+"functions_vars_w.html",
+"namespacekuzu_1_1common.html#afeef9a771d4ab45b546f105ba325a557a39fee3204eaead78424ed7d46cf1dd41",
+"structkuzu_1_1common_1_1_buffer_block.html#ae705ad73f47be6a0502ff6347c407b4f",
+"structkuzu_1_1common_1_1int128__t.html#ab63cde447ad22e723ebbab78a5b5c5b1",
+"structkuzu_1_1function_1_1_binary_function_executor_1_1_binary_comparison_select_wrapper.html",
+"structkuzu_1_1function_1_1_table_func_shared_state.html#a85d71e810d9fe3f06a49c16a2b5853cb",
+"structkuzu_1_1processor_1_1_data_pos.html#a5be0771c625e6b959a0bc776564596ba"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';

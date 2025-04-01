@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.13.2"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Kùzu C++ API: kuzu::function::Function Struct Reference</title>
+<title>Kuzu C++ API: kuzu::function::Function Struct Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -27,7 +27,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Kùzu C++ API
+   <div id="projectname">Kuzu C++ API
    </div>
   </td>
  </tr>
@@ -142,10 +142,12 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a2b0945ede865f229f494bd146a205a42"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a76dce5a57038e4969316303f386285ec" id="r_a76dce5a57038e4969316303f386285ec"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="namespacekuzu_1_1common.html#ae13725cc7f400e324b5f2bc1f53da741">common::LogicalTypeID</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a76dce5a57038e4969316303f386285ec">parameterTypeIDs</a></td></tr>
 <tr class="separator:a76dce5a57038e4969316303f386285ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae9230189b9094d5a292458856380687d" id="r_ae9230189b9094d5a292458856380687d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae9230189b9094d5a292458856380687d">isVarLength</a></td></tr>
+<tr class="memitem:ae9230189b9094d5a292458856380687d" id="r_ae9230189b9094d5a292458856380687d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae9230189b9094d5a292458856380687d">isVarLength</a> = false</td></tr>
 <tr class="separator:ae9230189b9094d5a292458856380687d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af12204ea9e5cfc49977ea0ac86fd2c9a" id="r_af12204ea9e5cfc49977ea0ac86fd2c9a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af12204ea9e5cfc49977ea0ac86fd2c9a">isListLambda</a></td></tr>
+<tr class="memitem:af12204ea9e5cfc49977ea0ac86fd2c9a" id="r_af12204ea9e5cfc49977ea0ac86fd2c9a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af12204ea9e5cfc49977ea0ac86fd2c9a">isListLambda</a> = false</td></tr>
 <tr class="separator:af12204ea9e5cfc49977ea0ac86fd2c9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8c40789483a5cc14beb3d29b51ed981" id="r_ab8c40789483a5cc14beb3d29b51ed981"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab8c40789483a5cc14beb3d29b51ed981">isReadOnly</a> = true</td></tr>
+<tr class="separator:ab8c40789483a5cc14beb3d29b51ed981"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a13f80ecde7b686435bb63724a930c298" name="a13f80ecde7b686435bb63724a930c298"></a>
@@ -342,7 +344,21 @@ template&lt;class TARGET&gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool kuzu::function::Function::isListLambda</td>
+          <td class="memname">bool kuzu::function::Function::isListLambda = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab8c40789483a5cc14beb3d29b51ed981" name="ab8c40789483a5cc14beb3d29b51ed981"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab8c40789483a5cc14beb3d29b51ed981">&#9670;&#160;</a></span>isReadOnly</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool kuzu::function::Function::isReadOnly = true</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -356,7 +372,7 @@ template&lt;class TARGET&gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool kuzu::function::Function::isVarLength</td>
+          <td class="memname">bool kuzu::function::Function::isVarLength = false</td>
         </tr>
       </table>
 </div><div class="memdoc">

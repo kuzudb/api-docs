@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.13.2"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Kùzu C++ API: kuzu::function::TableFunction Struct Reference</title>
+<title>Kuzu C++ API: kuzu::function::TableFunction Struct Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -27,7 +27,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Kùzu C++ API
+   <div id="projectname">Kuzu C++ API
    </div>
   </td>
  </tr>
@@ -122,6 +122,14 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a382f51bf95c64381edc032c9e1451b4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab7e41c6907eeab82728179f6ed0b1591" id="r_ab7e41c6907eeab82728179f6ed0b1591"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab7e41c6907eeab82728179f6ed0b1591">TableFunction</a> (std::string <a class="el" href="structkuzu_1_1function_1_1_function.html#a2b0945ede865f229f494bd146a205a42">name</a>, std::vector&lt; <a class="el" href="namespacekuzu_1_1common.html#ae13725cc7f400e324b5f2bc1f53da741">common::LogicalTypeID</a> &gt; inputTypes)</td></tr>
 <tr class="separator:ab7e41c6907eeab82728179f6ed0b1591"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa58f84c8466f2426adb65cee5992b1b" id="r_afa58f84c8466f2426adb65cee5992b1b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afa58f84c8466f2426adb65cee5992b1b">~TableFunction</a> () override</td></tr>
+<tr class="separator:afa58f84c8466f2426adb65cee5992b1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a143a8407ebbf60805b02f139611215e6" id="r_a143a8407ebbf60805b02f139611215e6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a143a8407ebbf60805b02f139611215e6">TableFunction</a> (const <a class="el" href="structkuzu_1_1function_1_1_table_function.html">TableFunction</a> &amp;)=default</td></tr>
+<tr class="separator:a143a8407ebbf60805b02f139611215e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4498171e6c20c59557581f6b99973458" id="r_a4498171e6c20c59557581f6b99973458"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structkuzu_1_1function_1_1_table_function.html">TableFunction</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4498171e6c20c59557581f6b99973458">operator=</a> (const <a class="el" href="structkuzu_1_1function_1_1_table_function.html">TableFunction</a> &amp;other)=default</td></tr>
+<tr class="separator:a4498171e6c20c59557581f6b99973458"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6ad1bb54d702d488e029cd4c96fda3e" id="r_aa6ad1bb54d702d488e029cd4c96fda3e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa6ad1bb54d702d488e029cd4c96fda3e">DEFAULT_BOTH_MOVE</a> (<a class="el" href="structkuzu_1_1function_1_1_table_function.html">TableFunction</a>)</td></tr>
+<tr class="separator:aa6ad1bb54d702d488e029cd4c96fda3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adaa622eca1cbae9f4bc52864bada5d3e" id="r_adaa622eca1cbae9f4bc52864bada5d3e"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adaa622eca1cbae9f4bc52864bada5d3e">signatureToString</a> () const override</td></tr>
 <tr class="separator:adaa622eca1cbae9f4bc52864bada5d3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afe5913fd3926eb2e75c2a689b3c695b6" id="r_afe5913fd3926eb2e75c2a689b3c695b6"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="structkuzu_1_1function_1_1_table_function.html">TableFunction</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afe5913fd3926eb2e75c2a689b3c695b6">copy</a> () const</td></tr>
@@ -144,29 +152,33 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a564bc4b9047aeddec54e85d67405c61b" id="r_a564bc4b9047aeddec54e85d67405c61b"><td class="memItemLeft" align="right" valign="top">static std::unique_ptr&lt; <a class="el" href="structkuzu_1_1function_1_1_table_func_shared_state.html">TableFuncSharedState</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a564bc4b9047aeddec54e85d67405c61b">initSharedState</a> (const <a class="el" href="structkuzu_1_1function_1_1_table_function_init_input.html">TableFunctionInitInput</a> &amp;input)</td></tr>
-<tr class="separator:a564bc4b9047aeddec54e85d67405c61b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2fa7a1176d2a065cde2630ee6e7ef43d" id="r_a2fa7a1176d2a065cde2630ee6e7ef43d"><td class="memItemLeft" align="right" valign="top">static std::unique_ptr&lt; <a class="el" href="structkuzu_1_1function_1_1_table_func_local_state.html">TableFuncLocalState</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2fa7a1176d2a065cde2630ee6e7ef43d">initEmptyLocalState</a> (const <a class="el" href="structkuzu_1_1function_1_1_table_function_init_input.html">TableFunctionInitInput</a> &amp;input, <a class="el" href="structkuzu_1_1function_1_1_table_func_shared_state.html">TableFuncSharedState</a> *state, storage::MemoryManager *mm)</td></tr>
-<tr class="separator:a2fa7a1176d2a065cde2630ee6e7ef43d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8895cd15d7ade760b7d4f1583fb0300e" id="r_a8895cd15d7ade760b7d4f1583fb0300e"><td class="memItemLeft" align="right" valign="top">static std::unique_ptr&lt; <a class="el" href="structkuzu_1_1function_1_1_table_func_local_state.html">TableFuncLocalState</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8895cd15d7ade760b7d4f1583fb0300e">initEmptyLocalState</a> (const <a class="el" href="structkuzu_1_1function_1_1_table_func_init_local_state_input.html">TableFuncInitLocalStateInput</a> &amp;input)</td></tr>
+<tr class="separator:a8895cd15d7ade760b7d4f1583fb0300e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33eeff637609b83297ad2b1f6e7f527d" id="r_a33eeff637609b83297ad2b1f6e7f527d"><td class="memItemLeft" align="right" valign="top">static std::unique_ptr&lt; <a class="el" href="structkuzu_1_1function_1_1_table_func_shared_state.html">TableFuncSharedState</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a33eeff637609b83297ad2b1f6e7f527d">initEmptySharedState</a> (const <a class="el" href="structkuzu_1_1function_1_1_table_func_init_shared_state_input.html">TableFuncInitSharedStateInput</a> &amp;input)</td></tr>
+<tr class="separator:a33eeff637609b83297ad2b1f6e7f527d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d54495514931d32ac747dca3d270669" id="r_a8d54495514931d32ac747dca3d270669"><td class="memItemLeft" align="right" valign="top">static std::unique_ptr&lt; <a class="el" href="structkuzu_1_1function_1_1_table_func_output.html">TableFuncOutput</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8d54495514931d32ac747dca3d270669">initSingleDataChunkScanOutput</a> (const <a class="el" href="structkuzu_1_1function_1_1_table_func_init_output_input.html">TableFuncInitOutputInput</a> &amp;input)</td></tr>
+<tr class="separator:a8d54495514931d32ac747dca3d270669"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac5d34abc9cbf7d6bf62fb5334c4388da" id="r_ac5d34abc9cbf7d6bf62fb5334c4388da"><td class="memItemLeft" align="right" valign="top">static std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac5d34abc9cbf7d6bf62fb5334c4388da">extractYieldVariables</a> (const std::vector&lt; std::string &gt; &amp;names, const std::vector&lt; <a class="el" href="structkuzu_1_1parser_1_1_yield_variable.html">parser::YieldVariable</a> &gt; &amp;yieldVariables)</td></tr>
 <tr class="separator:ac5d34abc9cbf7d6bf62fb5334c4388da"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a20f92a1c6982a12ea10e25685505ec96" id="r_a20f92a1c6982a12ea10e25685505ec96"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a20f92a1c6982a12ea10e25685505ec96">getLogicalPlan</a> (const <a class="el" href="classkuzu_1_1transaction_1_1_transaction.html">transaction::Transaction</a> *transaction, planner::Planner *planner, const binder::BoundReadingClause &amp;readingClause, std::shared_ptr&lt; planner::LogicalOperator &gt; logicalOp, const std::vector&lt; std::unique_ptr&lt; planner::LogicalPlan &gt; &gt; &amp;logicalPlans)</td></tr>
-<tr class="separator:a20f92a1c6982a12ea10e25685505ec96"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1bca9aa96e696ae3db8a83e6653447a6" id="r_a1bca9aa96e696ae3db8a83e6653447a6"><td class="memItemLeft" align="right" valign="top">static std::unique_ptr&lt; <a class="el" href="classkuzu_1_1processor_1_1_physical_operator.html">processor::PhysicalOperator</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1bca9aa96e696ae3db8a83e6653447a6">getPhysicalPlan</a> (const <a class="el" href="classkuzu_1_1main_1_1_client_context.html">main::ClientContext</a> *clientContext, processor::PlanMapper *planMapper, const planner::LogicalOperator *logicalOp)</td></tr>
-<tr class="separator:a1bca9aa96e696ae3db8a83e6653447a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a591a5308fc44233b244f5a4c81035c8c" id="r_a591a5308fc44233b244f5a4c81035c8c"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a591a5308fc44233b244f5a4c81035c8c">getLogicalPlan</a> (planner::Planner *planner, const binder::BoundReadingClause &amp;boundReadingClause, <a class="el" href="namespacekuzu_1_1binder.html#abdf2e35a8523acb68eef183a59bc521d">binder::expression_vector</a> predicates, std::vector&lt; std::unique_ptr&lt; planner::LogicalPlan &gt; &gt; &amp;plans)</td></tr>
+<tr class="separator:a591a5308fc44233b244f5a4c81035c8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8f088b8ceb01aa3bbe09bd1e14918ed" id="r_ad8f088b8ceb01aa3bbe09bd1e14918ed"><td class="memItemLeft" align="right" valign="top">static std::unique_ptr&lt; <a class="el" href="classkuzu_1_1processor_1_1_physical_operator.html">processor::PhysicalOperator</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad8f088b8ceb01aa3bbe09bd1e14918ed">getPhysicalPlan</a> (processor::PlanMapper *planMapper, const planner::LogicalOperator *logicalOp)</td></tr>
+<tr class="separator:ad8f088b8ceb01aa3bbe09bd1e14918ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a497ca4e7e684d70a194e5e2c4438fe6b" id="r_a497ca4e7e684d70a194e5e2c4438fe6b"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="namespacekuzu_1_1common.html#ae224e72d8bf556b4e2249ac626d183cc">common::offset_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a497ca4e7e684d70a194e5e2c4438fe6b">emptyTableFunc</a> (const <a class="el" href="structkuzu_1_1function_1_1_table_func_input.html">TableFuncInput</a> &amp;input, <a class="el" href="structkuzu_1_1function_1_1_table_func_output.html">TableFuncOutput</a> &amp;output)</td></tr>
 <tr class="separator:a497ca4e7e684d70a194e5e2c4438fe6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a70af6be23f2090d58dd5d47cb0338ac3" id="r_a70af6be23f2090d58dd5d47cb0338ac3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacekuzu_1_1function.html#ac41965d7c5ca7a2376ce8bef5dd580e2">table_func_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a70af6be23f2090d58dd5d47cb0338ac3">tableFunc</a> = nullptr</td></tr>
+<tr class="memitem:a70af6be23f2090d58dd5d47cb0338ac3" id="r_a70af6be23f2090d58dd5d47cb0338ac3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacekuzu_1_1function.html#ab1248fdcbda4a7c5bf0ef96e11437a95">table_func_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a70af6be23f2090d58dd5d47cb0338ac3">tableFunc</a> = nullptr</td></tr>
 <tr class="separator:a70af6be23f2090d58dd5d47cb0338ac3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a23317920f4557f8ee0c9c172eff92874" id="r_a23317920f4557f8ee0c9c172eff92874"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacekuzu_1_1function.html#a990589c34c32790e53603488201c52b1">table_func_bind_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a23317920f4557f8ee0c9c172eff92874">bindFunc</a> = nullptr</td></tr>
 <tr class="separator:a23317920f4557f8ee0c9c172eff92874"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af12a228cf9474882d2dbeb55039db75d" id="r_af12a228cf9474882d2dbeb55039db75d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacekuzu_1_1function.html#aca1ecff6cde31bcf382659bf4ed60af0">table_func_init_shared_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af12a228cf9474882d2dbeb55039db75d">initSharedStateFunc</a> = nullptr</td></tr>
+<tr class="memitem:af12a228cf9474882d2dbeb55039db75d" id="r_af12a228cf9474882d2dbeb55039db75d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacekuzu_1_1function.html#aca42c5f37f254553a767adf075b1d979">table_func_init_shared_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af12a228cf9474882d2dbeb55039db75d">initSharedStateFunc</a> = nullptr</td></tr>
 <tr class="separator:af12a228cf9474882d2dbeb55039db75d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a49a0a1016330544da933f4b402e863fe" id="r_a49a0a1016330544da933f4b402e863fe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacekuzu_1_1function.html#a434c1c57436edea472c8f91f86bbf536">table_func_init_local_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a49a0a1016330544da933f4b402e863fe">initLocalStateFunc</a> = nullptr</td></tr>
+<tr class="memitem:a49a0a1016330544da933f4b402e863fe" id="r_a49a0a1016330544da933f4b402e863fe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacekuzu_1_1function.html#aed0655e8fdc8be19bfe5e5165e56180b">table_func_init_local_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a49a0a1016330544da933f4b402e863fe">initLocalStateFunc</a> = nullptr</td></tr>
 <tr class="separator:a49a0a1016330544da933f4b402e863fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae57f473f8cfda3406d38b6a152de4537" id="r_ae57f473f8cfda3406d38b6a152de4537"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacekuzu_1_1function.html#a78c2db82dde69d43663da9e73bcd4a1f">table_func_init_output_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae57f473f8cfda3406d38b6a152de4537">initOutputFunc</a> = nullptr</td></tr>
+<tr class="separator:ae57f473f8cfda3406d38b6a152de4537"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac5fc3693be842cfa3648883ed8db4a8b" id="r_ac5fc3693be842cfa3648883ed8db4a8b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacekuzu_1_1function.html#a35d4733088df629187cc362190d879b7">table_func_can_parallel_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac5fc3693be842cfa3648883ed8db4a8b">canParallelFunc</a> = [] { return true; }</td></tr>
 <tr class="separator:ac5fc3693be842cfa3648883ed8db4a8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9c539f255cb447e047dc0d45c7598673" id="r_a9c539f255cb447e047dc0d45c7598673"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacekuzu_1_1function.html#a8c24fe73a04df7b616d5712a19209586">table_func_progress_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9c539f255cb447e047dc0d45c7598673">progressFunc</a> = [](<a class="el" href="structkuzu_1_1function_1_1_table_func_shared_state.html">TableFuncSharedState</a>*) { return 0.0; }</td></tr>
@@ -175,23 +187,27 @@ Public Attributes</h2></td></tr>
 <tr class="separator:aa5d37b31d8ef7309de6907ff8a072522"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3ecc81cac54a851d5d641b38a78aecc0" id="r_a3ecc81cac54a851d5d641b38a78aecc0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacekuzu_1_1function.html#ab911ff1b9ff1d7d48b06ceb7b7a861e1">table_func_rewrite_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3ecc81cac54a851d5d641b38a78aecc0">rewriteFunc</a> = nullptr</td></tr>
 <tr class="separator:a3ecc81cac54a851d5d641b38a78aecc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3f416abea7d610fa121a604928034027" id="r_a3f416abea7d610fa121a604928034027"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacekuzu_1_1function.html#a7973dcc0da1a35ab193ed0ceaa84b45e">table_func_get_logical_plan_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3f416abea7d610fa121a604928034027">getLogicalPlanFunc</a> = <a class="el" href="#a20f92a1c6982a12ea10e25685505ec96">getLogicalPlan</a></td></tr>
+<tr class="memitem:a3f416abea7d610fa121a604928034027" id="r_a3f416abea7d610fa121a604928034027"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacekuzu_1_1function.html#a7b765ce7b4db13527f25d7530b21979a">table_func_get_logical_plan_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3f416abea7d610fa121a604928034027">getLogicalPlanFunc</a> = <a class="el" href="#a591a5308fc44233b244f5a4c81035c8c">getLogicalPlan</a></td></tr>
 <tr class="separator:a3f416abea7d610fa121a604928034027"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af0bb3e21c2290e0b3c6c85f3ac55b24b" id="r_af0bb3e21c2290e0b3c6c85f3ac55b24b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacekuzu_1_1function.html#a3ea530e9a6ccc474e182e0ba52e3021c">table_func_get_physical_plan_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af0bb3e21c2290e0b3c6c85f3ac55b24b">getPhysicalPlanFunc</a> = <a class="el" href="#a1bca9aa96e696ae3db8a83e6653447a6">getPhysicalPlan</a></td></tr>
+<tr class="memitem:af0bb3e21c2290e0b3c6c85f3ac55b24b" id="r_af0bb3e21c2290e0b3c6c85f3ac55b24b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacekuzu_1_1function.html#ab2e6037645af45b443b3431fcb0bbb7a">table_func_get_physical_plan_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af0bb3e21c2290e0b3c6c85f3ac55b24b">getPhysicalPlanFunc</a> = <a class="el" href="#ad8f088b8ceb01aa3bbe09bd1e14918ed">getPhysicalPlan</a></td></tr>
 <tr class="separator:af0bb3e21c2290e0b3c6c85f3ac55b24b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba7ac1a1aa37351d02dc38bc57ef6b17" id="r_aba7ac1a1aa37351d02dc38bc57ef6b17"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespacekuzu_1_1function.html#a2309e4dd10845314362ce4403916c334">table_func_infer_input_types</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aba7ac1a1aa37351d02dc38bc57ef6b17">inferInputTypes</a> = nullptr</td></tr>
+<tr class="separator:aba7ac1a1aa37351d02dc38bc57ef6b17"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_attribs_structkuzu_1_1function_1_1_function"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_attribs_structkuzu_1_1function_1_1_function')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="structkuzu_1_1function_1_1_function.html">kuzu::function::Function</a></td></tr>
 <tr class="memitem:a2b0945ede865f229f494bd146a205a42 inherit pub_attribs_structkuzu_1_1function_1_1_function" id="r_a2b0945ede865f229f494bd146a205a42"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structkuzu_1_1function_1_1_function.html#a2b0945ede865f229f494bd146a205a42">name</a></td></tr>
 <tr class="separator:a2b0945ede865f229f494bd146a205a42 inherit pub_attribs_structkuzu_1_1function_1_1_function"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a76dce5a57038e4969316303f386285ec inherit pub_attribs_structkuzu_1_1function_1_1_function" id="r_a76dce5a57038e4969316303f386285ec"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="namespacekuzu_1_1common.html#ae13725cc7f400e324b5f2bc1f53da741">common::LogicalTypeID</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structkuzu_1_1function_1_1_function.html#a76dce5a57038e4969316303f386285ec">parameterTypeIDs</a></td></tr>
 <tr class="separator:a76dce5a57038e4969316303f386285ec inherit pub_attribs_structkuzu_1_1function_1_1_function"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae9230189b9094d5a292458856380687d inherit pub_attribs_structkuzu_1_1function_1_1_function" id="r_ae9230189b9094d5a292458856380687d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structkuzu_1_1function_1_1_function.html#ae9230189b9094d5a292458856380687d">isVarLength</a></td></tr>
+<tr class="memitem:ae9230189b9094d5a292458856380687d inherit pub_attribs_structkuzu_1_1function_1_1_function" id="r_ae9230189b9094d5a292458856380687d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structkuzu_1_1function_1_1_function.html#ae9230189b9094d5a292458856380687d">isVarLength</a> = false</td></tr>
 <tr class="separator:ae9230189b9094d5a292458856380687d inherit pub_attribs_structkuzu_1_1function_1_1_function"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af12204ea9e5cfc49977ea0ac86fd2c9a inherit pub_attribs_structkuzu_1_1function_1_1_function" id="r_af12204ea9e5cfc49977ea0ac86fd2c9a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structkuzu_1_1function_1_1_function.html#af12204ea9e5cfc49977ea0ac86fd2c9a">isListLambda</a></td></tr>
+<tr class="memitem:af12204ea9e5cfc49977ea0ac86fd2c9a inherit pub_attribs_structkuzu_1_1function_1_1_function" id="r_af12204ea9e5cfc49977ea0ac86fd2c9a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structkuzu_1_1function_1_1_function.html#af12204ea9e5cfc49977ea0ac86fd2c9a">isListLambda</a> = false</td></tr>
 <tr class="separator:af12204ea9e5cfc49977ea0ac86fd2c9a inherit pub_attribs_structkuzu_1_1function_1_1_function"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8c40789483a5cc14beb3d29b51ed981 inherit pub_attribs_structkuzu_1_1function_1_1_function" id="r_ab8c40789483a5cc14beb3d29b51ed981"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structkuzu_1_1function_1_1_function.html#ab8c40789483a5cc14beb3d29b51ed981">isReadOnly</a> = true</td></tr>
+<tr class="separator:ab8c40789483a5cc14beb3d29b51ed981 inherit pub_attribs_structkuzu_1_1function_1_1_function"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a382f51bf95c64381edc032c9e1451b4e" name="a382f51bf95c64381edc032c9e1451b4e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a382f51bf95c64381edc032c9e1451b4e">&#9670;&#160;</a></span>TableFunction() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a382f51bf95c64381edc032c9e1451b4e">&#9670;&#160;</a></span>TableFunction() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -216,7 +232,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <a id="ab7e41c6907eeab82728179f6ed0b1591" name="ab7e41c6907eeab82728179f6ed0b1591"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab7e41c6907eeab82728179f6ed0b1591">&#9670;&#160;</a></span>TableFunction() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ab7e41c6907eeab82728179f6ed0b1591">&#9670;&#160;</a></span>TableFunction() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -238,6 +254,56 @@ Public Attributes</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afa58f84c8466f2426adb65cee5992b1b" name="afa58f84c8466f2426adb65cee5992b1b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa58f84c8466f2426adb65cee5992b1b">&#9670;&#160;</a></span>~TableFunction()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">kuzu::function::TableFunction::~TableFunction </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel override">override</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a143a8407ebbf60805b02f139611215e6" name="a143a8407ebbf60805b02f139611215e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a143a8407ebbf60805b02f139611215e6">&#9670;&#160;</a></span>TableFunction() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">kuzu::function::TableFunction::TableFunction </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structkuzu_1_1function_1_1_table_function.html">TableFunction</a> &amp;</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel default">default</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -266,6 +332,23 @@ Public Attributes</h2></td></tr>
 <span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
   </tr>
 </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa6ad1bb54d702d488e029cd4c96fda3e" name="aa6ad1bb54d702d488e029cd4c96fda3e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa6ad1bb54d702d488e029cd4c96fda3e">&#9670;&#160;</a></span>DEFAULT_BOTH_MOVE()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">kuzu::function::TableFunction::DEFAULT_BOTH_MOVE </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structkuzu_1_1function_1_1_table_function.html">TableFunction</a></td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
 </div><div class="memdoc">
 
 </div>
@@ -328,8 +411,8 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a20f92a1c6982a12ea10e25685505ec96" name="a20f92a1c6982a12ea10e25685505ec96"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a20f92a1c6982a12ea10e25685505ec96">&#9670;&#160;</a></span>getLogicalPlan()</h2>
+<a id="a591a5308fc44233b244f5a4c81035c8c" name="a591a5308fc44233b244f5a4c81035c8c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a591a5308fc44233b244f5a4c81035c8c">&#9670;&#160;</a></span>getLogicalPlan()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -340,27 +423,22 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="memname">static void kuzu::function::TableFunction::getLogicalPlan </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classkuzu_1_1transaction_1_1_transaction.html">transaction::Transaction</a> *</td>          <td class="paramname"><span class="paramname"><em>transaction</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
           <td class="paramtype">planner::Planner *</td>          <td class="paramname"><span class="paramname"><em>planner</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const binder::BoundReadingClause &amp;</td>          <td class="paramname"><span class="paramname"><em>readingClause</em></span>, </td>
+          <td class="paramtype">const binder::BoundReadingClause &amp;</td>          <td class="paramname"><span class="paramname"><em>boundReadingClause</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::shared_ptr&lt; planner::LogicalOperator &gt;</td>          <td class="paramname"><span class="paramname"><em>logicalOp</em></span>, </td>
+          <td class="paramtype"><a class="el" href="namespacekuzu_1_1binder.html#abdf2e35a8523acb68eef183a59bc521d">binder::expression_vector</a></td>          <td class="paramname"><span class="paramname"><em>predicates</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::vector&lt; std::unique_ptr&lt; planner::LogicalPlan &gt; &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>logicalPlans</em></span>&#160;)</td>
+          <td class="paramtype">std::vector&lt; std::unique_ptr&lt; planner::LogicalPlan &gt; &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>plans</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -372,8 +450,8 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a1bca9aa96e696ae3db8a83e6653447a6" name="a1bca9aa96e696ae3db8a83e6653447a6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1bca9aa96e696ae3db8a83e6653447a6">&#9670;&#160;</a></span>getPhysicalPlan()</h2>
+<a id="ad8f088b8ceb01aa3bbe09bd1e14918ed" name="ad8f088b8ceb01aa3bbe09bd1e14918ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad8f088b8ceb01aa3bbe09bd1e14918ed">&#9670;&#160;</a></span>getPhysicalPlan()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -384,11 +462,6 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="memname">static std::unique_ptr&lt; <a class="el" href="classkuzu_1_1processor_1_1_physical_operator.html">processor::PhysicalOperator</a> &gt; kuzu::function::TableFunction::getPhysicalPlan </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classkuzu_1_1main_1_1_client_context.html">main::ClientContext</a> *</td>          <td class="paramname"><span class="paramname"><em>clientContext</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
           <td class="paramtype">processor::PlanMapper *</td>          <td class="paramname"><span class="paramname"><em>planMapper</em></span>, </td>
         </tr>
         <tr>
@@ -406,8 +479,8 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a2fa7a1176d2a065cde2630ee6e7ef43d" name="a2fa7a1176d2a065cde2630ee6e7ef43d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2fa7a1176d2a065cde2630ee6e7ef43d">&#9670;&#160;</a></span>initEmptyLocalState()</h2>
+<a id="a8895cd15d7ade760b7d4f1583fb0300e" name="a8895cd15d7ade760b7d4f1583fb0300e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8895cd15d7ade760b7d4f1583fb0300e">&#9670;&#160;</a></span>initEmptyLocalState()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -418,17 +491,8 @@ Public Attributes</h2></td></tr>
         <tr>
           <td class="memname">static std::unique_ptr&lt; <a class="el" href="structkuzu_1_1function_1_1_table_func_local_state.html">TableFuncLocalState</a> &gt; kuzu::function::TableFunction::initEmptyLocalState </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="structkuzu_1_1function_1_1_table_function_init_input.html">TableFunctionInitInput</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>input</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype">const <a class="el" href="structkuzu_1_1function_1_1_table_func_init_local_state_input.html">TableFuncInitLocalStateInput</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>input</em></span></td><td>)</td>
           <td></td>
-          <td class="paramtype"><a class="el" href="structkuzu_1_1function_1_1_table_func_shared_state.html">TableFuncSharedState</a> *</td>          <td class="paramname"><span class="paramname"><em>state</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">storage::MemoryManager *</td>          <td class="paramname"><span class="paramname"><em>mm</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -440,8 +504,8 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a564bc4b9047aeddec54e85d67405c61b" name="a564bc4b9047aeddec54e85d67405c61b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a564bc4b9047aeddec54e85d67405c61b">&#9670;&#160;</a></span>initSharedState()</h2>
+<a id="a33eeff637609b83297ad2b1f6e7f527d" name="a33eeff637609b83297ad2b1f6e7f527d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a33eeff637609b83297ad2b1f6e7f527d">&#9670;&#160;</a></span>initEmptySharedState()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -450,15 +514,65 @@ Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static std::unique_ptr&lt; <a class="el" href="structkuzu_1_1function_1_1_table_func_shared_state.html">TableFuncSharedState</a> &gt; kuzu::function::TableFunction::initSharedState </td>
+          <td class="memname">static std::unique_ptr&lt; <a class="el" href="structkuzu_1_1function_1_1_table_func_shared_state.html">TableFuncSharedState</a> &gt; kuzu::function::TableFunction::initEmptySharedState </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="structkuzu_1_1function_1_1_table_function_init_input.html">TableFunctionInitInput</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>input</em></span></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="structkuzu_1_1function_1_1_table_func_init_shared_state_input.html">TableFuncInitSharedStateInput</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>input</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8d54495514931d32ac747dca3d270669" name="a8d54495514931d32ac747dca3d270669"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d54495514931d32ac747dca3d270669">&#9670;&#160;</a></span>initSingleDataChunkScanOutput()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static std::unique_ptr&lt; <a class="el" href="structkuzu_1_1function_1_1_table_func_output.html">TableFuncOutput</a> &gt; kuzu::function::TableFunction::initSingleDataChunkScanOutput </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structkuzu_1_1function_1_1_table_func_init_output_input.html">TableFuncInitOutputInput</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>input</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4498171e6c20c59557581f6b99973458" name="a4498171e6c20c59557581f6b99973458"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4498171e6c20c59557581f6b99973458">&#9670;&#160;</a></span>operator=()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structkuzu_1_1function_1_1_table_function.html">TableFunction</a> &amp; kuzu::function::TableFunction::operator= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structkuzu_1_1function_1_1_table_function.html">TableFunction</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel default">default</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -542,7 +656,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespacekuzu_1_1function.html#a7973dcc0da1a35ab193ed0ceaa84b45e">table_func_get_logical_plan_t</a> kuzu::function::TableFunction::getLogicalPlanFunc = <a class="el" href="#a20f92a1c6982a12ea10e25685505ec96">getLogicalPlan</a></td>
+          <td class="memname"><a class="el" href="namespacekuzu_1_1function.html#a7b765ce7b4db13527f25d7530b21979a">table_func_get_logical_plan_t</a> kuzu::function::TableFunction::getLogicalPlanFunc = <a class="el" href="#a591a5308fc44233b244f5a4c81035c8c">getLogicalPlan</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -556,7 +670,21 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespacekuzu_1_1function.html#a3ea530e9a6ccc474e182e0ba52e3021c">table_func_get_physical_plan_t</a> kuzu::function::TableFunction::getPhysicalPlanFunc = <a class="el" href="#a1bca9aa96e696ae3db8a83e6653447a6">getPhysicalPlan</a></td>
+          <td class="memname"><a class="el" href="namespacekuzu_1_1function.html#ab2e6037645af45b443b3431fcb0bbb7a">table_func_get_physical_plan_t</a> kuzu::function::TableFunction::getPhysicalPlanFunc = <a class="el" href="#ad8f088b8ceb01aa3bbe09bd1e14918ed">getPhysicalPlan</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aba7ac1a1aa37351d02dc38bc57ef6b17" name="aba7ac1a1aa37351d02dc38bc57ef6b17"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba7ac1a1aa37351d02dc38bc57ef6b17">&#9670;&#160;</a></span>inferInputTypes</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespacekuzu_1_1function.html#a2309e4dd10845314362ce4403916c334">table_func_infer_input_types</a> kuzu::function::TableFunction::inferInputTypes = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -570,7 +698,21 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespacekuzu_1_1function.html#a434c1c57436edea472c8f91f86bbf536">table_func_init_local_t</a> kuzu::function::TableFunction::initLocalStateFunc = nullptr</td>
+          <td class="memname"><a class="el" href="namespacekuzu_1_1function.html#aed0655e8fdc8be19bfe5e5165e56180b">table_func_init_local_t</a> kuzu::function::TableFunction::initLocalStateFunc = nullptr</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae57f473f8cfda3406d38b6a152de4537" name="ae57f473f8cfda3406d38b6a152de4537"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae57f473f8cfda3406d38b6a152de4537">&#9670;&#160;</a></span>initOutputFunc</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespacekuzu_1_1function.html#a78c2db82dde69d43663da9e73bcd4a1f">table_func_init_output_t</a> kuzu::function::TableFunction::initOutputFunc = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -584,7 +726,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespacekuzu_1_1function.html#aca1ecff6cde31bcf382659bf4ed60af0">table_func_init_shared_t</a> kuzu::function::TableFunction::initSharedStateFunc = nullptr</td>
+          <td class="memname"><a class="el" href="namespacekuzu_1_1function.html#aca42c5f37f254553a767adf075b1d979">table_func_init_shared_t</a> kuzu::function::TableFunction::initSharedStateFunc = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -626,7 +768,7 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespacekuzu_1_1function.html#ac41965d7c5ca7a2376ce8bef5dd580e2">table_func_t</a> kuzu::function::TableFunction::tableFunc = nullptr</td>
+          <td class="memname"><a class="el" href="namespacekuzu_1_1function.html#ab1248fdcbda4a7c5bf0ef96e11437a95">table_func_t</a> kuzu::function::TableFunction::tableFunc = nullptr</td>
         </tr>
       </table>
 </div><div class="memdoc">

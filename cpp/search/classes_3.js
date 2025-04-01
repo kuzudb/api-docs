@@ -8,9 +8,7 @@ var searchData=
   ['date_5',['Date',['../classkuzu_1_1common_1_1_date.html',1,'kuzu::common']]],
   ['date_5ft_6',['date_t',['../structkuzu_1_1common_1_1date__t.html',1,'kuzu::common']]],
   ['dbconfig_7',['DBConfig',['../structkuzu_1_1main_1_1_d_b_config.html',1,'kuzu::main']]],
-  ['dbversionfunction_8',['DBVersionFunction',['../structkuzu_1_1function_1_1_d_b_version_function.html',1,'kuzu::function']]],
-  ['decimaltype_9',['DecimalType',['../structkuzu_1_1common_1_1_decimal_type.html',1,'kuzu::common']]],
-  ['decimaltypeinfo_10',['DecimalTypeInfo',['../classkuzu_1_1common_1_1_decimal_type_info.html',1,'kuzu::common']]],
-  ['dropprojectgraphfunction_11',['DropProjectGraphFunction',['../structkuzu_1_1function_1_1_drop_project_graph_function.html',1,'kuzu::function']]],
-  ['dtime_5ft_12',['dtime_t',['../structkuzu_1_1common_1_1dtime__t.html',1,'kuzu::common']]]
+  ['decimaltype_8',['DecimalType',['../structkuzu_1_1common_1_1_decimal_type.html',1,'kuzu::common']]],
+  ['decimaltypeinfo_9',['DecimalTypeInfo',['../classkuzu_1_1common_1_1_decimal_type_info.html',1,'kuzu::common']]],
+  ['dtime_5ft_10',['dtime_t',['../structkuzu_1_1common_1_1dtime__t.html',1,'kuzu::common']]]
 ];

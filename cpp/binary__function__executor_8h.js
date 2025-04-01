@@ -7,6 +7,7 @@ var binary__function__executor_8h =
     [ "kuzu::function::BinaryStringFunctionWrapper", "structkuzu_1_1function_1_1_binary_string_function_wrapper.html", null ],
     [ "kuzu::function::BinaryComparisonFunctionWrapper", "structkuzu_1_1function_1_1_binary_comparison_function_wrapper.html", null ],
     [ "kuzu::function::BinaryUDFFunctionWrapper", "structkuzu_1_1function_1_1_binary_u_d_f_function_wrapper.html", null ],
+    [ "kuzu::function::BinarySelectWithBindDataWrapper", "structkuzu_1_1function_1_1_binary_select_with_bind_data_wrapper.html", null ],
     [ "kuzu::function::BinaryFunctionExecutor", "structkuzu_1_1function_1_1_binary_function_executor.html", "structkuzu_1_1function_1_1_binary_function_executor" ],
     [ "kuzu::function::BinaryFunctionExecutor::BinarySelectWrapper", "structkuzu_1_1function_1_1_binary_function_executor_1_1_binary_select_wrapper.html", null ],
     [ "kuzu::function::BinaryFunctionExecutor::BinaryComparisonSelectWrapper", "structkuzu_1_1function_1_1_binary_function_executor_1_1_binary_comparison_select_wrapper.html", null ]

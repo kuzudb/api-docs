@@ -18,7 +18,7 @@ var classkuzu_1_1main_1_1_query_result =
     [ "hasNextQueryResult", "classkuzu_1_1main_1_1_query_result.html#a95c83de6b8807ae199284e558e1d7c4d", null ],
     [ "isSuccess", "classkuzu_1_1main_1_1_query_result.html#a358791451a2a4c88a5fbc05d57319cfa", null ],
     [ "resetIterator", "classkuzu_1_1main_1_1_query_result.html#adca96bf0eb9ba28997a5a77dda3bc984", null ],
-    [ "toString", "classkuzu_1_1main_1_1_query_result.html#a56e7bc908e43d9176ba4d942944d424d", null ],
+    [ "toString", "classkuzu_1_1main_1_1_query_result.html#a306ededce70c0d170c173854c9d5d853", null ],
     [ "ClientContext", "classkuzu_1_1main_1_1_query_result.html#adf703640bc2bb6db62ee885a1c9ca4e9", null ],
     [ "Connection", "classkuzu_1_1main_1_1_query_result.html#a54a11fdc71e1679a42fa0c0e3856673d", null ],
     [ "nextQueryResult", "classkuzu_1_1main_1_1_query_result.html#a27c73d1e33c3adf23bc6d5b60ff92cb8", null ]

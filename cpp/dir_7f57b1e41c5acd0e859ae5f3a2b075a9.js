@@ -42,6 +42,7 @@ var dir_7f57b1e41c5acd0e859ae5f3a2b075a9 =
     [ "ku_string.h", "ku__string_8h.html", "ku__string_8h" ],
     [ "kuzu.h", "kuzu_8h.html", null ],
     [ "kuzu_fwd.h", "kuzu__fwd_8h.html", null ],
+    [ "mask.h", "mask_8h.html", "mask_8h" ],
     [ "nested.h", "nested_8h.html", "nested_8h" ],
     [ "node.h", "node_8h.html", "node_8h" ],
     [ "null_mask.h", "null__mask_8h.html", "null__mask_8h" ],

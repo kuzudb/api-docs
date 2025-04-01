@@ -1,5 +1,7 @@
 var transaction_8h =
 [
+    [ "kuzu::transaction::LocalCacheObject", "classkuzu_1_1transaction_1_1_local_cache_object.html", "classkuzu_1_1transaction_1_1_local_cache_object" ],
+    [ "kuzu::transaction::LocalCacheManager", "classkuzu_1_1transaction_1_1_local_cache_manager.html", "classkuzu_1_1transaction_1_1_local_cache_manager" ],
     [ "kuzu::transaction::Transaction", "classkuzu_1_1transaction_1_1_transaction.html", "classkuzu_1_1transaction_1_1_transaction" ],
     [ "kuzu::transaction::TransactionType", "namespacekuzu_1_1transaction.html#a069cf26fb4f925fd7696e1f206a5fb90", [
       [ "kuzu::transaction::TransactionType::READ_ONLY", "namespacekuzu_1_1transaction.html#a069cf26fb4f925fd7696e1f206a5fb90a47c7e7cb36a953a8c47e02000036bb44", null ],

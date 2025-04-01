@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.13.2"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Kùzu C++ API: headers/null_mask.h Source File</title>
+<title>Kuzu C++ API: headers/null_mask.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -27,7 +27,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Kùzu C++ API
+   <div id="projectname">Kuzu C++ API
    </div>
   </td>
  </tr>
@@ -301,27 +301,28 @@ $(function(){initNavTree('null__mask_8h_source.html',''); initResizable(true); }
 <div class="line"><a id="l00171" name="l00171"></a><span class="lineno">  171</span> </div>
 <div class="line"><a id="l00172" name="l00172"></a><span class="lineno">  172</span>    <span class="comment">// Fast calculation of the minimum and maximum null values</span></div>
 <div class="line"><a id="l00173" name="l00173"></a><span class="lineno">  173</span>    <span class="comment">// (essentially just three states, all null, all non-null and some null)</span></div>
-<div class="line"><a id="l00174" name="l00174"></a><span class="lineno"><a class="line" href="classkuzu_1_1common_1_1_null_mask.html#a4d884252b41d88267e2af7d3fc2cabca">  174</a></span>    <span class="keyword">static</span> std::pair&lt;bool, bool&gt; <a class="code hl_function" href="classkuzu_1_1common_1_1_null_mask.html#a4d884252b41d88267e2af7d3fc2cabca">getMinMax</a>(<span class="keyword">const</span> uint64_t* nullEntries, uint64_t numValues);</div>
-<div class="line"><a id="l00175" name="l00175"></a><span class="lineno">  175</span> </div>
-<div class="line"><a id="l00176" name="l00176"></a><span class="lineno">  176</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00177" name="l00177"></a><span class="lineno">  177</span>    <span class="keyword">static</span> <span class="keyword">inline</span> std::pair&lt;uint64_t, uint64_t&gt; getNullEntryAndBitPos(uint64_t pos) {</div>
-<div class="line"><a id="l00178" name="l00178"></a><span class="lineno">  178</span>        <span class="keyword">auto</span> nullEntryPos = pos &gt;&gt; <a class="code hl_variable" href="classkuzu_1_1common_1_1_null_mask.html#ad04cdc1258cc8727f84ff4157993fab3">NUM_BITS_PER_NULL_ENTRY_LOG2</a>;</div>
-<div class="line"><a id="l00179" name="l00179"></a><span class="lineno">  179</span>        <span class="keywordflow">return</span> std::make_pair(nullEntryPos,</div>
-<div class="line"><a id="l00180" name="l00180"></a><span class="lineno">  180</span>            pos - (nullEntryPos &lt;&lt; <a class="code hl_variable" href="classkuzu_1_1common_1_1_null_mask.html#ad04cdc1258cc8727f84ff4157993fab3">NullMask::NUM_BITS_PER_NULL_ENTRY_LOG2</a>));</div>
-<div class="line"><a id="l00181" name="l00181"></a><span class="lineno">  181</span>    }</div>
-<div class="line"><a id="l00182" name="l00182"></a><span class="lineno">  182</span> </div>
-<div class="line"><a id="l00183" name="l00183"></a><span class="lineno">  183</span>    <span class="keyword">static</span> <span class="keywordtype">bool</span> copyUnaligned(<span class="keyword">const</span> uint64_t* srcNullEntries, uint64_t srcOffset,</div>
-<div class="line"><a id="l00184" name="l00184"></a><span class="lineno">  184</span>        uint64_t* dstNullEntries, uint64_t dstOffset, uint64_t numBitsToCopy, <span class="keywordtype">bool</span> invert = <span class="keyword">false</span>);</div>
-<div class="line"><a id="l00185" name="l00185"></a><span class="lineno">  185</span> </div>
-<div class="line"><a id="l00186" name="l00186"></a><span class="lineno">  186</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00187" name="l00187"></a><span class="lineno">  187</span>    std::span&lt;uint64_t&gt; data;</div>
-<div class="line"><a id="l00188" name="l00188"></a><span class="lineno">  188</span>    std::unique_ptr&lt;uint64_t[]&gt; buffer;</div>
-<div class="line"><a id="l00189" name="l00189"></a><span class="lineno">  189</span>    <span class="keywordtype">bool</span> mayContainNulls;</div>
-<div class="line"><a id="l00190" name="l00190"></a><span class="lineno">  190</span>};</div>
+<div class="line"><a id="l00174" name="l00174"></a><span class="lineno"><a class="line" href="classkuzu_1_1common_1_1_null_mask.html#a9fca4f53da6d57dedd42639a38c68364">  174</a></span>    <span class="keyword">static</span> std::pair&lt;bool, bool&gt; <a class="code hl_function" href="classkuzu_1_1common_1_1_null_mask.html#a9fca4f53da6d57dedd42639a38c68364">getMinMax</a>(<span class="keyword">const</span> uint64_t* nullEntries, uint64_t offset,</div>
+<div class="line"><a id="l00175" name="l00175"></a><span class="lineno">  175</span>        uint64_t numValues);</div>
+<div class="line"><a id="l00176" name="l00176"></a><span class="lineno">  176</span> </div>
+<div class="line"><a id="l00177" name="l00177"></a><span class="lineno">  177</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00178" name="l00178"></a><span class="lineno">  178</span>    <span class="keyword">static</span> <span class="keyword">inline</span> std::pair&lt;uint64_t, uint64_t&gt; getNullEntryAndBitPos(uint64_t pos) {</div>
+<div class="line"><a id="l00179" name="l00179"></a><span class="lineno">  179</span>        <span class="keyword">auto</span> nullEntryPos = pos &gt;&gt; <a class="code hl_variable" href="classkuzu_1_1common_1_1_null_mask.html#ad04cdc1258cc8727f84ff4157993fab3">NUM_BITS_PER_NULL_ENTRY_LOG2</a>;</div>
+<div class="line"><a id="l00180" name="l00180"></a><span class="lineno">  180</span>        <span class="keywordflow">return</span> std::make_pair(nullEntryPos,</div>
+<div class="line"><a id="l00181" name="l00181"></a><span class="lineno">  181</span>            pos - (nullEntryPos &lt;&lt; <a class="code hl_variable" href="classkuzu_1_1common_1_1_null_mask.html#ad04cdc1258cc8727f84ff4157993fab3">NullMask::NUM_BITS_PER_NULL_ENTRY_LOG2</a>));</div>
+<div class="line"><a id="l00182" name="l00182"></a><span class="lineno">  182</span>    }</div>
+<div class="line"><a id="l00183" name="l00183"></a><span class="lineno">  183</span> </div>
+<div class="line"><a id="l00184" name="l00184"></a><span class="lineno">  184</span>    <span class="keyword">static</span> <span class="keywordtype">bool</span> copyUnaligned(<span class="keyword">const</span> uint64_t* srcNullEntries, uint64_t srcOffset,</div>
+<div class="line"><a id="l00185" name="l00185"></a><span class="lineno">  185</span>        uint64_t* dstNullEntries, uint64_t dstOffset, uint64_t numBitsToCopy, <span class="keywordtype">bool</span> invert = <span class="keyword">false</span>);</div>
+<div class="line"><a id="l00186" name="l00186"></a><span class="lineno">  186</span> </div>
+<div class="line"><a id="l00187" name="l00187"></a><span class="lineno">  187</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00188" name="l00188"></a><span class="lineno">  188</span>    std::span&lt;uint64_t&gt; data;</div>
+<div class="line"><a id="l00189" name="l00189"></a><span class="lineno">  189</span>    std::unique_ptr&lt;uint64_t[]&gt; buffer;</div>
+<div class="line"><a id="l00190" name="l00190"></a><span class="lineno">  190</span>    <span class="keywordtype">bool</span> mayContainNulls;</div>
+<div class="line"><a id="l00191" name="l00191"></a><span class="lineno">  191</span>};</div>
 </div>
-<div class="line"><a id="l00191" name="l00191"></a><span class="lineno">  191</span> </div>
-<div class="line"><a id="l00192" name="l00192"></a><span class="lineno">  192</span>} <span class="comment">// namespace common</span></div>
-<div class="line"><a id="l00193" name="l00193"></a><span class="lineno">  193</span>} <span class="comment">// namespace kuzu</span></div>
+<div class="line"><a id="l00192" name="l00192"></a><span class="lineno">  192</span> </div>
+<div class="line"><a id="l00193" name="l00193"></a><span class="lineno">  193</span>} <span class="comment">// namespace common</span></div>
+<div class="line"><a id="l00194" name="l00194"></a><span class="lineno">  194</span>} <span class="comment">// namespace kuzu</span></div>
 <div class="ttc" id="aassert_8h_html"><div class="ttname"><a href="assert_8h.html">assert.h</a></div></div>
 <div class="ttc" id="aassert_8h_html_a15c7c828c306c4dbb80e0eb3ba333293"><div class="ttname"><a href="assert_8h.html#a15c7c828c306c4dbb80e0eb3ba333293">KU_ASSERT</a></div><div class="ttdeci">#define KU_ASSERT(condition)</div><div class="ttdef"><b>Definition</b> assert.h:19</div></div>
 <div class="ttc" id="aclasskuzu_1_1common_1_1_null_mask_html_a077e92179ff6363827fd692635da723e"><div class="ttname"><a href="classkuzu_1_1common_1_1_null_mask.html#a077e92179ff6363827fd692635da723e">kuzu::common::NullMask::setAllNonNull</a></div><div class="ttdeci">void setAllNonNull()</div><div class="ttdef"><b>Definition</b> null_mask.h:92</div></div>
@@ -330,7 +331,6 @@ $(function(){initNavTree('null__mask_8h_source.html',''); initResizable(true); }
 <div class="ttc" id="aclasskuzu_1_1common_1_1_null_mask_html_a43ed01a6d0e1cbe2783f0fb1b533a88e"><div class="ttname"><a href="classkuzu_1_1common_1_1_null_mask.html#a43ed01a6d0e1cbe2783f0fb1b533a88e">kuzu::common::NullMask::hasNoNullsGuarantee</a></div><div class="ttdeci">bool hasNoNullsGuarantee() const</div><div class="ttdef"><b>Definition</b> null_mask.h:104</div></div>
 <div class="ttc" id="aclasskuzu_1_1common_1_1_null_mask_html_a4498b9f39a1e4fe4c6cf66e16cbf6d8f"><div class="ttname"><a href="classkuzu_1_1common_1_1_null_mask.html#a4498b9f39a1e4fe4c6cf66e16cbf6d8f">kuzu::common::NullMask::copyNullMask</a></div><div class="ttdeci">static bool copyNullMask(const uint64_t *srcNullEntries, uint64_t srcOffset, uint64_t *dstNullEntries, uint64_t dstOffset, uint64_t numBitsToCopy, bool invert=false)</div></div>
 <div class="ttc" id="aclasskuzu_1_1common_1_1_null_mask_html_a4bfccee276fa803253819063d07efc28"><div class="ttname"><a href="classkuzu_1_1common_1_1_null_mask.html#a4bfccee276fa803253819063d07efc28">kuzu::common::NullMask::operator|=</a></div><div class="ttdeci">void operator|=(const NullMask &amp;other)</div></div>
-<div class="ttc" id="aclasskuzu_1_1common_1_1_null_mask_html_a4d884252b41d88267e2af7d3fc2cabca"><div class="ttname"><a href="classkuzu_1_1common_1_1_null_mask.html#a4d884252b41d88267e2af7d3fc2cabca">kuzu::common::NullMask::getMinMax</a></div><div class="ttdeci">static std::pair&lt; bool, bool &gt; getMinMax(const uint64_t *nullEntries, uint64_t numValues)</div></div>
 <div class="ttc" id="aclasskuzu_1_1common_1_1_null_mask_html_a4d8eb5452bdf8e54195a8c9f5c60201b"><div class="ttname"><a href="classkuzu_1_1common_1_1_null_mask.html#a4d8eb5452bdf8e54195a8c9f5c60201b">kuzu::common::NullMask::setAllNull</a></div><div class="ttdeci">void setAllNull()</div><div class="ttdef"><b>Definition</b> null_mask.h:99</div></div>
 <div class="ttc" id="aclasskuzu_1_1common_1_1_null_mask_html_a588423954b69d774232e50b201cfcdb2"><div class="ttname"><a href="classkuzu_1_1common_1_1_null_mask.html#a588423954b69d774232e50b201cfcdb2">kuzu::common::NullMask::NullMask</a></div><div class="ttdeci">NullMask(uint64_t capacity)</div><div class="ttdef"><b>Definition</b> null_mask.h:81</div></div>
 <div class="ttc" id="aclasskuzu_1_1common_1_1_null_mask_html_a667175e0181d6f400ca95076ef42e19e"><div class="ttname"><a href="classkuzu_1_1common_1_1_null_mask.html#a667175e0181d6f400ca95076ef42e19e">kuzu::common::NullMask::getData</a></div><div class="ttdeci">const uint64_t * getData() const</div><div class="ttdef"><b>Definition</b> null_mask.h:133</div></div>
@@ -342,6 +342,7 @@ $(function(){initNavTree('null__mask_8h_source.html',''); initResizable(true); }
 <div class="ttc" id="aclasskuzu_1_1common_1_1_null_mask_html_a94306026ca3823d00056c8ede50251c7"><div class="ttname"><a href="classkuzu_1_1common_1_1_null_mask.html#a94306026ca3823d00056c8ede50251c7">kuzu::common::NullMask::NUM_BITS_PER_NULL_ENTRY</a></div><div class="ttdeci">static constexpr uint64_t NUM_BITS_PER_NULL_ENTRY</div><div class="ttdef"><b>Definition</b> null_mask.h:77</div></div>
 <div class="ttc" id="aclasskuzu_1_1common_1_1_null_mask_html_a9da6bc07177e689c69f98fef63783ac6"><div class="ttname"><a href="classkuzu_1_1common_1_1_null_mask.html#a9da6bc07177e689c69f98fef63783ac6">kuzu::common::NullMask::setNull</a></div><div class="ttdeci">static void setNull(uint64_t *nullEntries, uint32_t pos, bool isNull)</div></div>
 <div class="ttc" id="aclasskuzu_1_1common_1_1_null_mask_html_a9e0ad52b05f92bbea836ac29f6c9e27c"><div class="ttname"><a href="classkuzu_1_1common_1_1_null_mask.html#a9e0ad52b05f92bbea836ac29f6c9e27c">kuzu::common::NullMask::setNullFromRange</a></div><div class="ttdeci">void setNullFromRange(uint64_t offset, uint64_t numBitsToSet, bool isNull)</div></div>
+<div class="ttc" id="aclasskuzu_1_1common_1_1_null_mask_html_a9fca4f53da6d57dedd42639a38c68364"><div class="ttname"><a href="classkuzu_1_1common_1_1_null_mask.html#a9fca4f53da6d57dedd42639a38c68364">kuzu::common::NullMask::getMinMax</a></div><div class="ttdeci">static std::pair&lt; bool, bool &gt; getMinMax(const uint64_t *nullEntries, uint64_t offset, uint64_t numValues)</div></div>
 <div class="ttc" id="aclasskuzu_1_1common_1_1_null_mask_html_aaefdbba363e495f0aa09ea912f5ac2d8"><div class="ttname"><a href="classkuzu_1_1common_1_1_null_mask.html#aaefdbba363e495f0aa09ea912f5ac2d8">kuzu::common::NullMask::copyFrom</a></div><div class="ttdeci">bool copyFrom(const NullMask &amp;nullMask, uint64_t srcOffset, uint64_t dstOffset, uint64_t numBitsToCopy, bool invert=false)</div><div class="ttdef"><b>Definition</b> null_mask.h:148</div></div>
 <div class="ttc" id="aclasskuzu_1_1common_1_1_null_mask_html_ab7f73515c8b165f6620764f799749e83"><div class="ttname"><a href="classkuzu_1_1common_1_1_null_mask.html#ab7f73515c8b165f6620764f799749e83">kuzu::common::NullMask::setNull</a></div><div class="ttdeci">void setNull(uint32_t pos, bool isNull)</div><div class="ttdef"><b>Definition</b> null_mask.h:108</div></div>
 <div class="ttc" id="aclasskuzu_1_1common_1_1_null_mask_html_ac45b06c8322426c49780c90f2e165813"><div class="ttname"><a href="classkuzu_1_1common_1_1_null_mask.html#ac45b06c8322426c49780c90f2e165813">kuzu::common::NullMask::countNulls</a></div><div class="ttdeci">uint64_t countNulls() const</div></div>

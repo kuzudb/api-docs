@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.13.2"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Kùzu C++ API: kuzu::main::SystemConfig Struct Reference</title>
+<title>Kuzu C++ API: kuzu::main::SystemConfig Struct Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -27,7 +27,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Kùzu C++ API
+   <div id="projectname">Kuzu C++ API
    </div>
   </td>
  </tr>
@@ -104,7 +104,7 @@ $(function(){initNavTree('structkuzu_1_1main_1_1_system_config.html',''); initRe
 </div><!--header-->
 <div class="contents">
 
-<p>Stores runtime configuration for creating or opening a <a class="el" href="classkuzu_1_1main_1_1_database.html" title="Database class is the main class of KùzuDB. It manages all database components.">Database</a>.  
+<p>Stores runtime configuration for creating or opening a <a class="el" href="classkuzu_1_1main_1_1_database.html" title="Database class is the main class of Kuzu. It manages all database components.">Database</a>.  
  <a href="#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="database_8h_source.html">database.h</a>&gt;</code></p>
@@ -133,7 +133,7 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a9db748ac09dca1d3f97bc57643a394f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Stores runtime configuration for creating or opening a <a class="el" href="classkuzu_1_1main_1_1_database.html" title="Database class is the main class of KùzuDB. It manages all database components.">Database</a>. </p>
+<div class="textblock"><p>Stores runtime configuration for creating or opening a <a class="el" href="classkuzu_1_1main_1_1_database.html" title="Database class is the main class of Kuzu. It manages all database components.">Database</a>. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="acd7ac1272c076a37de0d329760ac701a" name="acd7ac1272c076a37de0d329760ac701a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#acd7ac1272c076a37de0d329760ac701a">&#9670;&#160;</a></span>SystemConfig()</h2>
@@ -193,7 +193,7 @@ Public Attributes</h2></td></tr>
     <tr><td class="paramname">bufferPoolSize</td><td>Max size of the buffer pool in bytes. The larger the buffer pool, the more data from the database files is kept in memory, reducing the amount of File I/O </td></tr>
     <tr><td class="paramname">maxNumThreads</td><td>The maximum number of threads to use during query execution </td></tr>
     <tr><td class="paramname">enableCompression</td><td>Whether or not to compress data on-disk for supported types </td></tr>
-    <tr><td class="paramname">readOnly</td><td>If true, the database is opened read-only. No write transaction is allowed on the <code><a class="el" href="classkuzu_1_1main_1_1_database.html" title="Database class is the main class of KùzuDB. It manages all database components.">Database</a></code> object. Multiple read-only <code><a class="el" href="classkuzu_1_1main_1_1_database.html" title="Database class is the main class of KùzuDB. It manages all database components.">Database</a></code> objects can be created with the same database path. If false, the database is opened read-write. Under this mode, there must not be multiple <code><a class="el" href="classkuzu_1_1main_1_1_database.html" title="Database class is the main class of KùzuDB. It manages all database components.">Database</a></code> objects created with the same database path. </td></tr>
+    <tr><td class="paramname">readOnly</td><td>If true, the database is opened read-only. No write transaction is allowed on the <code><a class="el" href="classkuzu_1_1main_1_1_database.html" title="Database class is the main class of Kuzu. It manages all database components.">Database</a></code> object. Multiple read-only <code><a class="el" href="classkuzu_1_1main_1_1_database.html" title="Database class is the main class of Kuzu. It manages all database components.">Database</a></code> objects can be created with the same database path. If false, the database is opened read-write. Under this mode, there must not be multiple <code><a class="el" href="classkuzu_1_1main_1_1_database.html" title="Database class is the main class of Kuzu. It manages all database components.">Database</a></code> objects created with the same database path. </td></tr>
     <tr><td class="paramname">maxDBSize</td><td>The maximum size of the database in bytes. Note that this is introduced temporarily for now to get around with the default 8TB mmap address space limit some environment. This will be removed once we implemente a better solution later. The value is default to 1 &lt;&lt; 43 (8TB) under 64-bit environment and 1GB under 32-bit one (see <code>DEFAULT_VM_REGION_MAX_SIZE</code>). </td></tr>
     <tr><td class="paramname">autoCheckpoint</td><td>If true, the database will automatically checkpoint when the size of the WAL file exceeds the checkpoint threshold. </td></tr>
     <tr><td class="paramname">checkpointThreshold</td><td>The threshold of the WAL file size in bytes. When the size of the WAL file exceeds this threshold, the database will checkpoint if autoCheckpoint is true. </td></tr>

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.13.2"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Kùzu C++ API: kuzu::main::ClientContext Class Reference</title>
+<title>Kuzu C++ API: kuzu::main::ClientContext Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -27,7 +27,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Kùzu C++ API
+   <div id="projectname">Kuzu C++ API
    </div>
   </td>
  </tr>
@@ -204,6 +204,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ab431d590d719676926b7fd6a058cd1bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae510a7536865691bef503541f7a5b6ba" id="r_ae510a7536865691bef503541f7a5b6ba"><td class="memItemLeft" align="right" valign="top">graph::GraphEntrySet &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae510a7536865691bef503541f7a5b6ba">getGraphEntrySetUnsafe</a> ()</td></tr>
 <tr class="separator:ae510a7536865691bef503541f7a5b6ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf34d26d76b24e80ff716d3eeed53910" id="r_aaf34d26d76b24e80ff716d3eeed53910"><td class="memItemLeft" align="right" valign="top">const graph::GraphEntrySet &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaf34d26d76b24e80ff716d3eeed53910">getGraphEntrySet</a> () const</td></tr>
+<tr class="separator:aaf34d26d76b24e80ff716d3eeed53910"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad4436173cac9db5f952d2d79da01e793" id="r_ad4436173cac9db5f952d2d79da01e793"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad4436173cac9db5f952d2d79da01e793">cleanUp</a> ()</td></tr>
 <tr class="separator:ad4436173cac9db5f952d2d79da01e793"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2d1dc22c3786550882ac1469ded83cd3" id="r_a2d1dc22c3786550882ac1469ded83cd3"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classkuzu_1_1main_1_1_prepared_statement.html">PreparedStatement</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2d1dc22c3786550882ac1469ded83cd3">prepare</a> (std::string_view <a class="el" href="#a029d9d38789fe1576a3d710fef8d9ed9">query</a>)</td></tr>
@@ -236,6 +238,8 @@ Friends</h2></td></tr>
 <tr class="separator:aa7f6e46fe8f59a9c2c46f3be0eb4a058"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6af235a6846f7135fdb01989a15e2ea1" id="r_a6af235a6846f7135fdb01989a15e2ea1"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6af235a6846f7135fdb01989a15e2ea1">main::EmbeddedShell</a></td></tr>
 <tr class="separator:a6af235a6846f7135fdb01989a15e2ea1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9dfd88aa9f22dfc9e0b127b5d425ca2b" id="r_a9dfd88aa9f22dfc9e0b127b5d425ca2b"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9dfd88aa9f22dfc9e0b127b5d425ca2b">extension::ExtensionManager</a></td></tr>
+<tr class="separator:a9dfd88aa9f22dfc9e0b127b5d425ca2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Contain client side configuration. We make profiler associated per query, so profiler is not maintained in client context. </p>
@@ -626,6 +630,23 @@ Friends</h2></td></tr>
           <td class="memname">const <a class="el" href="structkuzu_1_1main_1_1_extension_option.html">main::ExtensionOption</a> * kuzu::main::ClientContext::getExtensionOption </td>
           <td>(</td>
           <td class="paramtype">std::string</td>          <td class="paramname"><span class="paramname"><em>optionName</em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aaf34d26d76b24e80ff716d3eeed53910" name="aaf34d26d76b24e80ff716d3eeed53910"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf34d26d76b24e80ff716d3eeed53910">&#9670;&#160;</a></span>getGraphEntrySet()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const graph::GraphEntrySet &amp; kuzu::main::ClientContext::getGraphEntrySet </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -1289,6 +1310,28 @@ Friends</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">friend class <a class="el" href="classkuzu_1_1main_1_1_connection.html">Connection</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel friend">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9dfd88aa9f22dfc9e0b127b5d425ca2b" name="a9dfd88aa9f22dfc9e0b127b5d425ca2b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9dfd88aa9f22dfc9e0b127b5d425ca2b">&#9670;&#160;</a></span>extension::ExtensionManager</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">friend class extension::ExtensionManager</td>
         </tr>
       </table>
   </td>

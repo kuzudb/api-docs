@@ -1,7 +1,7 @@
 var searchData=
 [
   ['bc_5fsuffix_0',['BC_SUFFIX',['../classkuzu_1_1common_1_1_date.html#ae382dde3452bbe03068314458d169fa2',1,'kuzu::common::Date']]],
-  ['binddata_1',['bindData',['../structkuzu_1_1function_1_1_table_func_input.html#a37f41a4d91f4458fba07176ab0f83c28',1,'kuzu::function::TableFuncInput::bindData'],['../structkuzu_1_1function_1_1_table_function_init_input.html#a775e30f44dcef79db786b8edacf3d802',1,'kuzu::function::TableFunctionInitInput::bindData']]],
+  ['binddata_1',['bindData',['../structkuzu_1_1function_1_1_table_func_input.html#a37f41a4d91f4458fba07176ab0f83c28',1,'kuzu::function::TableFuncInput::bindData'],['../structkuzu_1_1function_1_1_table_func_init_shared_state_input.html#a4d47e400a28cdea2a81a86e19c12fe5d',1,'kuzu::function::TableFuncInitSharedStateInput::bindData'],['../structkuzu_1_1function_1_1_table_func_init_local_state_input.html#a93eed0cd7ddf28f5375ce36051991353',1,'kuzu::function::TableFuncInitLocalStateInput::bindData']]],
   ['binder_2',['binder',['../structkuzu_1_1function_1_1_table_func_bind_input.html#acefeab945c7a8c4f1c63abd0ff77275d',1,'kuzu::function::TableFuncBindInput']]],
   ['bindfunc_3',['bindFunc',['../structkuzu_1_1function_1_1_scalar_or_aggregate_function.html#afefdcf2cdf3280a7bee3a93856378577',1,'kuzu::function::ScalarOrAggregateFunction::bindFunc'],['../structkuzu_1_1function_1_1_table_function.html#a23317920f4557f8ee0c9c172eff92874',1,'kuzu::function::TableFunction::bindFunc']]],
   ['bindinput_4',['bindInput',['../structkuzu_1_1function_1_1_scan_replacement_data.html#a4bc35064a2259246067f8bb73781f49c',1,'kuzu::function::ScanReplacementData']]],
