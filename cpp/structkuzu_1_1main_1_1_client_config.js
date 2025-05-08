@@ -12,6 +12,7 @@ var structkuzu_1_1main_1_1_client_config =
     [ "recursivePatternCardinalityScaleFactor", "structkuzu_1_1main_1_1_client_config.html#a2d1f6b4925a681fe38fa7d325e4c5918", null ],
     [ "recursivePatternSemantic", "structkuzu_1_1main_1_1_client_config.html#aeb7731417e8dc9699a043d34ac297c8f", null ],
     [ "showProgressAfter", "structkuzu_1_1main_1_1_client_config.html#aa0948a137d57d606e1fa2950f41ec552", null ],
+    [ "sparseFrontierThreshold", "structkuzu_1_1main_1_1_client_config.html#a73b96b84c40b08c06173eb48a604f3a2", null ],
     [ "timeoutInMS", "structkuzu_1_1main_1_1_client_config.html#ae3331b1a03a070f79ea1c43b3aded1d9", null ],
     [ "varLengthMaxDepth", "structkuzu_1_1main_1_1_client_config.html#a5c65fac8e74edc5cc3a0a82cfd921a8f", null ],
     [ "warningLimit", "structkuzu_1_1main_1_1_client_config.html#a4108609cdb0282a4029dc25332824dde", null ]

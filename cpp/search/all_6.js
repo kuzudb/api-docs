@@ -112,7 +112,7 @@ var searchData=
   ['getmasks_109',['getMasks',['../classkuzu_1_1common_1_1_node_offset_mask_map.html#a4583545e5bbd08164be32df4f0ea1068',1,'kuzu::common::NodeOffsetMaskMap']]],
   ['getmaxnumthreadforexec_110',['getMaxNumThreadForExec',['../classkuzu_1_1main_1_1_client_context.html#a5daf4ec812b9b2aa4199050cbcef42df',1,'kuzu::main::ClientContext::getMaxNumThreadForExec()'],['../classkuzu_1_1main_1_1_connection.html#adf39e9feb74fe4475a425bf5095b8112',1,'kuzu::main::Connection::getMaxNumThreadForExec()']]],
   ['getmaxoffset_111',['getMaxOffset',['../classkuzu_1_1common_1_1_semi_mask.html#ab4b63a7c025acca85e8a075d0fc36b0a',1,'kuzu::common::SemiMask']]],
-  ['getmemorymanager_112',['getMemoryManager',['../classkuzu_1_1main_1_1_client_context.html#abb5bd2a950bb0be312e8c2d49079ee64',1,'kuzu::main::ClientContext']]],
+  ['getmemorymanager_112',['getMemoryManager',['../classkuzu_1_1main_1_1_client_context.html#abb5bd2a950bb0be312e8c2d49079ee64',1,'kuzu::main::ClientContext::getMemoryManager()'],['../classkuzu_1_1common_1_1_in_mem_overflow_buffer.html#a8527413034526182ffd4568c45fd34d1',1,'kuzu::common::InMemOverflowBuffer::getMemoryManager()']]],
   ['getmicro_113',['getMicro',['../classkuzu_1_1common_1_1_interval.html#a27427382d5e858252e5acad1d443aba0',1,'kuzu::common::Interval']]],
   ['getminmax_114',['getMinMax',['../classkuzu_1_1common_1_1_null_mask.html#a9fca4f53da6d57dedd42639a38c68364',1,'kuzu::common::NullMask']]],
   ['getminuncommittednodeoffset_115',['getMinUncommittedNodeOffset',['../classkuzu_1_1transaction_1_1_transaction.html#a38a725d5a6f8d33d9854e16911dbcdda',1,'kuzu::transaction::Transaction']]],

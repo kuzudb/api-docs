@@ -1,6 +1,5 @@
 var NAVTREEINDEX8 =
 {
-"namespacekuzu_1_1common.html#afeef9a771d4ab45b546f105ba325a557a39fee3204eaead78424ed7d46cf1dd41":[0,0,1,3,154,9],
 "namespacekuzu_1_1common.html#afeef9a771d4ab45b546f105ba325a557a5662080872eece1e1ceeec5750198283":[0,0,1,3,154,0],
 "namespacekuzu_1_1common.html#afeef9a771d4ab45b546f105ba325a557a8cd5c839af999089784ea01a3c46a649":[0,0,1,3,154,6],
 "namespacekuzu_1_1common.html#afeef9a771d4ab45b546f105ba325a557aa262b4a928241dd92c1757d259f4a15d":[0,0,1,3,154,1],
@@ -249,5 +248,6 @@ var NAVTREEINDEX8 =
 "structkuzu_1_1common_1_1_buffer_block.html#aa5c7dcd44a10c994c54c2c7ececc8eed":[0,0,1,3,10,2],
 "structkuzu_1_1common_1_1_buffer_block.html#aa5c7dcd44a10c994c54c2c7ececc8eed":[2,0,0,1,9,2],
 "structkuzu_1_1common_1_1_buffer_block.html#ada69fd14707f39d9a172f6ea7c1d92d7":[0,0,1,3,10,3],
-"structkuzu_1_1common_1_1_buffer_block.html#ada69fd14707f39d9a172f6ea7c1d92d7":[2,0,0,1,9,3]
+"structkuzu_1_1common_1_1_buffer_block.html#ada69fd14707f39d9a172f6ea7c1d92d7":[2,0,0,1,9,3],
+"structkuzu_1_1common_1_1_buffer_block.html#ae705ad73f47be6a0502ff6347c407b4f":[0,0,1,3,10,0]
 };

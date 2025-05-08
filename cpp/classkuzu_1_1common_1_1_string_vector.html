@@ -113,8 +113,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:aa004db52dd5e8ab43e5554c158289553"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6053dccd467a8093793b4d751ef3af9a" id="r_a6053dccd467a8093793b4d751ef3af9a"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6053dccd467a8093793b4d751ef3af9a">addString</a> (<a class="el" href="classkuzu_1_1common_1_1_value_vector.html">ValueVector</a> *vector, uint32_t vectorPos, const char *srcStr, uint64_t length)</td></tr>
 <tr class="separator:a6053dccd467a8093793b4d751ef3af9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a91f3e11b1813583abf9ef7692da65c90" id="r_a91f3e11b1813583abf9ef7692da65c90"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a91f3e11b1813583abf9ef7692da65c90">addString</a> (<a class="el" href="classkuzu_1_1common_1_1_value_vector.html">ValueVector</a> *vector, uint32_t vectorPos, const std::string &amp;srcStr)</td></tr>
-<tr class="separator:a91f3e11b1813583abf9ef7692da65c90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae3cc4a7dbceee58e58d8fd8de4569784" id="r_ae3cc4a7dbceee58e58d8fd8de4569784"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae3cc4a7dbceee58e58d8fd8de4569784">addString</a> (<a class="el" href="classkuzu_1_1common_1_1_value_vector.html">ValueVector</a> *vector, uint32_t vectorPos, std::string_view srcStr)</td></tr>
+<tr class="separator:ae3cc4a7dbceee58e58d8fd8de4569784"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab37a3d57833dcf73ccb35ee09bbe4960" id="r_ab37a3d57833dcf73ccb35ee09bbe4960"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structkuzu_1_1common_1_1ku__string__t.html">ku_string_t</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab37a3d57833dcf73ccb35ee09bbe4960">reserveString</a> (<a class="el" href="classkuzu_1_1common_1_1_value_vector.html">ValueVector</a> *vector, uint32_t vectorPos, uint64_t length)</td></tr>
 <tr class="separator:ab37a3d57833dcf73ccb35ee09bbe4960"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a00a15614e6f02ff8be5ca7a057824b0f" id="r_a00a15614e6f02ff8be5ca7a057824b0f"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a00a15614e6f02ff8be5ca7a057824b0f">reserveString</a> (<a class="el" href="classkuzu_1_1common_1_1_value_vector.html">ValueVector</a> *vector, <a class="el" href="structkuzu_1_1common_1_1ku__string__t.html">ku_string_t</a> &amp;dstStr, uint64_t length)</td></tr>
@@ -275,42 +275,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a91f3e11b1813583abf9ef7692da65c90" name="a91f3e11b1813583abf9ef7692da65c90"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a91f3e11b1813583abf9ef7692da65c90">&#9670;&#160;</a></span>addString() <span class="overload">[5/6]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static void kuzu::common::StringVector::addString </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classkuzu_1_1common_1_1_value_vector.html">ValueVector</a> *</td>          <td class="paramname"><span class="paramname"><em>vector</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint32_t</td>          <td class="paramname"><span class="paramname"><em>vectorPos</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>srcStr</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="aa004db52dd5e8ab43e5554c158289553" name="aa004db52dd5e8ab43e5554c158289553"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa004db52dd5e8ab43e5554c158289553">&#9670;&#160;</a></span>addString() <span class="overload">[6/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aa004db52dd5e8ab43e5554c158289553">&#9670;&#160;</a></span>addString() <span class="overload">[5/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -332,6 +298,40 @@ Static Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="structkuzu_1_1common_1_1ku__string__t.html">ku_string_t</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>srcStr</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae3cc4a7dbceee58e58d8fd8de4569784" name="ae3cc4a7dbceee58e58d8fd8de4569784"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae3cc4a7dbceee58e58d8fd8de4569784">&#9670;&#160;</a></span>addString() <span class="overload">[6/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void kuzu::common::StringVector::addString </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classkuzu_1_1common_1_1_value_vector.html">ValueVector</a> *</td>          <td class="paramname"><span class="paramname"><em>vector</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t</td>          <td class="paramname"><span class="paramname"><em>vectorPos</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string_view</td>          <td class="paramname"><span class="paramname"><em>srcStr</em></span>&#160;)</td>
         </tr>
       </table>
   </td>

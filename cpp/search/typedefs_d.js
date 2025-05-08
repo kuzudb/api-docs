@@ -9,5 +9,5 @@ var searchData=
   ['sequence_5fid_5ft_6',['sequence_id_t',['../namespacekuzu_1_1common.html#acceaa678d7465d87703b1b65c5897c6b',1,'kuzu::common']]],
   ['set_5fcontext_7',['set_context',['../namespacekuzu_1_1main.html#a72588f5ce7f929c4dd70a7dc021a7757',1,'kuzu::main']]],
   ['storage_5fversion_5ft_8',['storage_version_t',['../namespacekuzu_1_1storage.html#ad0a1b58784395eb59e7af3bdc7f69d11',1,'kuzu::storage']]],
-  ['struct_5ffield_5fidx_5ft_9',['struct_field_idx_t',['../namespacekuzu_1_1common.html#ae846c2b0c0c800dc593f845a87975a77',1,'kuzu::common']]]
+  ['struct_5ffield_5fidx_5ft_9',['struct_field_idx_t',['../namespacekuzu_1_1common.html#a40e044178ec4b47cd9d6499743b37297',1,'kuzu::common']]]
 ];
