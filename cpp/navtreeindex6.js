@@ -1,6 +1,5 @@
 var NAVTREEINDEX6 =
 {
-"classkuzu_1_1transaction_1_1_transaction.html#a051934b2e9b52331991aed298e3f0096":[2,0,0,7,2,31],
 "classkuzu_1_1transaction_1_1_transaction.html#a0669de552abda23213eb6542382cd1b5":[0,0,1,14,2,13],
 "classkuzu_1_1transaction_1_1_transaction.html#a0669de552abda23213eb6542382cd1b5":[2,0,0,7,2,13],
 "classkuzu_1_1transaction_1_1_transaction.html#a0ae0dd2face31dfba3f11b103911bea4":[0,0,1,14,2,4],
@@ -249,5 +248,6 @@ var NAVTREEINDEX6 =
 "functions_vars_s.html":[2,3,2,16],
 "functions_vars_t.html":[2,3,2,17],
 "functions_vars_u.html":[2,3,2,18],
-"functions_vars_v.html":[2,3,2,19]
+"functions_vars_v.html":[2,3,2,19],
+"functions_vars_w.html":[2,3,2,20]
 };

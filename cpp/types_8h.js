@@ -59,7 +59,7 @@ var types_8h =
     [ "kuzu::common::row_idx_t", "namespacekuzu_1_1common.html#aedcfd5bb2d7ac3bd7f14fc1d15cceae9", null ],
     [ "kuzu::common::sel_t", "namespacekuzu_1_1common.html#ac6f8d79471c2d73f874b631b6f169646", null ],
     [ "kuzu::common::sequence_id_t", "namespacekuzu_1_1common.html#acceaa678d7465d87703b1b65c5897c6b", null ],
-    [ "kuzu::common::struct_field_idx_t", "namespacekuzu_1_1common.html#ae846c2b0c0c800dc593f845a87975a77", null ],
+    [ "kuzu::common::struct_field_idx_t", "namespacekuzu_1_1common.html#a40e044178ec4b47cd9d6499743b37297", null ],
     [ "kuzu::common::table_id_map_t", "namespacekuzu_1_1common.html#a3a498f6964aed1af02f7cd744198ea1d", null ],
     [ "kuzu::common::table_id_set_t", "namespacekuzu_1_1common.html#a708c179d5bf5054d490b5218d140de9a", null ],
     [ "kuzu::common::table_id_t", "namespacekuzu_1_1common.html#a9cfabdb17c11d4fec21be7223d03620d", null ],

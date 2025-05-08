@@ -1,6 +1,5 @@
 var NAVTREEINDEX11 =
 {
-"structkuzu_1_1function_1_1_binary_function_executor_1_1_binary_comparison_select_wrapper.html":[0,0,1,5,1,0],
 "structkuzu_1_1function_1_1_binary_function_executor_1_1_binary_comparison_select_wrapper.html":[2,0,0,2,1,0],
 "structkuzu_1_1function_1_1_binary_function_executor_1_1_binary_select_wrapper.html":[0,0,1,5,1,1],
 "structkuzu_1_1function_1_1_binary_function_executor_1_1_binary_select_wrapper.html":[2,0,0,2,1,1],
@@ -249,5 +248,6 @@ var NAVTREEINDEX11 =
 "structkuzu_1_1function_1_1_table_func_shared_state.html#a76ce1da8d74e95e1dd675c52aabf6a6f":[0,0,1,5,29,3],
 "structkuzu_1_1function_1_1_table_func_shared_state.html#a76ce1da8d74e95e1dd675c52aabf6a6f":[2,0,0,2,29,3],
 "structkuzu_1_1function_1_1_table_func_shared_state.html#a7a62f9d4ed29caed51407df0f51d51ef":[0,0,1,5,29,8],
-"structkuzu_1_1function_1_1_table_func_shared_state.html#a7a62f9d4ed29caed51407df0f51d51ef":[2,0,0,2,29,8]
+"structkuzu_1_1function_1_1_table_func_shared_state.html#a7a62f9d4ed29caed51407df0f51d51ef":[2,0,0,2,29,8],
+"structkuzu_1_1function_1_1_table_func_shared_state.html#a85d71e810d9fe3f06a49c16a2b5853cb":[0,0,1,5,29,4]
 };

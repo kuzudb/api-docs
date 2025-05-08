@@ -112,8 +112,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:ab28c8ae4b57d35cab7cad10902621ce6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3e9395bdf882393256031a549f8fe461" id="r_a3e9395bdf882393256031a549f8fe461"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="api_8h.html#ae723a6ac7b0cca48a22a501787397769">KUZU_API</a> std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3e9395bdf882393256031a549f8fe461">toString</a> (<a class="el" href="structkuzu_1_1common_1_1date__t.html">date_t</a> date)</td></tr>
 <tr class="separator:a3e9395bdf882393256031a549f8fe461"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab71cf67c22d8d11b494e1c6a73708ab5" id="r_ab71cf67c22d8d11b494e1c6a73708ab5"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="api_8h.html#ae723a6ac7b0cca48a22a501787397769">KUZU_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab71cf67c22d8d11b494e1c6a73708ab5">tryConvertDate</a> (const char *buf, uint64_t len, uint64_t &amp;pos, <a class="el" href="structkuzu_1_1common_1_1date__t.html">date_t</a> &amp;result)</td></tr>
-<tr class="separator:ab71cf67c22d8d11b494e1c6a73708ab5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acbda9a7718797e55c1ccb9eedc1d2aa5" id="r_acbda9a7718797e55c1ccb9eedc1d2aa5"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="api_8h.html#ae723a6ac7b0cca48a22a501787397769">KUZU_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acbda9a7718797e55c1ccb9eedc1d2aa5">tryConvertDate</a> (const char *buf, uint64_t len, uint64_t &amp;pos, <a class="el" href="structkuzu_1_1common_1_1date__t.html">date_t</a> &amp;result, bool allowTrailing=false)</td></tr>
+<tr class="separator:acbda9a7718797e55c1ccb9eedc1d2aa5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6313fd7d1088e1fa19b77fd303c45b45" id="r_a6313fd7d1088e1fa19b77fd303c45b45"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="api_8h.html#ae723a6ac7b0cca48a22a501787397769">KUZU_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6313fd7d1088e1fa19b77fd303c45b45">isLeapYear</a> (int32_t year)</td></tr>
 <tr class="separator:a6313fd7d1088e1fa19b77fd303c45b45"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a928f3d105d4110dc3e3e7ca6976c44bf" id="r_a928f3d105d4110dc3e3e7ca6976c44bf"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="api_8h.html#ae723a6ac7b0cca48a22a501787397769">KUZU_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a928f3d105d4110dc3e3e7ca6976c44bf">isValid</a> (int32_t year, int32_t month, int32_t day)</td></tr>
@@ -608,8 +608,8 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ab71cf67c22d8d11b494e1c6a73708ab5" name="ab71cf67c22d8d11b494e1c6a73708ab5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab71cf67c22d8d11b494e1c6a73708ab5">&#9670;&#160;</a></span>tryConvertDate()</h2>
+<a id="acbda9a7718797e55c1ccb9eedc1d2aa5" name="acbda9a7718797e55c1ccb9eedc1d2aa5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acbda9a7718797e55c1ccb9eedc1d2aa5">&#9670;&#160;</a></span>tryConvertDate()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -635,7 +635,12 @@ Static Public Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="structkuzu_1_1common_1_1date__t.html">date_t</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>result</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="structkuzu_1_1common_1_1date__t.html">date_t</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>result</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>allowTrailing</em></span><span class="paramdefsep"> = </span><span class="paramdefval">false</span>&#160;)</td>
         </tr>
       </table>
   </td>

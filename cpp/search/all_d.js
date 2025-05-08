@@ -20,7 +20,7 @@ var searchData=
   ['node_2eh_17',['node.h',['../node_8h.html',1,'']]],
   ['node_5fgroup_5fidx_5ft_18',['node_group_idx_t',['../namespacekuzu_1_1common.html#a44b4c1c8ef55e51fcfcb7ee141a94eba',1,'kuzu::common']]],
   ['nodeid_5ft_19',['nodeID_t',['../namespacekuzu_1_1common.html#abde7a92ad332c5738cd3ce80c37250d1',1,'kuzu::common']]],
-  ['nodeoffsetmaskmap_20',['NodeOffsetMaskMap',['../classkuzu_1_1common_1_1_node_offset_mask_map.html',1,'kuzu::common::NodeOffsetMaskMap'],['../classkuzu_1_1common_1_1_node_offset_mask_map.html#a41e1b48eb02d22e7c1195cd849d8cb7d',1,'kuzu::common::NodeOffsetMaskMap::NodeOffsetMaskMap()']]],
+  ['nodeoffsetmaskmap_20',['NodeOffsetMaskMap',['../classkuzu_1_1common_1_1_node_offset_mask_map.html',1,'kuzu::common::NodeOffsetMaskMap'],['../classkuzu_1_1common_1_1_node_offset_mask_map.html#a69c2d314e25aac2680120cd92298efbe',1,'kuzu::common::NodeOffsetMaskMap::NodeOffsetMaskMap()']]],
   ['nodes_21',['NODES',['../structkuzu_1_1common_1_1_internal_keyword.html#ae5b65cef388d3210b855cbc7f1f9fe96',1,'kuzu::common::InternalKeyword']]],
   ['nodetostring_22',['nodeToString',['../classkuzu_1_1common_1_1_type_utils.html#ad3e8dec9564baed60f685047a62c757e',1,'kuzu::common::TypeUtils']]],
   ['nodeval_23',['NodeVal',['../classkuzu_1_1common_1_1_node_val.html',1,'kuzu::common::NodeVal'],['../classkuzu_1_1common_1_1_value.html#aa974a30a7bf3aa9df757f3db3c1d9249',1,'kuzu::common::Value::NodeVal()']]],
