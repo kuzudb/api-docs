@@ -22,6 +22,7 @@ var searchData=
   ['executiontime_19',['executionTime',['../structkuzu_1_1processor_1_1_operator_metrics.html#a85a175ad78abad57baa2f58f96b43223',1,'kuzu::processor::OperatorMetrics']]],
   ['expectedcolumnnames_20',['expectedColumnNames',['../structkuzu_1_1function_1_1_extra_scan_table_func_bind_input.html#a5a281d1b53c24be94f82dd703845bc54',1,'kuzu::function::ExtraScanTableFuncBindInput']]],
   ['expectedcolumntypes_21',['expectedColumnTypes',['../structkuzu_1_1function_1_1_extra_scan_table_func_bind_input.html#accd5f11a5796166ad9e1ba442546798f',1,'kuzu::function::ExtraScanTableFuncBindInput']]],
-  ['expressiontype_22',['expressionType',['../classkuzu_1_1binder_1_1_expression.html#a3a271fd7eac58552c9a14f37b5472512',1,'kuzu::binder::Expression']]],
-  ['extrainput_23',['extraInput',['../structkuzu_1_1function_1_1_table_func_bind_input.html#a02e536d95cabd80826daeb12662acb6a',1,'kuzu::function::TableFuncBindInput']]]
+  ['export_5fformat_5foption_22',['EXPORT_FORMAT_OPTION',['../structkuzu_1_1common_1_1_port_d_b_constants.html#a3e70cae6f5191275eb6b4c5f1635325c',1,'kuzu::common::PortDBConstants']]],
+  ['expressiontype_23',['expressionType',['../classkuzu_1_1binder_1_1_expression.html#a3a271fd7eac58552c9a14f37b5472512',1,'kuzu::binder::Expression']]],
+  ['extrainput_24',['extraInput',['../structkuzu_1_1function_1_1_table_func_bind_input.html#a02e536d95cabd80826daeb12662acb6a',1,'kuzu::function::TableFuncBindInput']]]
 ];

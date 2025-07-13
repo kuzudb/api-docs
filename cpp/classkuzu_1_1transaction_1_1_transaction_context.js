@@ -13,5 +13,6 @@ var classkuzu_1_1transaction_1_1_transaction_context =
     [ "hasActiveTransaction", "classkuzu_1_1transaction_1_1_transaction_context.html#a5ab0d44faa88278dd50b39981bbc60de", null ],
     [ "isAutoTransaction", "classkuzu_1_1transaction_1_1_transaction_context.html#a22f2f8f4c42d86081b0ffa0bbd1f3013", null ],
     [ "rollback", "classkuzu_1_1transaction_1_1_transaction_context.html#a77720232141c4a6e92d9e35637c3d577", null ],
+    [ "setActiveTransaction", "classkuzu_1_1transaction_1_1_transaction_context.html#a04c8d9b6d701c864d5c18817b3785d9d", null ],
     [ "validateManualTransaction", "classkuzu_1_1transaction_1_1_transaction_context.html#a8b95a9b4a4565c45e90536f46b2a5877", null ]
 ];

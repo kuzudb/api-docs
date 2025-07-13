@@ -1,6 +1,6 @@
 var physical__operator_8h =
 [
-    [ "kuzu::processor::PhysicalOperatorUtils", "classkuzu_1_1processor_1_1_physical_operator_utils.html", null ],
+    [ "kuzu::processor::PhysicalOperatorUtils", "structkuzu_1_1processor_1_1_physical_operator_utils.html", null ],
     [ "kuzu::processor::OperatorMetrics", "structkuzu_1_1processor_1_1_operator_metrics.html", "structkuzu_1_1processor_1_1_operator_metrics" ],
     [ "kuzu::processor::PhysicalOperator", "classkuzu_1_1processor_1_1_physical_operator.html", "classkuzu_1_1processor_1_1_physical_operator" ],
     [ "kuzu::processor::physical_op_id", "namespacekuzu_1_1processor.html#a9ecd7ffed31d23448d15d6bbf21e4ec5", null ],
@@ -22,6 +22,7 @@ var physical__operator_8h =
       [ "kuzu::processor::PhysicalOperatorType::DELETE_", "namespacekuzu_1_1processor.html#ae7631a42025df776a7d2fadacf3df54ba941c42b9719734fbe289f8e65d7a7574", null ],
       [ "kuzu::processor::PhysicalOperatorType::DROP", "namespacekuzu_1_1processor.html#ae7631a42025df776a7d2fadacf3df54babf8f3be424eb6a72b21549fbb24ffb57", null ],
       [ "kuzu::processor::PhysicalOperatorType::DUMMY_SINK", "namespacekuzu_1_1processor.html#ae7631a42025df776a7d2fadacf3df54bab23b9eff83f48fb9d6693c11c975abb4", null ],
+      [ "kuzu::processor::PhysicalOperatorType::DUMMY_SIMPLE_SINK", "namespacekuzu_1_1processor.html#ae7631a42025df776a7d2fadacf3df54baa4a60b8bd2886ca1bdb79d42c6fefb60", null ],
       [ "kuzu::processor::PhysicalOperatorType::EMPTY_RESULT", "namespacekuzu_1_1processor.html#ae7631a42025df776a7d2fadacf3df54ba0c91849687d96da726b761e840ecfa9d", null ],
       [ "kuzu::processor::PhysicalOperatorType::EXPORT_DATABASE", "namespacekuzu_1_1processor.html#ae7631a42025df776a7d2fadacf3df54bacd08a293dd27950b13838f37aed33a40", null ],
       [ "kuzu::processor::PhysicalOperatorType::FILTER", "namespacekuzu_1_1processor.html#ae7631a42025df776a7d2fadacf3df54bae75ab17a550f46adbbe891b819cf951d", null ],
@@ -60,6 +61,7 @@ var physical__operator_8h =
       [ "kuzu::processor::PhysicalOperatorType::ORDER_BY_SCAN", "namespacekuzu_1_1processor.html#ae7631a42025df776a7d2fadacf3df54ba393a642d9d299c71e60f1f642157d264", null ],
       [ "kuzu::processor::PhysicalOperatorType::UNION_ALL_SCAN", "namespacekuzu_1_1processor.html#ae7631a42025df776a7d2fadacf3df54baa63940ad0c3bbed298b7faba8759868b", null ],
       [ "kuzu::processor::PhysicalOperatorType::UNWIND", "namespacekuzu_1_1processor.html#ae7631a42025df776a7d2fadacf3df54ba37b88a87188456429fa6e6c31a6d2301", null ],
-      [ "kuzu::processor::PhysicalOperatorType::USE_DATABASE", "namespacekuzu_1_1processor.html#ae7631a42025df776a7d2fadacf3df54babc152ccc041e70158a9b33e1469ba2f5", null ]
+      [ "kuzu::processor::PhysicalOperatorType::USE_DATABASE", "namespacekuzu_1_1processor.html#ae7631a42025df776a7d2fadacf3df54babc152ccc041e70158a9b33e1469ba2f5", null ],
+      [ "kuzu::processor::PhysicalOperatorType::UNINSTALL_EXTENSION", "namespacekuzu_1_1processor.html#ae7631a42025df776a7d2fadacf3df54ba18a465e2149cfdbac1a28f64e99b4371", null ]
     ] ]
 ];

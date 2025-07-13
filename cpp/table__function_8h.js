@@ -11,7 +11,7 @@ var table__function_8h =
     [ "kuzu::function::table_func_bind_t", "namespacekuzu_1_1function.html#a990589c34c32790e53603488201c52b1", null ],
     [ "kuzu::function::table_func_can_parallel_t", "namespacekuzu_1_1function.html#a35d4733088df629187cc362190d879b7", null ],
     [ "kuzu::function::table_func_finalize_t", "namespacekuzu_1_1function.html#a4a7d196063ba70212e732c4ee2db9514", null ],
-    [ "kuzu::function::table_func_get_logical_plan_t", "namespacekuzu_1_1function.html#a7b765ce7b4db13527f25d7530b21979a", null ],
+    [ "kuzu::function::table_func_get_logical_plan_t", "namespacekuzu_1_1function.html#a483a99805d669126982478b015e4455f", null ],
     [ "kuzu::function::table_func_get_physical_plan_t", "namespacekuzu_1_1function.html#ab2e6037645af45b443b3431fcb0bbb7a", null ],
     [ "kuzu::function::table_func_infer_input_types", "namespacekuzu_1_1function.html#a2309e4dd10845314362ce4403916c334", null ],
     [ "kuzu::function::table_func_init_local_t", "namespacekuzu_1_1function.html#aed0655e8fdc8be19bfe5e5165e56180b", null ],

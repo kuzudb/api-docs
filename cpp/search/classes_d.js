@@ -3,7 +3,7 @@ var searchData=
   ['parquetconstants_0',['ParquetConstants',['../structkuzu_1_1common_1_1_parquet_constants.html',1,'kuzu::common']]],
   ['pathsemanticutils_1',['PathSemanticUtils',['../structkuzu_1_1common_1_1_path_semantic_utils.html',1,'kuzu::common']]],
   ['physicaloperator_2',['PhysicalOperator',['../classkuzu_1_1processor_1_1_physical_operator.html',1,'kuzu::processor']]],
-  ['physicaloperatorutils_3',['PhysicalOperatorUtils',['../classkuzu_1_1processor_1_1_physical_operator_utils.html',1,'kuzu::processor']]],
+  ['physicaloperatorutils_3',['PhysicalOperatorUtils',['../structkuzu_1_1processor_1_1_physical_operator_utils.html',1,'kuzu::processor']]],
   ['physicaltypeutils_4',['PhysicalTypeUtils',['../structkuzu_1_1common_1_1_physical_type_utils.html',1,'kuzu::common']]],
   ['plannerknobs_5',['PlannerKnobs',['../structkuzu_1_1common_1_1_planner_knobs.html',1,'kuzu::common']]],
   ['pointerfunctionexecutor_6',['PointerFunctionExecutor',['../structkuzu_1_1function_1_1_pointer_function_executor.html',1,'kuzu::function']]],

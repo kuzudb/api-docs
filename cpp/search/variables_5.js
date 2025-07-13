@@ -12,7 +12,7 @@ var searchData=
   ['first_5fbyte_5fpos_9',['FIRST_BYTE_POS',['../structkuzu_1_1common_1_1_hex_format_constants.html#a91f4139b8a100f589985f965bfffcf7f',1,'kuzu::common::HexFormatConstants']]],
   ['flags_10',['flags',['../struct_arrow_schema.html#a15b2e390fc6708b23ad29c69e136163c',1,'ArrowSchema']]],
   ['floatval_11',['floatVal',['../unionkuzu_1_1common_1_1_value_1_1_val.html#ad4f5aaad0bff2b870cb3c35c990db45b',1,'kuzu::common::Value::Val']]],
-  ['forcecheckpointonclose_12',['forceCheckpointOnClose',['../structkuzu_1_1main_1_1_d_b_config.html#a1eca6fe16e8c0bf374101c91053441a7',1,'kuzu::main::DBConfig']]],
+  ['forcecheckpointonclose_12',['forceCheckpointOnClose',['../structkuzu_1_1main_1_1_system_config.html#a7431b00ff7699abf828749448db225dd',1,'kuzu::main::SystemConfig::forceCheckpointOnClose'],['../structkuzu_1_1main_1_1_d_b_config.html#a1eca6fe16e8c0bf374101c91053441a7',1,'kuzu::main::DBConfig::forceCheckpointOnClose']]],
   ['format_13',['format',['../struct_arrow_schema.html#ab5d0127ee66cd298683f2a2d2aae5788',1,'ArrowSchema']]],
   ['from_5foption_5fname_14',['FROM_OPTION_NAME',['../structkuzu_1_1common_1_1_copy_constants.html#ad03e3b3e2c522a635363924c3fe4f1cd',1,'kuzu::common::CopyConstants']]],
   ['func_15',['func',['../structkuzu_1_1function_1_1_scan_replacement_data.html#ac2b32bb3a35be3768bb25f0d8e528c08',1,'kuzu::function::ScanReplacementData']]]

@@ -10,6 +10,5 @@ var searchData=
   ['options_7',['options',['../structkuzu_1_1common_1_1_file_scan_info.html#ae058be26d405b9b07a80445fd1ad2092',1,'kuzu::common::FileScanInfo']]],
   ['optiontype_8',['optionType',['../structkuzu_1_1main_1_1_option.html#a9860ba753c80a07f7d02ebfcbf5fda3e',1,'kuzu::main::Option']]],
   ['outcolumnpositions_9',['outColumnPositions',['../structkuzu_1_1function_1_1_table_func_init_output_input.html#a68c9c614e53fe47d8099b92e016a95fb',1,'kuzu::function::TableFuncInitOutputInput']]],
-  ['overflow_5ffile_5fsuffix_10',['OVERFLOW_FILE_SUFFIX',['../structkuzu_1_1common_1_1_storage_constants.html#a6ebc5c9fc210033494905271e6e9cbd6',1,'kuzu::common::StorageConstants']]],
-  ['overflowptr_11',['overflowPtr',['../structkuzu_1_1common_1_1ku__list__t.html#a700477b14eba9b6fa5a9b12a8eecb4bf',1,'kuzu::common::ku_list_t::overflowPtr'],['../structkuzu_1_1common_1_1ku__string__t.html#a14d90e6a6ae915f66132bfabe4114fc9',1,'kuzu::common::ku_string_t::overflowPtr']]]
+  ['overflowptr_10',['overflowPtr',['../structkuzu_1_1common_1_1ku__list__t.html#a700477b14eba9b6fa5a9b12a8eecb4bf',1,'kuzu::common::ku_list_t::overflowPtr'],['../structkuzu_1_1common_1_1ku__string__t.html#a14d90e6a6ae915f66132bfabe4114fc9',1,'kuzu::common::ku_string_t::overflowPtr']]]
 ];

@@ -35,7 +35,6 @@ var classkuzu_1_1processor_1_1_physical_operator =
     [ "ptrCast", "classkuzu_1_1processor_1_1_physical_operator.html#a54b66df7868a47278c8623e0a397edb1", null ],
     [ "registerProfilingMetrics", "classkuzu_1_1processor_1_1_physical_operator.html#a8494081f0983677e38a22b86fa62aeaa", null ],
     [ "children", "classkuzu_1_1processor_1_1_physical_operator.html#a225826d8f104524b9cc36aa86a2955a9", null ],
-    [ "hasBeenFinalized", "classkuzu_1_1processor_1_1_physical_operator.html#ae64a97252b336fd2db7a35cf35ed1824", null ],
     [ "id", "classkuzu_1_1processor_1_1_physical_operator.html#a5e4f6a9ac23157bb23a94492e0ef8125", null ],
     [ "metrics", "classkuzu_1_1processor_1_1_physical_operator.html#ab3109d92ca171a611facc5e5f8afcd05", null ],
     [ "operatorType", "classkuzu_1_1processor_1_1_physical_operator.html#a09d03a11bea693bf2876fe35e62e3153", null ],
