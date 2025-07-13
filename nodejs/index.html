@@ -43,69 +43,121 @@
 
 
     <section>
-        <article><h2>Kuzu Node.js API</h2>
-<h3>Install</h3>
-<pre class="prettyprint source"><code>npm i kuzu
+        <article><h1>Kuzu Node.js API</h1>
+<p>A high-performance graph database for knowledge-intensive applications. This Node.js wrapper enables interaction with the Kuzu database via JavaScript or TypeScript using either <strong>CommonJS</strong> or <strong>ES Modules</strong>.</p>
+<hr>
+<h2>📦 Installation</h2>
+<pre class="prettyprint source lang-bash"><code>npm install kuzu
 </code></pre>
-<h3>Example usage</h3>
-<pre class="prettyprint source lang-js"><code>// Import library
-const kuzu = require(&quot;kuzu&quot;);
+<hr>
+<h2>🚀 Quick Start</h2>
+<h3>Example (ES Modules)</h3>
+<pre class="prettyprint source lang-js"><code>// Import the Kùzu module (ESM)
+import { Database, Connection } from &quot;kuzu&quot;;
 
-(async () => {
-  // Create an empty database and connect to it
-  const db = new kuzu.Database(&quot;./test&quot;);
-  const conn = new kuzu.Connection(db);
+const main = async () => {
+  // Initialize database and connection
+  const db = new Database(&quot;./test&quot;);
+  const conn = new Connection(db);
 
-  // Create the tables
-  await conn.query(
-    &quot;CREATE NODE TABLE User(name STRING, age INT64, PRIMARY KEY (name))&quot;
-  );
-  await conn.query(
-    &quot;CREATE NODE TABLE City(name STRING, population INT64, PRIMARY KEY (name))&quot;
-  );
-  await conn.query(&quot;CREATE REL TABLE Follows(FROM User TO User, since INT64)&quot;);
-  await conn.query(&quot;CREATE REL TABLE LivesIn(FROM User TO City)&quot;);
+  // Define schema
+  await conn.query(`
+    CREATE NODE TABLE User(name STRING, age INT64, PRIMARY KEY (name));
+  `);
+  await conn.query(`
+    CREATE NODE TABLE City(name STRING, population INT64, PRIMARY KEY (name));
+  `);
+  await conn.query(`
+    CREATE REL TABLE Follows(FROM User TO User, since INT64);
+  `);
+  await conn.query(`
+    CREATE REL TABLE LivesIn(FROM User TO City);
+  `);
 
-  // Load the data
-  await conn.query('COPY User FROM &quot;user.csv&quot;');
-  await conn.query('COPY City FROM &quot;city.csv&quot;');
-  await conn.query('COPY Follows FROM &quot;follows.csv&quot;');
-  await conn.query('COPY LivesIn FROM &quot;lives-in.csv&quot;');
+  // Load data from CSV files
+  await conn.query(`COPY User FROM &quot;user.csv&quot;`);
+  await conn.query(`COPY City FROM &quot;city.csv&quot;`);
+  await conn.query(`COPY Follows FROM &quot;follows.csv&quot;`);
+  await conn.query(`COPY LivesIn FROM &quot;lives-in.csv&quot;`);
 
-  const queryResult = await conn.query(&quot;MATCH (u:User) RETURN u.name, u.age;&quot;);
+  // Run a query
+  const result = await conn.query(&quot;MATCH (u:User) RETURN u.name, u.age;&quot;);
 
-  // Get all rows from the query result
-  const rows = await queryResult.getAll();
+  // Fetch all results
+  const rows = await result.getAll();
 
-  // Print the rows
+  // Output results
   for (const row of rows) {
     console.log(row);
   }
-})();
+};
+
+main().catch(console.error);
 </code></pre>
-<p>The dataset used in this example can be found <a href="https://github.com/kuzudb/kuzu/tree/master/dataset/demo-db/csv">here</a>.</p>
-<h3>Local development (for contributors)</h3>
-<h4>Install dependency</h4>
-<pre class="prettyprint source"><code>npm i --include=dev
+<p>✅ The dataset used in this example can be found in the <a href="https://github.com/kuzudb/kuzu/tree/master/dataset/demo-db/csv">official Kuzu repository</a>.</p>
+<hr>
+<h2>📚 API Overview</h2>
+<p>The <code>kuzu</code> package exposes the following primary classes:</p>
+<ul>
+<li><code>Database</code> – Initializes a database from a file path.</li>
+<li><code>Connection</code> – Executes queries on a connected database.</li>
+<li><code>QueryResult</code> – Provides methods like <code>getAll()</code> to retrieve results.</li>
+</ul>
+<p>Both CommonJS (<code>require</code>) and ES Modules (<code>import</code>) are fully supported.</p>
+<hr>
+<h2>🛠️ Local Development (for Contributors)</h2>
+<h3>Install Dev Dependencies</h3>
+<pre class="prettyprint source lang-bash"><code>npm install --include=dev
 </code></pre>
-<h4>Build</h4>
-<pre class="prettyprint source"><code>npm run build
+<h3>Build Project</h3>
+<pre class="prettyprint source lang-bash"><code>npm run build
 </code></pre>
-<h4>Run test</h4>
-<pre class="prettyprint source"><code>npm test
+<h3>Run Tests</h3>
+<pre class="prettyprint source lang-bash"><code>npm test
 </code></pre>
-<h4>Package</h4>
-<p>We use the approach of packing all the prebuilt binaries into a single file, this approach is inspired by <a href="https://github.com/prebuild/prebuildify">prebuildify</a>.</p>
+<hr>
+<h2>📦 Packaging and Binary Distribution</h2>
+<p>We bundle all prebuilt binaries directly into the npm package, inspired by the approach used by <a href="https://github.com/prebuild/prebuildify">prebuildify</a>.</p>
 <blockquote>
 <p>All prebuilt binaries are shipped inside the package that is published to npm, which means there's no need for a separate download step like you find in <a href="https://github.com/prebuild/prebuild"><code>prebuild</code></a>. The irony of this approach is that it is faster to download all prebuilt binaries for every platform when they are bundled than it is to download a single prebuilt binary as an install script.</p>
 </blockquote>
-<p>During the installation, the package will check the platform and architecture of the current machine, and extract the corresponding prebuilt binaries from the package. If no prebuilt binaries are available for the current platform and architecture, it will try to build from source code. Note that building from source code requires CMake(&gt;=3.15), Python 3, and a compiler that supports <code>C++20</code>.</p>
-<p>We have configured our CI to build prebuilt binaries for Linux and macOS. To package the prebuilt binaries, put the prebuilt binaries under <code>prebuilt</code> directory, the name of the prebuilt binaries should be in the format of <code>kuzujs-${platform}-${arch}.node</code>, then run:</p>
-<pre class="prettyprint source"><code>node package
+<h3>Requirements (for building from source)</h3>
+<p>If a prebuilt binary is unavailable for your platform, the module will be built from source during installation. Ensure the following tools are installed:</p>
+<ul>
+<li><strong>CMake</strong> (≥ 3.15)</li>
+<li><strong>Python 3</strong></li>
+<li>A <strong>C++20-compatible compiler</strong></li>
+</ul>
+<h3>Packaging Prebuilt Binaries</h3>
+<ol>
+<li>
+<p>Place your binaries inside the <code>prebuilt</code> directory.</p>
+</li>
+<li>
+<p>Name them using the format:</p>
+<pre class="prettyprint source"><code>kuzujs-${platform}-${arch}.node
 </code></pre>
-<p>If no prebuilt binaries are provided, the packaging script will still work, but it will create a source-only package, which means it will always be built from source code when installing the package.</p>
-<h4>Publish</h4>
-<p>The created tarball can be published to npm. Please refer to <a href="https://docs.npmjs.com/cli/v9/commands/npm-publish">npm documentation</a> for more details.</p></article>
+</li>
+<li>
+<p>Run the packaging script:</p>
+</li>
+</ol>
+<pre class="prettyprint source lang-bash"><code>node package
+</code></pre>
+<p>If no binaries are found, a source-only tarball will be generated.</p>
+<hr>
+<h2>🚀 Publishing</h2>
+<p>To publish the package to npm:</p>
+<pre class="prettyprint source lang-bash"><code>npm publish
+</code></pre>
+<p>Refer to the <a href="https://docs.npmjs.com/cli/v9/commands/npm-publish">npm documentation</a> for full details on publishing and versioning.</p>
+<hr>
+<h2>🔗 Resources</h2>
+<ul>
+<li><a href="https://github.com/kuzudb/kuzu">Kuzu GitHub</a></li>
+<li><a href="https://docs.kuzudb.com">Kuzu Documentation</a></li>
+<li><a href="https://github.com/kuzudb/kuzu/issues">Issue Tracker</a></li>
+</ul></article>
     </section>
 
 
@@ -122,7 +174,7 @@ const kuzu = require(&quot;kuzu&quot;);
 <br class="clear">
 
 <footer>
-    Documentation generated by <a href="https://github.com/jsdoc/jsdoc">JSDoc 4.0.4</a> on Thu May 08 2025 19:35:58 GMT+0000 (Coordinated Universal Time)
+    Documentation generated by <a href="https://github.com/jsdoc/jsdoc">JSDoc 4.0.4</a> on Sun Jul 13 2025 19:15:58 GMT+0000 (Coordinated Universal Time)
 </footer>
 
 <script> prettyPrint(); </script>

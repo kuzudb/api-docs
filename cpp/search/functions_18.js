@@ -7,7 +7,7 @@ var searchData=
   ['_7eclientcontext_4',['~ClientContext',['../classkuzu_1_1main_1_1_client_context.html#a85eec37720195455a91112b86bd2b1bf',1,'kuzu::main::ClientContext']]],
   ['_7econnection_5',['~Connection',['../classkuzu_1_1main_1_1_connection.html#a5c92d7da053707b55e89bb6f273d5d49',1,'kuzu::main::Connection']]],
   ['_7edatabase_6',['~Database',['../classkuzu_1_1main_1_1_database.html#a994eb02bd8ada1298fb78eea0e24f603',1,'kuzu::main::Database']]],
-  ['_7eexpression_7',['~Expression',['../classkuzu_1_1binder_1_1_expression.html#a6f7fc8e406251e662eef773595001d6b',1,'kuzu::binder::Expression']]],
+  ['_7eexpression_7',['~Expression',['../classkuzu_1_1binder_1_1_expression.html#abef1e3284dee078e79ac6f5c8eca6211',1,'kuzu::binder::Expression']]],
   ['_7eextratablefuncbindinput_8',['~ExtraTableFuncBindInput',['../structkuzu_1_1function_1_1_extra_table_func_bind_input.html#a941c231efc548b9bc21b9330385f4c6a',1,'kuzu::function::ExtraTableFuncBindInput']]],
   ['_7eextratypeinfo_9',['~ExtraTypeInfo',['../classkuzu_1_1common_1_1_extra_type_info.html#a70689fa1a2fa834e64199ce613bdfae9',1,'kuzu::common::ExtraTypeInfo']]],
   ['_7efunction_10',['~Function',['../structkuzu_1_1function_1_1_function.html#ac06e4d770164421705a1024cad979158',1,'kuzu::function::Function']]],

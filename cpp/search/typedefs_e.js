@@ -3,7 +3,7 @@ var searchData=
   ['table_5ffunc_5fbind_5ft_0',['table_func_bind_t',['../namespacekuzu_1_1function.html#a990589c34c32790e53603488201c52b1',1,'kuzu::function']]],
   ['table_5ffunc_5fcan_5fparallel_5ft_1',['table_func_can_parallel_t',['../namespacekuzu_1_1function.html#a35d4733088df629187cc362190d879b7',1,'kuzu::function']]],
   ['table_5ffunc_5ffinalize_5ft_2',['table_func_finalize_t',['../namespacekuzu_1_1function.html#a4a7d196063ba70212e732c4ee2db9514',1,'kuzu::function']]],
-  ['table_5ffunc_5fget_5flogical_5fplan_5ft_3',['table_func_get_logical_plan_t',['../namespacekuzu_1_1function.html#a7b765ce7b4db13527f25d7530b21979a',1,'kuzu::function']]],
+  ['table_5ffunc_5fget_5flogical_5fplan_5ft_3',['table_func_get_logical_plan_t',['../namespacekuzu_1_1function.html#a483a99805d669126982478b015e4455f',1,'kuzu::function']]],
   ['table_5ffunc_5fget_5fphysical_5fplan_5ft_4',['table_func_get_physical_plan_t',['../namespacekuzu_1_1function.html#ab2e6037645af45b443b3431fcb0bbb7a',1,'kuzu::function']]],
   ['table_5ffunc_5finfer_5finput_5ftypes_5',['table_func_infer_input_types',['../namespacekuzu_1_1function.html#a2309e4dd10845314362ce4403916c334',1,'kuzu::function']]],
   ['table_5ffunc_5finit_5flocal_5ft_6',['table_func_init_local_t',['../namespacekuzu_1_1function.html#aed0655e8fdc8be19bfe5e5165e56180b',1,'kuzu::function']]],

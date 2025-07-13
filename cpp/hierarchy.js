@@ -9,7 +9,6 @@ var hierarchy =
       [ "ArrowSchemaWrapper", "struct_arrow_schema_wrapper.html", null ]
     ] ],
     [ "kuzu::common::AuxiliaryBuffer", "classkuzu_1_1common_1_1_auxiliary_buffer.html", [
-      [ "kuzu::common::ArrowColumnAuxiliaryBuffer", "classkuzu_1_1common_1_1_arrow_column_auxiliary_buffer.html", null ],
       [ "kuzu::common::ListAuxiliaryBuffer", "classkuzu_1_1common_1_1_list_auxiliary_buffer.html", null ],
       [ "kuzu::common::StringAuxiliaryBuffer", "classkuzu_1_1common_1_1_string_auxiliary_buffer.html", null ],
       [ "kuzu::common::StructAuxiliaryBuffer", "classkuzu_1_1common_1_1_struct_auxiliary_buffer.html", null ]
@@ -44,6 +43,7 @@ var hierarchy =
     [ "kuzu::common::CSVOption", "structkuzu_1_1common_1_1_c_s_v_option.html", null ],
     [ "kuzu::common::CSVReaderConfig", "structkuzu_1_1common_1_1_c_s_v_reader_config.html", null ],
     [ "kuzu::main::Database", "classkuzu_1_1main_1_1_database.html", null ],
+    [ "kuzu::common::DatabaseLifeCycleManager", "structkuzu_1_1common_1_1_database_life_cycle_manager.html", null ],
     [ "kuzu::common::DataChunk", "classkuzu_1_1common_1_1_data_chunk.html", null ],
     [ "kuzu::processor::DataChunkDescriptor", "structkuzu_1_1processor_1_1_data_chunk_descriptor.html", null ],
     [ "kuzu::common::DataChunkState", "classkuzu_1_1common_1_1_data_chunk_state.html", null ],
@@ -133,7 +133,7 @@ var hierarchy =
     [ "kuzu::common::ParquetConstants", "structkuzu_1_1common_1_1_parquet_constants.html", null ],
     [ "kuzu::common::PathSemanticUtils", "structkuzu_1_1common_1_1_path_semantic_utils.html", null ],
     [ "kuzu::processor::PhysicalOperator", "classkuzu_1_1processor_1_1_physical_operator.html", null ],
-    [ "kuzu::processor::PhysicalOperatorUtils", "classkuzu_1_1processor_1_1_physical_operator_utils.html", null ],
+    [ "kuzu::processor::PhysicalOperatorUtils", "structkuzu_1_1processor_1_1_physical_operator_utils.html", null ],
     [ "kuzu::common::PhysicalTypeUtils", "structkuzu_1_1common_1_1_physical_type_utils.html", null ],
     [ "kuzu::common::PlannerKnobs", "structkuzu_1_1common_1_1_planner_knobs.html", null ],
     [ "kuzu::function::PointerFunctionExecutor", "structkuzu_1_1function_1_1_pointer_function_executor.html", null ],
@@ -196,6 +196,7 @@ var hierarchy =
     [ "kuzu::function::UDF", "structkuzu_1_1function_1_1_u_d_f.html", null ],
     [ "kuzu::function::UnaryCastFunctionWrapper", "structkuzu_1_1function_1_1_unary_cast_function_wrapper.html", null ],
     [ "kuzu::function::UnaryCastStringFunctionWrapper", "structkuzu_1_1function_1_1_unary_cast_string_function_wrapper.html", null ],
+    [ "kuzu::function::UnaryCastUnionFunctionWrapper", "structkuzu_1_1function_1_1_unary_cast_union_function_wrapper.html", null ],
     [ "kuzu::function::UnaryFunctionExecutor", "structkuzu_1_1function_1_1_unary_function_executor.html", null ],
     [ "kuzu::function::UnaryFunctionWrapper", "structkuzu_1_1function_1_1_unary_function_wrapper.html", null ],
     [ "kuzu::function::UnaryNestedTypeFunctionWrapper", "structkuzu_1_1function_1_1_unary_nested_type_function_wrapper.html", null ],

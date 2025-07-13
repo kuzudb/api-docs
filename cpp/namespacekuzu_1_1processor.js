@@ -7,7 +7,7 @@ var namespacekuzu_1_1processor =
     [ "LineContext", "structkuzu_1_1processor_1_1_line_context.html", "structkuzu_1_1processor_1_1_line_context" ],
     [ "OperatorMetrics", "structkuzu_1_1processor_1_1_operator_metrics.html", "structkuzu_1_1processor_1_1_operator_metrics" ],
     [ "PhysicalOperator", "classkuzu_1_1processor_1_1_physical_operator.html", "classkuzu_1_1processor_1_1_physical_operator" ],
-    [ "PhysicalOperatorUtils", "classkuzu_1_1processor_1_1_physical_operator_utils.html", null ],
+    [ "PhysicalOperatorUtils", "structkuzu_1_1processor_1_1_physical_operator_utils.html", null ],
     [ "PopulatedCopyFromError", "structkuzu_1_1processor_1_1_populated_copy_from_error.html", "structkuzu_1_1processor_1_1_populated_copy_from_error" ],
     [ "ResultSet", "classkuzu_1_1processor_1_1_result_set.html", "classkuzu_1_1processor_1_1_result_set" ],
     [ "ResultSetDescriptor", "structkuzu_1_1processor_1_1_result_set_descriptor.html", "structkuzu_1_1processor_1_1_result_set_descriptor" ],
@@ -38,6 +38,7 @@ var namespacekuzu_1_1processor =
       [ "DELETE_", "namespacekuzu_1_1processor.html#ae7631a42025df776a7d2fadacf3df54ba941c42b9719734fbe289f8e65d7a7574", null ],
       [ "DROP", "namespacekuzu_1_1processor.html#ae7631a42025df776a7d2fadacf3df54babf8f3be424eb6a72b21549fbb24ffb57", null ],
       [ "DUMMY_SINK", "namespacekuzu_1_1processor.html#ae7631a42025df776a7d2fadacf3df54bab23b9eff83f48fb9d6693c11c975abb4", null ],
+      [ "DUMMY_SIMPLE_SINK", "namespacekuzu_1_1processor.html#ae7631a42025df776a7d2fadacf3df54baa4a60b8bd2886ca1bdb79d42c6fefb60", null ],
       [ "EMPTY_RESULT", "namespacekuzu_1_1processor.html#ae7631a42025df776a7d2fadacf3df54ba0c91849687d96da726b761e840ecfa9d", null ],
       [ "EXPORT_DATABASE", "namespacekuzu_1_1processor.html#ae7631a42025df776a7d2fadacf3df54bacd08a293dd27950b13838f37aed33a40", null ],
       [ "FILTER", "namespacekuzu_1_1processor.html#ae7631a42025df776a7d2fadacf3df54bae75ab17a550f46adbbe891b819cf951d", null ],
@@ -76,7 +77,8 @@ var namespacekuzu_1_1processor =
       [ "ORDER_BY_SCAN", "namespacekuzu_1_1processor.html#ae7631a42025df776a7d2fadacf3df54ba393a642d9d299c71e60f1f642157d264", null ],
       [ "UNION_ALL_SCAN", "namespacekuzu_1_1processor.html#ae7631a42025df776a7d2fadacf3df54baa63940ad0c3bbed298b7faba8759868b", null ],
       [ "UNWIND", "namespacekuzu_1_1processor.html#ae7631a42025df776a7d2fadacf3df54ba37b88a87188456429fa6e6c31a6d2301", null ],
-      [ "USE_DATABASE", "namespacekuzu_1_1processor.html#ae7631a42025df776a7d2fadacf3df54babc152ccc041e70158a9b33e1469ba2f5", null ]
+      [ "USE_DATABASE", "namespacekuzu_1_1processor.html#ae7631a42025df776a7d2fadacf3df54babc152ccc041e70158a9b33e1469ba2f5", null ],
+      [ "UNINSTALL_EXTENSION", "namespacekuzu_1_1processor.html#ae7631a42025df776a7d2fadacf3df54ba18a465e2149cfdbac1a28f64e99b4371", null ]
     ] ],
     [ "INVALID_DATA_CHUNK_POS", "namespacekuzu_1_1processor.html#aac80141fffbfa90a6bfd94f638f6b15a", null ],
     [ "INVALID_VALUE_VECTOR_POS", "namespacekuzu_1_1processor.html#a8361a4fb8c96c46d424d5a76e995bbfc", null ]

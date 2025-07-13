@@ -7,12 +7,13 @@ var searchData=
   ['uint8_4',['UINT8',['../classkuzu_1_1common_1_1_logical_type.html#af9ef4ade3d0c5b763aafe43632640574',1,'kuzu::common::LogicalType']]],
   ['unarycastexecfunction_5',['UnaryCastExecFunction',['../structkuzu_1_1function_1_1_scalar_function.html#a700b68d22e0e04996141d15d89d6db52',1,'kuzu::function::ScalarFunction']]],
   ['unarycaststringexecfunction_6',['UnaryCastStringExecFunction',['../structkuzu_1_1function_1_1_scalar_function.html#a84a6a68aaaa2d275ee1f73ec06ed0f23',1,'kuzu::function::ScalarFunction']]],
-  ['unaryexecfunction_7',['UnaryExecFunction',['../structkuzu_1_1function_1_1_scalar_function.html#ae304b46dbdc9bc85b62b18a9af8a4d64',1,'kuzu::function::ScalarFunction']]],
-  ['unaryexecnestedtypefunction_8',['UnaryExecNestedTypeFunction',['../structkuzu_1_1function_1_1_scalar_function.html#a08a38845014e3175c991ac4ee9885920',1,'kuzu::function::ScalarFunction']]],
-  ['unaryexecstructfunction_9',['UnaryExecStructFunction',['../structkuzu_1_1function_1_1_scalar_function.html#ac9b51a2dba1404752e39c94dc89a2b4f',1,'kuzu::function::ScalarFunction']]],
-  ['unarysequenceexecfunction_10',['UnarySequenceExecFunction',['../structkuzu_1_1function_1_1_scalar_function.html#a29721742c5ce2bfc2394f6ac635f5982',1,'kuzu::function::ScalarFunction']]],
-  ['unarystringexecfunction_11',['UnaryStringExecFunction',['../structkuzu_1_1function_1_1_scalar_function.html#a2c8e25ba6d88d4135f64d6ebf9f3acea',1,'kuzu::function::ScalarFunction']]],
-  ['union_12',['UNION',['../classkuzu_1_1common_1_1_logical_type.html#a3b406dbc91f063497e8d3de743112716',1,'kuzu::common::LogicalType']]],
-  ['useinternalcatalogentry_13',['useInternalCatalogEntry',['../classkuzu_1_1main_1_1_client_context.html#a7a4603c60bd47154711cf192937e0140',1,'kuzu::main::ClientContext']]],
-  ['uuid_14',['UUID',['../classkuzu_1_1common_1_1_logical_type.html#a09c4d39ceea5d83e7a9695eaa1877abf',1,'kuzu::common::LogicalType']]]
+  ['unarycastunionexecfunction_7',['UnaryCastUnionExecFunction',['../structkuzu_1_1function_1_1_scalar_function.html#abfeec1922bd3f5cb4ea4c7a2cb8be5c4',1,'kuzu::function::ScalarFunction']]],
+  ['unaryexecfunction_8',['UnaryExecFunction',['../structkuzu_1_1function_1_1_scalar_function.html#ae304b46dbdc9bc85b62b18a9af8a4d64',1,'kuzu::function::ScalarFunction']]],
+  ['unaryexecnestedtypefunction_9',['UnaryExecNestedTypeFunction',['../structkuzu_1_1function_1_1_scalar_function.html#ab05ec5bb1fd9bdefc01845cb71bdd968',1,'kuzu::function::ScalarFunction']]],
+  ['unaryexecstructfunction_10',['UnaryExecStructFunction',['../structkuzu_1_1function_1_1_scalar_function.html#ac9b51a2dba1404752e39c94dc89a2b4f',1,'kuzu::function::ScalarFunction']]],
+  ['unarysequenceexecfunction_11',['UnarySequenceExecFunction',['../structkuzu_1_1function_1_1_scalar_function.html#a29721742c5ce2bfc2394f6ac635f5982',1,'kuzu::function::ScalarFunction']]],
+  ['unarystringexecfunction_12',['UnaryStringExecFunction',['../structkuzu_1_1function_1_1_scalar_function.html#a2c8e25ba6d88d4135f64d6ebf9f3acea',1,'kuzu::function::ScalarFunction']]],
+  ['union_13',['UNION',['../classkuzu_1_1common_1_1_logical_type.html#a3b406dbc91f063497e8d3de743112716',1,'kuzu::common::LogicalType']]],
+  ['useinternalcatalogentry_14',['useInternalCatalogEntry',['../classkuzu_1_1main_1_1_client_context.html#a7a4603c60bd47154711cf192937e0140',1,'kuzu::main::ClientContext']]],
+  ['uuid_15',['UUID',['../classkuzu_1_1common_1_1_logical_type.html#a09c4d39ceea5d83e7a9695eaa1877abf',1,'kuzu::common::LogicalType']]]
 ];

@@ -2,7 +2,7 @@ var searchData=
 [
   ['range_0',['range',['../classkuzu_1_1common_1_1_semi_mask.html#a6e427fed5057b2a6645d7be52e5a64e2',1,'kuzu::common::SemiMask']]],
   ['readnodeoffset_1',['readNodeOffset',['../classkuzu_1_1common_1_1_value_vector.html#ad1fcf8b2993565d5fe0ca2851e75f10e',1,'kuzu::common::ValueVector']]],
-  ['recursive_5frel_2',['RECURSIVE_REL',['../classkuzu_1_1common_1_1_logical_type.html#a81bb2a1046ec4b19af0b0151bf6c55ff',1,'kuzu::common::LogicalType']]],
+  ['recursive_5frel_2',['RECURSIVE_REL',['../classkuzu_1_1common_1_1_logical_type.html#af5a1db0dc71200bef3247e588ac54381',1,'kuzu::common::LogicalType']]],
   ['referencechildvector_3',['referenceChildVector',['../classkuzu_1_1common_1_1_struct_auxiliary_buffer.html#a7314a032b81312a4984f607af7d64bfc',1,'kuzu::common::StructAuxiliaryBuffer']]],
   ['referencevector_4',['referenceVector',['../classkuzu_1_1common_1_1_struct_vector.html#a99df75884fa953d2e9804546cb250393',1,'kuzu::common::StructVector::referenceVector()'],['../classkuzu_1_1common_1_1_union_vector.html#ab5aabb6dbe889224c73b95985fc9ca17',1,'kuzu::common::UnionVector::referenceVector()']]],
   ['regexpattern_5',['regexPattern',['../classkuzu_1_1common_1_1_date.html#a424ed2f8cf722fb646817f3ddb5ae664',1,'kuzu::common::Date::regexPattern()'],['../structkuzu_1_1common_1_1_u_u_i_d.html#a39bd92988355dc304a743c1f8383ae4b',1,'kuzu::common::UUID::regexPattern()']]],
@@ -11,7 +11,7 @@ var searchData=
   ['registerfilesystem_8',['registerFileSystem',['../classkuzu_1_1main_1_1_database.html#affc81746d037fa5276536b784b7aa1ac',1,'kuzu::main::Database']]],
   ['registerprofilingmetrics_9',['registerProfilingMetrics',['../classkuzu_1_1processor_1_1_physical_operator.html#a8494081f0983677e38a22b86fa62aeaa',1,'kuzu::processor::PhysicalOperator']]],
   ['registerstorageextension_10',['registerStorageExtension',['../classkuzu_1_1main_1_1_database.html#a6423f56e9e82aacfa09757246d317833',1,'kuzu::main::Database']]],
-  ['rel_11',['REL',['../classkuzu_1_1common_1_1_logical_type.html#aed1da33aee222b3800b9eb4f52152aa7',1,'kuzu::common::LogicalType']]],
+  ['rel_11',['REL',['../classkuzu_1_1common_1_1_logical_type.html#a935015c89d0bad407b88b3e8c26a7e9f',1,'kuzu::common::LogicalType']]],
   ['reltostring_12',['relToString',['../classkuzu_1_1common_1_1_type_utils.html#a75fa3e0460f44d16920d7cb277db6716',1,'kuzu::common::TypeUtils']]],
   ['remove_13',['remove',['../classkuzu_1_1transaction_1_1_local_cache_manager.html#a03b001cea93fc88e20bffb30852b0dad',1,'kuzu::transaction::LocalCacheManager']]],
   ['removescalarfunction_14',['removeScalarFunction',['../classkuzu_1_1main_1_1_client_context.html#a174b96749553f347363a2db74972fa0a',1,'kuzu::main::ClientContext']]],

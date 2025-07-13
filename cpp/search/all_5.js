@@ -29,7 +29,7 @@ var searchData=
   ['float_26',['FLOAT',['../classkuzu_1_1common_1_1_logical_type.html#a3a11719fd4e4634639db103c6c211f7c',1,'kuzu::common::LogicalType::FLOAT()'],['../namespacekuzu_1_1common.html#ae13725cc7f400e324b5f2bc1f53da741ae738c26bf4ce1037fa81b039a915cbf6',1,'kuzu::common::FLOAT'],['../namespacekuzu_1_1common.html#a504e5277d0488eb4ad21b76eb84e2368ae738c26bf4ce1037fa81b039a915cbf6',1,'kuzu::common::FLOAT']]],
   ['floatingpointtypes_27',['FloatingPointTypes',['../conceptkuzu_1_1common_1_1_floating_point_types.html',1,'kuzu::common']]],
   ['floatval_28',['floatVal',['../unionkuzu_1_1common_1_1_value_1_1_val.html#ad4f5aaad0bff2b870cb3c35c990db45b',1,'kuzu::common::Value::Val']]],
-  ['forcecheckpointonclose_29',['forceCheckpointOnClose',['../structkuzu_1_1main_1_1_d_b_config.html#a1eca6fe16e8c0bf374101c91053441a7',1,'kuzu::main::DBConfig']]],
+  ['forcecheckpointonclose_29',['forceCheckpointOnClose',['../structkuzu_1_1main_1_1_system_config.html#a7431b00ff7699abf828749448db225dd',1,'kuzu::main::SystemConfig::forceCheckpointOnClose'],['../structkuzu_1_1main_1_1_d_b_config.html#a1eca6fe16e8c0bf374101c91053441a7',1,'kuzu::main::DBConfig::forceCheckpointOnClose']]],
   ['foreach_30',['forEach',['../classkuzu_1_1common_1_1_selection_view.html#a6a7a8f04c31aab5ffbf707494aa4c168',1,'kuzu::common::SelectionView']]],
   ['foreachbreakwhenfalse_31',['forEachBreakWhenFalse',['../classkuzu_1_1common_1_1_selection_view.html#a62e1cd3756d0208ec3c48d679e19a2c4',1,'kuzu::common::SelectionView']]],
   ['foreachnonnull_32',['forEachNonNull',['../classkuzu_1_1common_1_1_value_vector.html#a31900850c8007b2ec9db4e0876e17b9d',1,'kuzu::common::ValueVector']]],

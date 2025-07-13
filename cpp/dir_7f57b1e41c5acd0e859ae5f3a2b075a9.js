@@ -25,6 +25,7 @@ var dir_7f57b1e41c5acd0e859ae5f3a2b075a9 =
     [ "data_chunk_state.h", "data__chunk__state_8h.html", "data__chunk__state_8h" ],
     [ "data_pos.h", "data__pos_8h.html", "data__pos_8h" ],
     [ "database.h", "database_8h.html", "database_8h" ],
+    [ "database_lifecycle_manager.h", "database__lifecycle__manager_8h.html", "database__lifecycle__manager_8h" ],
     [ "date_t.h", "date__t_8h.html", "date__t_8h" ],
     [ "db_config.h", "db__config_8h.html", "db__config_8h" ],
     [ "dtime_t.h", "dtime__t_8h.html", "dtime__t_8h" ],
