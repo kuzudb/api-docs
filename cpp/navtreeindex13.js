@@ -1,13 +1,5 @@
 var NAVTREEINDEX13 =
 {
-"structkuzu_1_1processor_1_1_copy_from_file_error.html#ae6ed814276f73a9d170de10eb2b893ed":[0,0,0,10,0,0],
-"structkuzu_1_1processor_1_1_copy_from_file_error.html#ae6ed814276f73a9d170de10eb2b893ed":[2,0,0,5,0,0],
-"structkuzu_1_1processor_1_1_data_chunk_descriptor.html":[0,0,0,10,1],
-"structkuzu_1_1processor_1_1_data_chunk_descriptor.html":[2,0,0,5,1],
-"structkuzu_1_1processor_1_1_data_chunk_descriptor.html#a2d5e62c242e1f08dc745dc579366a41a":[0,0,0,10,1,3],
-"structkuzu_1_1processor_1_1_data_chunk_descriptor.html#a2d5e62c242e1f08dc745dc579366a41a":[2,0,0,5,1,3],
-"structkuzu_1_1processor_1_1_data_chunk_descriptor.html#a673f2e30244f266497ec76cbb75237d5":[0,0,0,10,1,2],
-"structkuzu_1_1processor_1_1_data_chunk_descriptor.html#a673f2e30244f266497ec76cbb75237d5":[2,0,0,5,1,2],
 "structkuzu_1_1processor_1_1_data_chunk_descriptor.html#a707602c182b386552f5259eac5f368fd":[0,0,0,10,1,1],
 "structkuzu_1_1processor_1_1_data_chunk_descriptor.html#a707602c182b386552f5259eac5f368fd":[2,0,0,5,1,1],
 "structkuzu_1_1processor_1_1_data_chunk_descriptor.html#aa3acb5d62a0551db65dad240c26e7b12":[0,0,0,10,1,4],

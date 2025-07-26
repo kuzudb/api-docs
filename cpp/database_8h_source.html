@@ -208,29 +208,28 @@ $(function(){initNavTree('database_8h_source.html','',''); });
 <div class="line"><a id="l00147" name="l00147"></a><span class="lineno">  147</span>    <a class="code hl_function" href="classkuzu_1_1main_1_1_database.html#ade599ee8e84a9b8bfe25ffc01db736da">Database</a>(std::string_view databasePath, <a class="code hl_struct" href="structkuzu_1_1main_1_1_system_config.html">SystemConfig</a> systemConfig,</div>
 <div class="line"><a id="l00148" name="l00148"></a><span class="lineno">  148</span>        construct_bm_func_t constructBMFunc);</div>
 <div class="line"><a id="l00149" name="l00149"></a><span class="lineno">  149</span> </div>
-<div class="line"><a id="l00150" name="l00150"></a><span class="lineno">  150</span>    <span class="keywordtype">void</span> openLockFile();</div>
-<div class="line"><a id="l00151" name="l00151"></a><span class="lineno">  151</span>    <span class="keywordtype">void</span> initAndLockDBDir();</div>
-<div class="line"><a id="l00152" name="l00152"></a><span class="lineno">  152</span> </div>
-<div class="line"><a id="l00153" name="l00153"></a><span class="lineno">  153</span><span class="keyword">private</span>:</div>
-<div class="line"><a id="l00154" name="l00154"></a><span class="lineno">  154</span>    std::string databasePath;</div>
-<div class="line"><a id="l00155" name="l00155"></a><span class="lineno">  155</span>    <a class="code hl_struct" href="structkuzu_1_1main_1_1_d_b_config.html">DBConfig</a> dbConfig;</div>
-<div class="line"><a id="l00156" name="l00156"></a><span class="lineno">  156</span>    std::unique_ptr&lt;common::VirtualFileSystem&gt; vfs;</div>
-<div class="line"><a id="l00157" name="l00157"></a><span class="lineno">  157</span>    std::unique_ptr&lt;storage::BufferManager&gt; bufferManager;</div>
-<div class="line"><a id="l00158" name="l00158"></a><span class="lineno">  158</span>    std::unique_ptr&lt;storage::MemoryManager&gt; memoryManager;</div>
-<div class="line"><a id="l00159" name="l00159"></a><span class="lineno">  159</span>    std::unique_ptr&lt;processor::QueryProcessor&gt; queryProcessor;</div>
-<div class="line"><a id="l00160" name="l00160"></a><span class="lineno">  160</span>    std::unique_ptr&lt;catalog::Catalog&gt; <a class="code hl_namespace" href="namespacekuzu_1_1catalog.html">catalog</a>;</div>
-<div class="line"><a id="l00161" name="l00161"></a><span class="lineno">  161</span>    std::unique_ptr&lt;storage::StorageManager&gt; storageManager;</div>
-<div class="line"><a id="l00162" name="l00162"></a><span class="lineno">  162</span>    std::unique_ptr&lt;transaction::TransactionManager&gt; transactionManager;</div>
-<div class="line"><a id="l00163" name="l00163"></a><span class="lineno">  163</span>    std::unique_ptr&lt;common::FileInfo&gt; lockFile;</div>
-<div class="line"><a id="l00164" name="l00164"></a><span class="lineno">  164</span>    std::unique_ptr&lt;DatabaseManager&gt; databaseManager;</div>
-<div class="line"><a id="l00165" name="l00165"></a><span class="lineno">  165</span>    std::unique_ptr&lt;extension::ExtensionManager&gt; extensionManager;</div>
-<div class="line"><a id="l00166" name="l00166"></a><span class="lineno">  166</span>    QueryIDGenerator queryIDGenerator;</div>
-<div class="line"><a id="l00167" name="l00167"></a><span class="lineno">  167</span>    std::shared_ptr&lt;common::DatabaseLifeCycleManager&gt; dbLifeCycleManager;</div>
-<div class="line"><a id="l00168" name="l00168"></a><span class="lineno">  168</span>};</div>
+<div class="line"><a id="l00150" name="l00150"></a><span class="lineno">  150</span>    <span class="keywordtype">void</span> validatePathInReadOnly() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00151" name="l00151"></a><span class="lineno">  151</span> </div>
+<div class="line"><a id="l00152" name="l00152"></a><span class="lineno">  152</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00153" name="l00153"></a><span class="lineno">  153</span>    std::string databasePath;</div>
+<div class="line"><a id="l00154" name="l00154"></a><span class="lineno">  154</span>    <a class="code hl_struct" href="structkuzu_1_1main_1_1_d_b_config.html">DBConfig</a> dbConfig;</div>
+<div class="line"><a id="l00155" name="l00155"></a><span class="lineno">  155</span>    std::unique_ptr&lt;common::VirtualFileSystem&gt; vfs;</div>
+<div class="line"><a id="l00156" name="l00156"></a><span class="lineno">  156</span>    std::unique_ptr&lt;storage::BufferManager&gt; bufferManager;</div>
+<div class="line"><a id="l00157" name="l00157"></a><span class="lineno">  157</span>    std::unique_ptr&lt;storage::MemoryManager&gt; memoryManager;</div>
+<div class="line"><a id="l00158" name="l00158"></a><span class="lineno">  158</span>    std::unique_ptr&lt;processor::QueryProcessor&gt; queryProcessor;</div>
+<div class="line"><a id="l00159" name="l00159"></a><span class="lineno">  159</span>    std::unique_ptr&lt;catalog::Catalog&gt; <a class="code hl_namespace" href="namespacekuzu_1_1catalog.html">catalog</a>;</div>
+<div class="line"><a id="l00160" name="l00160"></a><span class="lineno">  160</span>    std::unique_ptr&lt;storage::StorageManager&gt; storageManager;</div>
+<div class="line"><a id="l00161" name="l00161"></a><span class="lineno">  161</span>    std::unique_ptr&lt;transaction::TransactionManager&gt; transactionManager;</div>
+<div class="line"><a id="l00162" name="l00162"></a><span class="lineno">  162</span>    std::unique_ptr&lt;common::FileInfo&gt; lockFile;</div>
+<div class="line"><a id="l00163" name="l00163"></a><span class="lineno">  163</span>    std::unique_ptr&lt;DatabaseManager&gt; databaseManager;</div>
+<div class="line"><a id="l00164" name="l00164"></a><span class="lineno">  164</span>    std::unique_ptr&lt;extension::ExtensionManager&gt; extensionManager;</div>
+<div class="line"><a id="l00165" name="l00165"></a><span class="lineno">  165</span>    QueryIDGenerator queryIDGenerator;</div>
+<div class="line"><a id="l00166" name="l00166"></a><span class="lineno">  166</span>    std::shared_ptr&lt;common::DatabaseLifeCycleManager&gt; dbLifeCycleManager;</div>
+<div class="line"><a id="l00167" name="l00167"></a><span class="lineno">  167</span>};</div>
 </div>
-<div class="line"><a id="l00169" name="l00169"></a><span class="lineno">  169</span> </div>
-<div class="line"><a id="l00170" name="l00170"></a><span class="lineno">  170</span>} <span class="comment">// namespace main</span></div>
-<div class="line"><a id="l00171" name="l00171"></a><span class="lineno">  171</span>} <span class="comment">// namespace kuzu</span></div>
+<div class="line"><a id="l00168" name="l00168"></a><span class="lineno">  168</span> </div>
+<div class="line"><a id="l00169" name="l00169"></a><span class="lineno">  169</span>} <span class="comment">// namespace main</span></div>
+<div class="line"><a id="l00170" name="l00170"></a><span class="lineno">  170</span>} <span class="comment">// namespace kuzu</span></div>
 <div class="ttc" id="aapi_8h_html"><div class="ttname"><a href="api_8h.html">api.h</a></div></div>
 <div class="ttc" id="aapi_8h_html_ae723a6ac7b0cca48a22a501787397769"><div class="ttname"><a href="api_8h.html#ae723a6ac7b0cca48a22a501787397769">KUZU_API</a></div><div class="ttdeci">#define KUZU_API</div><div class="ttdef"><b>Definition</b> api.h:25</div></div>
 <div class="ttc" id="aclasskuzu_1_1common_1_1_value_html"><div class="ttname"><a href="classkuzu_1_1common_1_1_value.html">kuzu::common::Value</a></div><div class="ttdef"><b>Definition</b> value.h:26</div></div>

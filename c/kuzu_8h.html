@@ -466,6 +466,8 @@ Functions</h2></td></tr>
 <tr class="memdesc:a7bb21065315fc4464d74ffe1fd6ec294"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the property value of the given node value at the given index.  <br /></td></tr>
 <tr class="memitem:a74e14da912136aa40efb60f2cdb67403" id="r_a74e14da912136aa40efb60f2cdb67403"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a4c6ca4127ef18db01d41608c5e59aa3b">KUZU_C_API</a> <a class="el" href="#a5d32b0237a5f85124a55c496d2fdf92a">kuzu_state</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a74e14da912136aa40efb60f2cdb67403">kuzu_node_val_to_string</a> (<a class="el" href="structkuzu__value.html">kuzu_value</a> *node_val, char **out_result)</td></tr>
 <tr class="memdesc:a74e14da912136aa40efb60f2cdb67403"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts the given node value to string.  <br /></td></tr>
+<tr class="memitem:a342feabe91a5fdc71da7c49be536da09" id="r_a342feabe91a5fdc71da7c49be536da09"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a4c6ca4127ef18db01d41608c5e59aa3b">KUZU_C_API</a> <a class="el" href="#a5d32b0237a5f85124a55c496d2fdf92a">kuzu_state</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a342feabe91a5fdc71da7c49be536da09">kuzu_rel_val_get_id_val</a> (<a class="el" href="structkuzu__value.html">kuzu_value</a> *rel_val, <a class="el" href="structkuzu__value.html">kuzu_value</a> *out_value)</td></tr>
+<tr class="memdesc:a342feabe91a5fdc71da7c49be536da09"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the internal id value of the rel value as a kuzu value.  <br /></td></tr>
 <tr class="memitem:a240039baef75d57f3fbfeb3cedbccd1d" id="r_a240039baef75d57f3fbfeb3cedbccd1d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a4c6ca4127ef18db01d41608c5e59aa3b">KUZU_C_API</a> <a class="el" href="#a5d32b0237a5f85124a55c496d2fdf92a">kuzu_state</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a240039baef75d57f3fbfeb3cedbccd1d">kuzu_rel_val_get_src_id_val</a> (<a class="el" href="structkuzu__value.html">kuzu_value</a> *rel_val, <a class="el" href="structkuzu__value.html">kuzu_value</a> *out_value)</td></tr>
 <tr class="memdesc:a240039baef75d57f3fbfeb3cedbccd1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the internal id value of the source node of the given rel value as a kuzu value.  <br /></td></tr>
 <tr class="memitem:ad93fd4a51fb180223f52b7d71b9b7881" id="r_ad93fd4a51fb180223f52b7d71b9b7881"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#a4c6ca4127ef18db01d41608c5e59aa3b">KUZU_C_API</a> <a class="el" href="#a5d32b0237a5f85124a55c496d2fdf92a">kuzu_state</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad93fd4a51fb180223f52b7d71b9b7881">kuzu_rel_val_get_dst_id_val</a> (<a class="el" href="structkuzu__value.html">kuzu_value</a> *rel_val, <a class="el" href="structkuzu__value.html">kuzu_value</a> *out_value)</td></tr>
@@ -3308,6 +3310,37 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns the internal id value of the destination node of the given rel value as a kuzu value. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir"></td><td class="paramname">rel_val</td><td>The rel value to return. </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">out_value</td><td>The output parameter that will hold the internal id value. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The state indicating the success or failure of the operation. </dd></dl>
+
+</div>
+</div>
+<a id="a342feabe91a5fdc71da7c49be536da09" name="a342feabe91a5fdc71da7c49be536da09"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a342feabe91a5fdc71da7c49be536da09">&#9670;&#160;</a></span>kuzu_rel_val_get_id_val()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="#a4c6ca4127ef18db01d41608c5e59aa3b">KUZU_C_API</a> <a class="el" href="#a5d32b0237a5f85124a55c496d2fdf92a">kuzu_state</a> kuzu_rel_val_get_id_val </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structkuzu__value.html">kuzu_value</a> *</td>          <td class="paramname"><span class="paramname"><em>rel_val</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structkuzu__value.html">kuzu_value</a> *</td>          <td class="paramname"><span class="paramname"><em>out_value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the internal id value of the rel value as a kuzu value. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir"></td><td class="paramname">rel_val</td><td>The rel value to return. </td></tr>

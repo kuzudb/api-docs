@@ -74,7 +74,7 @@ var searchData=
   ['timestamp_5ftz_5ft_71',['timestamp_tz_t',['../structkuzu_1_1common_1_1timestamp__tz__t.html',1,'kuzu::common']]],
   ['to_5foption_5fname_72',['TO_OPTION_NAME',['../structkuzu_1_1common_1_1_copy_constants.html#a62456505e3079be921b5fd8cfc65cf7c',1,'kuzu::common::CopyConstants']]],
   ['tocypher_73',['toCypher',['../structkuzu_1_1common_1_1_c_s_v_option.html#a3c7a4d5a9a56a3be598f60ac599dcf08',1,'kuzu::common::CSVOption']]],
-  ['tooptionsmap_74',['toOptionsMap',['../structkuzu_1_1common_1_1_c_s_v_option.html#ae691f64456fcdd5b189f9dea0bd29652',1,'kuzu::common::CSVOption']]],
+  ['tooptionsmap_74',['toOptionsMap',['../structkuzu_1_1common_1_1_c_s_v_option.html#ad79c6cbf124f04a355f91d31f20d9863',1,'kuzu::common::CSVOption']]],
   ['top_5fk_75',['TOP_K',['../namespacekuzu_1_1processor.html#ae7631a42025df776a7d2fadacf3df54bab29bc294187f1315a7222f6573e99d06',1,'kuzu::processor']]],
   ['top_5fk_5fscan_76',['TOP_K_SCAN',['../namespacekuzu_1_1processor.html#ae7631a42025df776a7d2fadacf3df54ba112960ec830f38b43ab93a2567076bd8',1,'kuzu::processor']]],
   ['toparsablestring_77',['toParsableString',['../structkuzu_1_1common_1_1_expression_type_util.html#aaf739d9ebae2cfd2108ef72316c5f83d',1,'kuzu::common::ExpressionTypeUtil']]],

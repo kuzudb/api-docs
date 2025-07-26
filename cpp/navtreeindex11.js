@@ -1,13 +1,5 @@
 var NAVTREEINDEX11 =
 {
-"structkuzu_1_1common_1_1timestamp__tz__t.html#a38d03887b1eb82cf8b0c199202278a0c":[0,0,0,3,90,1],
-"structkuzu_1_1common_1_1timestamp__tz__t.html#a38d03887b1eb82cf8b0c199202278a0c":[2,0,0,1,89,1],
-"structkuzu_1_1common_1_1timestamp__tz__t.html#a7a608ada7c73386560ebdc59e73a9802":[0,0,0,3,90,0],
-"structkuzu_1_1common_1_1timestamp__tz__t.html#a7a608ada7c73386560ebdc59e73a9802":[2,0,0,1,89,0],
-"structkuzu_1_1common_1_1union__entry__t.html":[0,0,0,3,93],
-"structkuzu_1_1common_1_1union__entry__t.html":[2,0,0,1,92],
-"structkuzu_1_1common_1_1union__entry__t.html#aaafd5b4f1f32dddc7dc7dfc1556c6a2b":[0,0,0,3,93,0],
-"structkuzu_1_1common_1_1union__entry__t.html#aaafd5b4f1f32dddc7dc7dfc1556c6a2b":[2,0,0,1,92,0],
 "structkuzu_1_1function_1_1_binary_comparison_function_wrapper.html":[0,0,0,5,0],
 "structkuzu_1_1function_1_1_binary_comparison_function_wrapper.html":[2,0,0,2,0],
 "structkuzu_1_1function_1_1_binary_function_executor.html":[0,0,0,5,1],
@@ -249,5 +241,13 @@ var NAVTREEINDEX11 =
 "structkuzu_1_1function_1_1_table_func_output.html#a5a3db068c306b269f6461f64a23570bd":[0,0,0,5,28,0],
 "structkuzu_1_1function_1_1_table_func_output.html#a5a3db068c306b269f6461f64a23570bd":[2,0,0,2,28,0],
 "structkuzu_1_1function_1_1_table_func_output.html#a6be1371f01f3cd6bf3ad42f15e00b58d":[0,0,0,5,28,3],
-"structkuzu_1_1function_1_1_table_func_output.html#a6be1371f01f3cd6bf3ad42f15e00b58d":[2,0,0,2,28,3]
+"structkuzu_1_1function_1_1_table_func_output.html#a6be1371f01f3cd6bf3ad42f15e00b58d":[2,0,0,2,28,3],
+"structkuzu_1_1function_1_1_table_func_output.html#ad2becfed2a6b23d78dbbfe4cfe7bc6e5":[0,0,0,5,28,2],
+"structkuzu_1_1function_1_1_table_func_output.html#ad2becfed2a6b23d78dbbfe4cfe7bc6e5":[2,0,0,2,28,2],
+"structkuzu_1_1function_1_1_table_func_shared_state.html":[0,0,0,5,29],
+"structkuzu_1_1function_1_1_table_func_shared_state.html":[2,0,0,2,29],
+"structkuzu_1_1function_1_1_table_func_shared_state.html#a04f6e74b7163c35d1d0ccda88fa788b6":[0,0,0,5,29,7],
+"structkuzu_1_1function_1_1_table_func_shared_state.html#a04f6e74b7163c35d1d0ccda88fa788b6":[2,0,0,2,29,7],
+"structkuzu_1_1function_1_1_table_func_shared_state.html#a1517115d2361670aee45f7e651e19c63":[0,0,0,5,29,1],
+"structkuzu_1_1function_1_1_table_func_shared_state.html#a1517115d2361670aee45f7e651e19c63":[2,0,0,2,29,1]
 };
