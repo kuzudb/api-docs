@@ -30,12 +30,11 @@ var searchData=
   ['localcachemanager_27',['LocalCacheManager',['../classkuzu_1_1transaction_1_1_local_cache_manager.html',1,'kuzu::transaction']]],
   ['localcacheobject_28',['LocalCacheObject',['../classkuzu_1_1transaction_1_1_local_cache_object.html',1,'kuzu::transaction::LocalCacheObject'],['../classkuzu_1_1transaction_1_1_local_cache_object.html#aee00ad1b19ed7713ead370517519ed19',1,'kuzu::transaction::LocalCacheObject::LocalCacheObject()']]],
   ['localstate_29',['localState',['../structkuzu_1_1function_1_1_table_func_input.html#ac024c31fd0e5952062836990850e5fe3',1,'kuzu::function::TableFuncInput']]],
-  ['lock_5ffile_5fsuffix_30',['LOCK_FILE_SUFFIX',['../structkuzu_1_1common_1_1_storage_constants.html#a9701c09d10019d53c340d7e5219c157f',1,'kuzu::common::StorageConstants']]],
-  ['logical_5ftype_5fvec_5ft_31',['logical_type_vec_t',['../namespacekuzu_1_1common.html#a9b254dca32abae9d6bfc464133eeb4c6',1,'kuzu::common']]],
-  ['logicaltype_32',['LogicalType',['../classkuzu_1_1common_1_1_logical_type.html',1,'kuzu::common::LogicalType'],['../classkuzu_1_1common_1_1_logical_type.html#a1ba85b56880ce4176e1d6d31de4140a7',1,'kuzu::common::LogicalType::LogicalType()'],['../classkuzu_1_1common_1_1_logical_type.html#ace23f049e4c69d91b71395032c23a766',1,'kuzu::common::LogicalType::LogicalType(LogicalTypeID typeID, TypeCategory info=TypeCategory::INTERNAL)']]],
-  ['logicaltypeid_33',['LogicalTypeID',['../namespacekuzu_1_1common.html#ae13725cc7f400e324b5f2bc1f53da741',1,'kuzu::common']]],
-  ['logicaltypes_34',['logicalTypes',['../structkuzu_1_1processor_1_1_data_chunk_descriptor.html#aa3acb5d62a0551db65dad240c26e7b12',1,'kuzu::processor::DataChunkDescriptor']]],
-  ['logicaltypeutils_35',['LogicalTypeUtils',['../structkuzu_1_1common_1_1_logical_type_utils.html',1,'kuzu::common::LogicalTypeUtils'],['../classkuzu_1_1common_1_1_logical_type.html#a79c12ab0090076b1864ca2aaebd2baa0',1,'kuzu::common::LogicalType::LogicalTypeUtils()']]],
-  ['lookupfunc_36',['lookupFunc',['../structkuzu_1_1function_1_1_scan_replacement.html#acd0f41db17731f360c34501def858f0a',1,'kuzu::function::ScanReplacement']]],
-  ['low_37',['low',['../structkuzu_1_1common_1_1int128__t.html#ac3306a9b6f2849641b45d68135775b64',1,'kuzu::common::int128_t']]]
+  ['logical_5ftype_5fvec_5ft_30',['logical_type_vec_t',['../namespacekuzu_1_1common.html#a9b254dca32abae9d6bfc464133eeb4c6',1,'kuzu::common']]],
+  ['logicaltype_31',['LogicalType',['../classkuzu_1_1common_1_1_logical_type.html',1,'kuzu::common::LogicalType'],['../classkuzu_1_1common_1_1_logical_type.html#a1ba85b56880ce4176e1d6d31de4140a7',1,'kuzu::common::LogicalType::LogicalType()'],['../classkuzu_1_1common_1_1_logical_type.html#ace23f049e4c69d91b71395032c23a766',1,'kuzu::common::LogicalType::LogicalType(LogicalTypeID typeID, TypeCategory info=TypeCategory::INTERNAL)']]],
+  ['logicaltypeid_32',['LogicalTypeID',['../namespacekuzu_1_1common.html#ae13725cc7f400e324b5f2bc1f53da741',1,'kuzu::common']]],
+  ['logicaltypes_33',['logicalTypes',['../structkuzu_1_1processor_1_1_data_chunk_descriptor.html#aa3acb5d62a0551db65dad240c26e7b12',1,'kuzu::processor::DataChunkDescriptor']]],
+  ['logicaltypeutils_34',['LogicalTypeUtils',['../structkuzu_1_1common_1_1_logical_type_utils.html',1,'kuzu::common::LogicalTypeUtils'],['../classkuzu_1_1common_1_1_logical_type.html#a79c12ab0090076b1864ca2aaebd2baa0',1,'kuzu::common::LogicalType::LogicalTypeUtils()']]],
+  ['lookupfunc_35',['lookupFunc',['../structkuzu_1_1function_1_1_scan_replacement.html#acd0f41db17731f360c34501def858f0a',1,'kuzu::function::ScanReplacement']]],
+  ['low_36',['low',['../structkuzu_1_1common_1_1int128__t.html#ac3306a9b6f2849641b45d68135775b64',1,'kuzu::common::int128_t']]]
 ];

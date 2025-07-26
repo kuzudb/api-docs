@@ -1,13 +1,5 @@
 var NAVTREEINDEX10 =
 {
-"structkuzu_1_1common_1_1int128__t.html#a964950eff4567e24efc20fb211e6792f":[0,0,0,3,36,7],
-"structkuzu_1_1common_1_1int128__t.html#a964950eff4567e24efc20fb211e6792f":[2,0,0,1,35,7],
-"structkuzu_1_1common_1_1int128__t.html#a96a28b1ad8657daf6a2697cb9169f5e4":[0,0,0,3,36,4],
-"structkuzu_1_1common_1_1int128__t.html#a96a28b1ad8657daf6a2697cb9169f5e4":[2,0,0,1,35,4],
-"structkuzu_1_1common_1_1int128__t.html#a9ebb5747f4b61fe3171835948b1b5f50":[0,0,0,3,36,10],
-"structkuzu_1_1common_1_1int128__t.html#a9ebb5747f4b61fe3171835948b1b5f50":[2,0,0,1,35,10],
-"structkuzu_1_1common_1_1int128__t.html#aa6184f9fbc6eff012ccdf3e26a2393f5":[0,0,0,3,36,14],
-"structkuzu_1_1common_1_1int128__t.html#aa6184f9fbc6eff012ccdf3e26a2393f5":[2,0,0,1,35,14],
 "structkuzu_1_1common_1_1int128__t.html#aaea8e99b46b92d4036f206c3ea426fd4":[0,0,0,3,36,11],
 "structkuzu_1_1common_1_1int128__t.html#aaea8e99b46b92d4036f206c3ea426fd4":[2,0,0,1,35,11],
 "structkuzu_1_1common_1_1int128__t.html#ab09d3e015e7c9fc5e45e4797a4fc15d2":[0,0,0,3,36,5],
@@ -249,5 +241,13 @@ var NAVTREEINDEX10 =
 "structkuzu_1_1common_1_1timestamp__t.html#afe7097364654f1e5d46393eda403f596":[0,0,0,3,89,13],
 "structkuzu_1_1common_1_1timestamp__t.html#afe7097364654f1e5d46393eda403f596":[2,0,0,1,88,13],
 "structkuzu_1_1common_1_1timestamp__tz__t.html":[0,0,0,3,90],
-"structkuzu_1_1common_1_1timestamp__tz__t.html":[2,0,0,1,89]
+"structkuzu_1_1common_1_1timestamp__tz__t.html":[2,0,0,1,89],
+"structkuzu_1_1common_1_1timestamp__tz__t.html#a38d03887b1eb82cf8b0c199202278a0c":[0,0,0,3,90,1],
+"structkuzu_1_1common_1_1timestamp__tz__t.html#a38d03887b1eb82cf8b0c199202278a0c":[2,0,0,1,89,1],
+"structkuzu_1_1common_1_1timestamp__tz__t.html#a7a608ada7c73386560ebdc59e73a9802":[0,0,0,3,90,0],
+"structkuzu_1_1common_1_1timestamp__tz__t.html#a7a608ada7c73386560ebdc59e73a9802":[2,0,0,1,89,0],
+"structkuzu_1_1common_1_1union__entry__t.html":[0,0,0,3,93],
+"structkuzu_1_1common_1_1union__entry__t.html":[2,0,0,1,92],
+"structkuzu_1_1common_1_1union__entry__t.html#aaafd5b4f1f32dddc7dc7dfc1556c6a2b":[0,0,0,3,93,0],
+"structkuzu_1_1common_1_1union__entry__t.html#aaafd5b4f1f32dddc7dc7dfc1556c6a2b":[2,0,0,1,92,0]
 };

@@ -9,7 +9,6 @@ var classkuzu_1_1binder_1_1_expression =
     [ "cast", "classkuzu_1_1binder_1_1_expression.html#aaf86dbefdc56a57859213f28984694e3", null ],
     [ "constCast", "classkuzu_1_1binder_1_1_expression.html#a4733d6d07628c4054b4faafda93f1206", null ],
     [ "constPtrCast", "classkuzu_1_1binder_1_1_expression.html#a0688667aea6b9106f8cab289e0e6ccc0", null ],
-    [ "copy", "classkuzu_1_1binder_1_1_expression.html#a6350826e1e752dabe796861e2475498c", null ],
     [ "DELETE_COPY_DEFAULT_MOVE", "classkuzu_1_1binder_1_1_expression.html#aa6403f7c0210a607b73cecf78b123a0d", null ],
     [ "getAlias", "classkuzu_1_1binder_1_1_expression.html#a790973d914b9fc3d39dfe993c72f8a55", null ],
     [ "getChild", "classkuzu_1_1binder_1_1_expression.html#a3a22234e17226353e8c5238ac17f2edc", null ],

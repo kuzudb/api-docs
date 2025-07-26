@@ -1,13 +1,5 @@
 var NAVTREEINDEX12 =
 {
-"structkuzu_1_1function_1_1_table_func_output.html#ad2becfed2a6b23d78dbbfe4cfe7bc6e5":[0,0,0,5,28,2],
-"structkuzu_1_1function_1_1_table_func_output.html#ad2becfed2a6b23d78dbbfe4cfe7bc6e5":[2,0,0,2,28,2],
-"structkuzu_1_1function_1_1_table_func_shared_state.html":[0,0,0,5,29],
-"structkuzu_1_1function_1_1_table_func_shared_state.html":[2,0,0,2,29],
-"structkuzu_1_1function_1_1_table_func_shared_state.html#a04f6e74b7163c35d1d0ccda88fa788b6":[0,0,0,5,29,7],
-"structkuzu_1_1function_1_1_table_func_shared_state.html#a04f6e74b7163c35d1d0ccda88fa788b6":[2,0,0,2,29,7],
-"structkuzu_1_1function_1_1_table_func_shared_state.html#a1517115d2361670aee45f7e651e19c63":[0,0,0,5,29,1],
-"structkuzu_1_1function_1_1_table_func_shared_state.html#a1517115d2361670aee45f7e651e19c63":[2,0,0,2,29,1],
 "structkuzu_1_1function_1_1_table_func_shared_state.html#a5c5dfd223020c9817c09c83c41e4c712":[0,0,0,5,29,5],
 "structkuzu_1_1function_1_1_table_func_shared_state.html#a5c5dfd223020c9817c09c83c41e4c712":[2,0,0,2,29,5],
 "structkuzu_1_1function_1_1_table_func_shared_state.html#a76ce1da8d74e95e1dd675c52aabf6a6f":[0,0,0,5,29,3],
@@ -249,5 +241,13 @@ var NAVTREEINDEX12 =
 "structkuzu_1_1processor_1_1_copy_from_file_error.html#a5db1589c0092f39700b98db700812b2d":[0,0,0,10,0,5],
 "structkuzu_1_1processor_1_1_copy_from_file_error.html#a5db1589c0092f39700b98db700812b2d":[2,0,0,5,0,5],
 "structkuzu_1_1processor_1_1_copy_from_file_error.html#aa73aefd210c8d9e420c7a7204457cd15":[0,0,0,10,0,2],
-"structkuzu_1_1processor_1_1_copy_from_file_error.html#aa73aefd210c8d9e420c7a7204457cd15":[2,0,0,5,0,2]
+"structkuzu_1_1processor_1_1_copy_from_file_error.html#aa73aefd210c8d9e420c7a7204457cd15":[2,0,0,5,0,2],
+"structkuzu_1_1processor_1_1_copy_from_file_error.html#ae6ed814276f73a9d170de10eb2b893ed":[0,0,0,10,0,0],
+"structkuzu_1_1processor_1_1_copy_from_file_error.html#ae6ed814276f73a9d170de10eb2b893ed":[2,0,0,5,0,0],
+"structkuzu_1_1processor_1_1_data_chunk_descriptor.html":[0,0,0,10,1],
+"structkuzu_1_1processor_1_1_data_chunk_descriptor.html":[2,0,0,5,1],
+"structkuzu_1_1processor_1_1_data_chunk_descriptor.html#a2d5e62c242e1f08dc745dc579366a41a":[0,0,0,10,1,3],
+"structkuzu_1_1processor_1_1_data_chunk_descriptor.html#a2d5e62c242e1f08dc745dc579366a41a":[2,0,0,5,1,3],
+"structkuzu_1_1processor_1_1_data_chunk_descriptor.html#a673f2e30244f266497ec76cbb75237d5":[0,0,0,10,1,2],
+"structkuzu_1_1processor_1_1_data_chunk_descriptor.html#a673f2e30244f266497ec76cbb75237d5":[2,0,0,5,1,2]
 };
