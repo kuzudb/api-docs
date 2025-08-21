@@ -106,6 +106,14 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:affc81746d037fa5276536b784b7aa1ac" id="r_affc81746d037fa5276536b784b7aa1ac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="api_8h.html#ae723a6ac7b0cca48a22a501787397769">KUZU_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#affc81746d037fa5276536b784b7aa1ac">registerFileSystem</a> (std::unique_ptr&lt; common::FileSystem &gt; fs)</td></tr>
 <tr class="memitem:a6423f56e9e82aacfa09757246d317833" id="r_a6423f56e9e82aacfa09757246d317833"><td class="memItemLeft" align="right" valign="top"><a class="el" href="api_8h.html#ae723a6ac7b0cca48a22a501787397769">KUZU_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6423f56e9e82aacfa09757246d317833">registerStorageExtension</a> (std::string name, std::unique_ptr&lt; storage::StorageExtension &gt; storageExtension)</td></tr>
 <tr class="memitem:a89fc135e0668e2a467c2167da7103caf" id="r_a89fc135e0668e2a467c2167da7103caf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="api_8h.html#ae723a6ac7b0cca48a22a501787397769">KUZU_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a89fc135e0668e2a467c2167da7103caf">addExtensionOption</a> (std::string name, <a class="el" href="namespacekuzu_1_1common.html#ae13725cc7f400e324b5f2bc1f53da741">common::LogicalTypeID</a> type, <a class="el" href="classkuzu_1_1common_1_1_value.html">common::Value</a> defaultValue, bool isConfidential=false)</td></tr>
+<tr class="memitem:a46190eda2182aa980d8a71cd0d9e066d" id="r_a46190eda2182aa980d8a71cd0d9e066d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="api_8h.html#ae723a6ac7b0cca48a22a501787397769">KUZU_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a46190eda2182aa980d8a71cd0d9e066d">addTransformerExtension</a> (std::unique_ptr&lt; extension::TransformerExtension &gt; transformerExtension)</td></tr>
+<tr class="memitem:a1139cd05e94a183399ab451b1e12327a" id="r_a1139cd05e94a183399ab451b1e12327a"><td class="memItemLeft" align="right" valign="top">std::vector&lt; extension::TransformerExtension * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1139cd05e94a183399ab451b1e12327a">getTransformerExtensions</a> ()</td></tr>
+<tr class="memitem:af5fcbf5ad06e8e1520d773338e057ef6" id="r_af5fcbf5ad06e8e1520d773338e057ef6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="api_8h.html#ae723a6ac7b0cca48a22a501787397769">KUZU_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af5fcbf5ad06e8e1520d773338e057ef6">addBinderExtension</a> (std::unique_ptr&lt; extension::BinderExtension &gt; transformerExtension)</td></tr>
+<tr class="memitem:a1233969dbfed8d6d2c96166876403248" id="r_a1233969dbfed8d6d2c96166876403248"><td class="memItemLeft" align="right" valign="top">std::vector&lt; extension::BinderExtension * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1233969dbfed8d6d2c96166876403248">getBinderExtensions</a> ()</td></tr>
+<tr class="memitem:a10c46749b1bf3b4bf976a74acb29206e" id="r_a10c46749b1bf3b4bf976a74acb29206e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="api_8h.html#ae723a6ac7b0cca48a22a501787397769">KUZU_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a10c46749b1bf3b4bf976a74acb29206e">addPlannerExtension</a> (std::unique_ptr&lt; extension::PlannerExtension &gt; plannerExtension)</td></tr>
+<tr class="memitem:ab1901f4bd1d599160e92ea32ee38f2b3" id="r_ab1901f4bd1d599160e92ea32ee38f2b3"><td class="memItemLeft" align="right" valign="top">std::vector&lt; extension::PlannerExtension * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab1901f4bd1d599160e92ea32ee38f2b3">getPlannerExtensions</a> ()</td></tr>
+<tr class="memitem:ac15e86059a8703fbe0e75455fc791d32" id="r_ac15e86059a8703fbe0e75455fc791d32"><td class="memItemLeft" align="right" valign="top"><a class="el" href="api_8h.html#ae723a6ac7b0cca48a22a501787397769">KUZU_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac15e86059a8703fbe0e75455fc791d32">addMapperExtension</a> (std::unique_ptr&lt; extension::MapperExtension &gt; mapperExtension)</td></tr>
+<tr class="memitem:ad7004b89b02940eee582f6d4dbd3b50f" id="r_ad7004b89b02940eee582f6d4dbd3b50f"><td class="memItemLeft" align="right" valign="top">std::vector&lt; extension::MapperExtension * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad7004b89b02940eee582f6d4dbd3b50f">getMapperExtensions</a> ()</td></tr>
 <tr class="memitem:aead78f802ae8ce26c21a553ffb872261" id="r_aead78f802ae8ce26c21a553ffb872261"><td class="memItemLeft" align="right" valign="top"><a class="el" href="api_8h.html#ae723a6ac7b0cca48a22a501787397769">KUZU_API</a> catalog::Catalog *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aead78f802ae8ce26c21a553ffb872261">getCatalog</a> ()</td></tr>
 <tr class="memitem:a6b1fcfee54bbb3951650512e6d60baa3" id="r_a6b1fcfee54bbb3951650512e6d60baa3"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structkuzu_1_1main_1_1_d_b_config.html">DBConfig</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6b1fcfee54bbb3951650512e6d60baa3">getConfig</a> () const</td></tr>
 <tr class="memitem:a1ef2fc5dab2242e9f0861b04823cc54d" id="r_a1ef2fc5dab2242e9f0861b04823cc54d"><td class="memItemLeft" align="right" valign="top">std::vector&lt; storage::StorageExtension * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1ef2fc5dab2242e9f0861b04823cc54d">getStorageExtensions</a> ()</td></tr>
@@ -183,6 +191,23 @@ Friends</h2></td></tr>
 </div>
 </div>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="af5fcbf5ad06e8e1520d773338e057ef6" name="af5fcbf5ad06e8e1520d773338e057ef6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af5fcbf5ad06e8e1520d773338e057ef6">&#9670;&#160;</a></span>addBinderExtension()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="api_8h.html#ae723a6ac7b0cca48a22a501787397769">KUZU_API</a> void kuzu::main::Database::addBinderExtension </td>
+          <td>(</td>
+          <td class="paramtype">std::unique_ptr&lt; extension::BinderExtension &gt;</td>          <td class="paramname"><span class="paramname"><em>transformerExtension</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a89fc135e0668e2a467c2167da7103caf" name="a89fc135e0668e2a467c2167da7103caf"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a89fc135e0668e2a467c2167da7103caf">&#9670;&#160;</a></span>addExtensionOption()</h2>
 
@@ -208,6 +233,74 @@ Friends</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>isConfidential</em></span><span class="paramdefsep"> = </span><span class="paramdefval">false</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac15e86059a8703fbe0e75455fc791d32" name="ac15e86059a8703fbe0e75455fc791d32"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac15e86059a8703fbe0e75455fc791d32">&#9670;&#160;</a></span>addMapperExtension()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="api_8h.html#ae723a6ac7b0cca48a22a501787397769">KUZU_API</a> void kuzu::main::Database::addMapperExtension </td>
+          <td>(</td>
+          <td class="paramtype">std::unique_ptr&lt; extension::MapperExtension &gt;</td>          <td class="paramname"><span class="paramname"><em>mapperExtension</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a10c46749b1bf3b4bf976a74acb29206e" name="a10c46749b1bf3b4bf976a74acb29206e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a10c46749b1bf3b4bf976a74acb29206e">&#9670;&#160;</a></span>addPlannerExtension()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="api_8h.html#ae723a6ac7b0cca48a22a501787397769">KUZU_API</a> void kuzu::main::Database::addPlannerExtension </td>
+          <td>(</td>
+          <td class="paramtype">std::unique_ptr&lt; extension::PlannerExtension &gt;</td>          <td class="paramname"><span class="paramname"><em>plannerExtension</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a46190eda2182aa980d8a71cd0d9e066d" name="a46190eda2182aa980d8a71cd0d9e066d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46190eda2182aa980d8a71cd0d9e066d">&#9670;&#160;</a></span>addTransformerExtension()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="api_8h.html#ae723a6ac7b0cca48a22a501787397769">KUZU_API</a> void kuzu::main::Database::addTransformerExtension </td>
+          <td>(</td>
+          <td class="paramtype">std::unique_ptr&lt; extension::TransformerExtension &gt;</td>          <td class="paramname"><span class="paramname"><em>transformerExtension</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1233969dbfed8d6d2c96166876403248" name="a1233969dbfed8d6d2c96166876403248"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1233969dbfed8d6d2c96166876403248">&#9670;&#160;</a></span>getBinderExtensions()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; extension::BinderExtension * &gt; kuzu::main::Database::getBinderExtensions </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -264,6 +357,23 @@ Friends</h2></td></tr>
 
 </div>
 </div>
+<a id="ad7004b89b02940eee582f6d4dbd3b50f" name="ad7004b89b02940eee582f6d4dbd3b50f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad7004b89b02940eee582f6d4dbd3b50f">&#9670;&#160;</a></span>getMapperExtensions()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; extension::MapperExtension * &gt; kuzu::main::Database::getMapperExtensions </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="aa83e94d14ce275738198387c1f8945b5" name="aa83e94d14ce275738198387c1f8945b5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa83e94d14ce275738198387c1f8945b5">&#9670;&#160;</a></span>getNextQueryID()</h2>
 
@@ -281,6 +391,23 @@ Friends</h2></td></tr>
 
 </div>
 </div>
+<a id="ab1901f4bd1d599160e92ea32ee38f2b3" name="ab1901f4bd1d599160e92ea32ee38f2b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab1901f4bd1d599160e92ea32ee38f2b3">&#9670;&#160;</a></span>getPlannerExtensions()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; extension::PlannerExtension * &gt; kuzu::main::Database::getPlannerExtensions </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a1ef2fc5dab2242e9f0861b04823cc54d" name="a1ef2fc5dab2242e9f0861b04823cc54d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1ef2fc5dab2242e9f0861b04823cc54d">&#9670;&#160;</a></span>getStorageExtensions()</h2>
 
@@ -289,6 +416,23 @@ Friends</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">std::vector&lt; storage::StorageExtension * &gt; kuzu::main::Database::getStorageExtensions </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1139cd05e94a183399ab451b1e12327a" name="a1139cd05e94a183399ab451b1e12327a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1139cd05e94a183399ab451b1e12327a">&#9670;&#160;</a></span>getTransformerExtensions()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; extension::TransformerExtension * &gt; kuzu::main::Database::getTransformerExtensions </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>

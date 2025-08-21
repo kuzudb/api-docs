@@ -72,10 +72,11 @@ var searchData=
   ['extension_69',['EXTENSION',['../namespacekuzu_1_1main.html#a3713a055e67675e295dc717fc92c5ecfa1d1cd00b7cd275ef0629c38d0eb70b4d',1,'kuzu::main::EXTENSION'],['../namespacekuzu_1_1common.html#afeef9a771d4ab45b546f105ba325a557a1d1cd00b7cd275ef0629c38d0eb70b4d',1,'kuzu::common::EXTENSION']]],
   ['extension_3a_3aextensionmanager_70',['ExtensionManager',['../classkuzu_1_1main_1_1_client_context.html#a9dfd88aa9f22dfc9e0b127b5d425ca2b',1,'kuzu::main::ClientContext']]],
   ['extension_3a_3aextensionutils_71',['ExtensionUtils',['../classkuzu_1_1main_1_1_database.html#a6006736d49256f99a1bc392e95d3d6e4',1,'kuzu::main::Database']]],
-  ['extensionoption_72',['ExtensionOption',['../structkuzu_1_1main_1_1_extension_option.html',1,'kuzu::main::ExtensionOption'],['../structkuzu_1_1main_1_1_extension_option.html#af38f9cfcea8dc8dd073d0b2a46889987',1,'kuzu::main::ExtensionOption::ExtensionOption()']]],
-  ['extractyieldvariables_73',['extractYieldVariables',['../structkuzu_1_1function_1_1_table_function.html#ac5d34abc9cbf7d6bf62fb5334c4388da',1,'kuzu::function::TableFunction']]],
-  ['extrainput_74',['extraInput',['../structkuzu_1_1function_1_1_table_func_bind_input.html#a02e536d95cabd80826daeb12662acb6a',1,'kuzu::function::TableFuncBindInput']]],
-  ['extrascantablefuncbindinput_75',['ExtraScanTableFuncBindInput',['../structkuzu_1_1function_1_1_extra_scan_table_func_bind_input.html',1,'kuzu::function']]],
-  ['extratablefuncbindinput_76',['ExtraTableFuncBindInput',['../structkuzu_1_1function_1_1_extra_table_func_bind_input.html',1,'kuzu::function']]],
-  ['extratypeinfo_77',['ExtraTypeInfo',['../classkuzu_1_1common_1_1_extra_type_info.html',1,'kuzu::common']]]
+  ['extension_5fclause_72',['EXTENSION_CLAUSE',['../namespacekuzu_1_1processor.html#ae7631a42025df776a7d2fadacf3df54ba236f40fa2fba276ec083e78788c7bd7c',1,'kuzu::processor::EXTENSION_CLAUSE'],['../namespacekuzu_1_1common.html#afeef9a771d4ab45b546f105ba325a557a236f40fa2fba276ec083e78788c7bd7c',1,'kuzu::common::EXTENSION_CLAUSE']]],
+  ['extensionoption_73',['ExtensionOption',['../structkuzu_1_1main_1_1_extension_option.html',1,'kuzu::main::ExtensionOption'],['../structkuzu_1_1main_1_1_extension_option.html#af38f9cfcea8dc8dd073d0b2a46889987',1,'kuzu::main::ExtensionOption::ExtensionOption()']]],
+  ['extractyieldvariables_74',['extractYieldVariables',['../structkuzu_1_1function_1_1_table_function.html#ac5d34abc9cbf7d6bf62fb5334c4388da',1,'kuzu::function::TableFunction']]],
+  ['extrainput_75',['extraInput',['../structkuzu_1_1function_1_1_table_func_bind_input.html#a02e536d95cabd80826daeb12662acb6a',1,'kuzu::function::TableFuncBindInput']]],
+  ['extrascantablefuncbindinput_76',['ExtraScanTableFuncBindInput',['../structkuzu_1_1function_1_1_extra_scan_table_func_bind_input.html',1,'kuzu::function']]],
+  ['extratablefuncbindinput_77',['ExtraTableFuncBindInput',['../structkuzu_1_1function_1_1_extra_table_func_bind_input.html',1,'kuzu::function']]],
+  ['extratypeinfo_78',['ExtraTypeInfo',['../classkuzu_1_1common_1_1_extra_type_info.html',1,'kuzu::common']]]
 ];

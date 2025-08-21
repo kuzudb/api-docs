@@ -99,7 +99,10 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a143e45a3ddb96d499602f79d6066c45b" id="r_a143e45a3ddb96d499602f79d6066c45b"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="namespacekuzu_1_1common.html#a9e09e1363e63b9dff8995a38c3b8ab0f">union_field_idx_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a143e45a3ddb96d499602f79d6066c45b">getInternalFieldIdx</a> (<a class="el" href="namespacekuzu_1_1common.html#a9e09e1363e63b9dff8995a38c3b8ab0f">union_field_idx_t</a> idx)</td></tr>
 <tr class="memitem:a7a560db2d820bf5156b5b39e6a0535f8" id="r_a7a560db2d820bf5156b5b39e6a0535f8"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7a560db2d820bf5156b5b39e6a0535f8">getFieldName</a> (const <a class="el" href="classkuzu_1_1common_1_1_logical_type.html">LogicalType</a> &amp;type, <a class="el" href="namespacekuzu_1_1common.html#a9e09e1363e63b9dff8995a38c3b8ab0f">union_field_idx_t</a> idx)</td></tr>
 <tr class="memitem:aa533d88f6ea5db1eff0bbcf212b946e9" id="r_aa533d88f6ea5db1eff0bbcf212b946e9"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="classkuzu_1_1common_1_1_logical_type.html">LogicalType</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa533d88f6ea5db1eff0bbcf212b946e9">getFieldType</a> (const <a class="el" href="classkuzu_1_1common_1_1_logical_type.html">LogicalType</a> &amp;type, <a class="el" href="namespacekuzu_1_1common.html#a9e09e1363e63b9dff8995a38c3b8ab0f">union_field_idx_t</a> idx)</td></tr>
+<tr class="memitem:a990829061f98fb8b19dc4b10d07609fa" id="r_a990829061f98fb8b19dc4b10d07609fa"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="classkuzu_1_1common_1_1_logical_type.html">LogicalType</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a990829061f98fb8b19dc4b10d07609fa">getFieldType</a> (const <a class="el" href="classkuzu_1_1common_1_1_logical_type.html">LogicalType</a> &amp;type, const std::string &amp;key)</td></tr>
 <tr class="memitem:ae90b15a3a12659987e65d8629d26a583" id="r_ae90b15a3a12659987e65d8629d26a583"><td class="memItemLeft" align="right" valign="top">static uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae90b15a3a12659987e65d8629d26a583">getNumFields</a> (const <a class="el" href="classkuzu_1_1common_1_1_logical_type.html">LogicalType</a> &amp;type)</td></tr>
+<tr class="memitem:a795a18e19ee2bf669134c11fae4619c4" id="r_a795a18e19ee2bf669134c11fae4619c4"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a795a18e19ee2bf669134c11fae4619c4">hasField</a> (const <a class="el" href="classkuzu_1_1common_1_1_logical_type.html">LogicalType</a> &amp;type, const std::string &amp;key)</td></tr>
+<tr class="memitem:ae941fba5f6a72f909b207eb9d1c05fc2" id="r_ae941fba5f6a72f909b207eb9d1c05fc2"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="namespacekuzu_1_1common.html#a9e09e1363e63b9dff8995a38c3b8ab0f">union_field_idx_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae941fba5f6a72f909b207eb9d1c05fc2">getFieldIdx</a> (const <a class="el" href="classkuzu_1_1common_1_1_logical_type.html">LogicalType</a> &amp;type, const std::string &amp;key)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-static-attribs" class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
@@ -108,6 +111,35 @@ Static Public Attributes</h2></td></tr>
 <tr class="memitem:a79fcf5b031284a31070234307b5637fd" id="r_a79fcf5b031284a31070234307b5637fd"><td class="memItemLeft" align="right" valign="top">static constexpr char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a79fcf5b031284a31070234307b5637fd">TAG_FIELD_NAME</a> [] = &quot;tag&quot;</td></tr>
 </table>
 <a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Member Function Documentation</h2>
+<a id="ae941fba5f6a72f909b207eb9d1c05fc2" name="ae941fba5f6a72f909b207eb9d1c05fc2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae941fba5f6a72f909b207eb9d1c05fc2">&#9670;&#160;</a></span>getFieldIdx()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespacekuzu_1_1common.html#a9e09e1363e63b9dff8995a38c3b8ab0f">union_field_idx_t</a> kuzu::common::UnionType::getFieldIdx </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classkuzu_1_1common_1_1_logical_type.html">LogicalType</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>type</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>key</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a7a560db2d820bf5156b5b39e6a0535f8" name="a7a560db2d820bf5156b5b39e6a0535f8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7a560db2d820bf5156b5b39e6a0535f8">&#9670;&#160;</a></span>getFieldName()</h2>
 
@@ -137,8 +169,37 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a990829061f98fb8b19dc4b10d07609fa" name="a990829061f98fb8b19dc4b10d07609fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a990829061f98fb8b19dc4b10d07609fa">&#9670;&#160;</a></span>getFieldType() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classkuzu_1_1common_1_1_logical_type.html">LogicalType</a> &amp; kuzu::common::UnionType::getFieldType </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classkuzu_1_1common_1_1_logical_type.html">LogicalType</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>type</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>key</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="aa533d88f6ea5db1eff0bbcf212b946e9" name="aa533d88f6ea5db1eff0bbcf212b946e9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa533d88f6ea5db1eff0bbcf212b946e9">&#9670;&#160;</a></span>getFieldType()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aa533d88f6ea5db1eff0bbcf212b946e9">&#9670;&#160;</a></span>getFieldType() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -205,6 +266,35 @@ Static Public Attributes</h2></td></tr>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classkuzu_1_1common_1_1_logical_type.html">LogicalType</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>type</em></span></td><td>)</td>
           <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a795a18e19ee2bf669134c11fae4619c4" name="a795a18e19ee2bf669134c11fae4619c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a795a18e19ee2bf669134c11fae4619c4">&#9670;&#160;</a></span>hasField()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool kuzu::common::UnionType::hasField </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classkuzu_1_1common_1_1_logical_type.html">LogicalType</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>type</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>key</em></span>&#160;)</td>
         </tr>
       </table>
   </td>

@@ -45,6 +45,7 @@ var classkuzu_1_1common_1_1_value =
     [ "createValue", "classkuzu_1_1common_1_1_value.html#a4293d4560a8cd7ff6795cda1ce1e7989", null ],
     [ "createValue", "classkuzu_1_1common_1_1_value.html#a0f1aef0b46816d9fea3474ea91ad8da2", null ],
     [ "createValue", "classkuzu_1_1common_1_1_value.html#ac485cad5920cb5a707feca154857813f", null ],
+    [ "createValue", "classkuzu_1_1common_1_1_value.html#ac6931327701acbdccb72b9b87c40eb78", null ],
     [ "createValue", "classkuzu_1_1common_1_1_value.html#abf69b80776bdc5c847df9b6ca9a05d93", null ],
     [ "createValue", "classkuzu_1_1common_1_1_value.html#ab875886cf2b0006660a79ad1ac38e51f", null ],
     [ "createValue", "classkuzu_1_1common_1_1_value.html#a309e0cffd8e1eed929ada165e1b1ce28", null ],

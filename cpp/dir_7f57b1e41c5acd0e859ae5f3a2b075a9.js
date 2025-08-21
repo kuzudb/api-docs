@@ -52,6 +52,7 @@ var dir_7f57b1e41c5acd0e859ae5f3a2b075a9 =
     [ "physical_operator.h", "physical__operator_8h.html", "physical__operator_8h" ],
     [ "pointer_function_executor.h", "pointer__function__executor_8h.html", "pointer__function__executor_8h" ],
     [ "prepared_statement.h", "prepared__statement_8h.html", "prepared__statement_8h" ],
+    [ "prepared_statement_manager.h", "prepared__statement__manager_8h.html", "prepared__statement__manager_8h" ],
     [ "query_result.h", "query__result_8h.html", "query__result_8h" ],
     [ "query_summary.h", "query__summary_8h.html", "query__summary_8h" ],
     [ "recursive_rel.h", "recursive__rel_8h.html", "recursive__rel_8h" ],

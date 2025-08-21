@@ -41,6 +41,7 @@ var namespacekuzu_1_1processor =
       [ "DUMMY_SIMPLE_SINK", "namespacekuzu_1_1processor.html#ae7631a42025df776a7d2fadacf3df54baa4a60b8bd2886ca1bdb79d42c6fefb60", null ],
       [ "EMPTY_RESULT", "namespacekuzu_1_1processor.html#ae7631a42025df776a7d2fadacf3df54ba0c91849687d96da726b761e840ecfa9d", null ],
       [ "EXPORT_DATABASE", "namespacekuzu_1_1processor.html#ae7631a42025df776a7d2fadacf3df54bacd08a293dd27950b13838f37aed33a40", null ],
+      [ "EXTENSION_CLAUSE", "namespacekuzu_1_1processor.html#ae7631a42025df776a7d2fadacf3df54ba236f40fa2fba276ec083e78788c7bd7c", null ],
       [ "FILTER", "namespacekuzu_1_1processor.html#ae7631a42025df776a7d2fadacf3df54bae75ab17a550f46adbbe891b819cf951d", null ],
       [ "FLATTEN", "namespacekuzu_1_1processor.html#ae7631a42025df776a7d2fadacf3df54ba67fe3c3b350234a9755db0deddd116cf", null ],
       [ "HASH_JOIN_BUILD", "namespacekuzu_1_1processor.html#ae7631a42025df776a7d2fadacf3df54ba8ab0d6d8bd3db201db8951c97ecec969", null ],

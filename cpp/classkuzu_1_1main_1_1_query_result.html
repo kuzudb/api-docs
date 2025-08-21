@@ -118,11 +118,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a306ededce70c0d170c173854c9d5d853" id="r_a306ededce70c0d170c173854c9d5d853"><td class="memItemLeft" align="right" valign="top"><a class="el" href="api_8h.html#ae723a6ac7b0cca48a22a501787397769">KUZU_API</a> std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a306ededce70c0d170c173854c9d5d853">toString</a> () const</td></tr>
 <tr class="memitem:adca96bf0eb9ba28997a5a77dda3bc984" id="r_adca96bf0eb9ba28997a5a77dda3bc984"><td class="memItemLeft" align="right" valign="top"><a class="el" href="api_8h.html#ae723a6ac7b0cca48a22a501787397769">KUZU_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adca96bf0eb9ba28997a5a77dda3bc984">resetIterator</a> ()</td></tr>
 <tr class="memdesc:adca96bf0eb9ba28997a5a77dda3bc984"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resets the result tuple iterator.  <br /></td></tr>
-<tr class="memitem:af7985021671b322224ee82a4607be52b" id="r_af7985021671b322224ee82a4607be52b"><td class="memItemLeft" align="right" valign="top">processor::FactorizedTable *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af7985021671b322224ee82a4607be52b">getTable</a> ()</td></tr>
 <tr class="memitem:ad28a78f51da343268570564b8d8e03cc" id="r_ad28a78f51da343268570564b8d8e03cc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="api_8h.html#ae723a6ac7b0cca48a22a501787397769">KUZU_API</a> std::unique_ptr&lt; <a class="el" href="struct_arrow_schema.html">ArrowSchema</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad28a78f51da343268570564b8d8e03cc">getArrowSchema</a> () const</td></tr>
 <tr class="memdesc:ad28a78f51da343268570564b8d8e03cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the arrow schema of the query result.  <br /></td></tr>
 <tr class="memitem:a7355df3325f7d6d7bae9eff65bb763a5" id="r_a7355df3325f7d6d7bae9eff65bb763a5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="api_8h.html#ae723a6ac7b0cca48a22a501787397769">KUZU_API</a> std::unique_ptr&lt; <a class="el" href="struct_arrow_array.html">ArrowArray</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7355df3325f7d6d7bae9eff65bb763a5">getNextArrowChunk</a> (int64_t chunkSize)</td></tr>
 <tr class="memdesc:a7355df3325f7d6d7bae9eff65bb763a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the next chunk of the query result as an arrow array.  <br /></td></tr>
+<tr class="memitem:af7985021671b322224ee82a4607be52b" id="r_af7985021671b322224ee82a4607be52b"><td class="memItemLeft" align="right" valign="top">processor::FactorizedTable *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af7985021671b322224ee82a4607be52b">getTable</a> ()</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 id="header-pub-static-methods" class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a74d95f84ebe31493b13ebabd11ab3318" id="r_a74d95f84ebe31493b13ebabd11ab3318"><td class="memItemLeft" align="right" valign="top">static std::unique_ptr&lt; <a class="el" href="classkuzu_1_1main_1_1_query_result.html">QueryResult</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a74d95f84ebe31493b13ebabd11ab3318">getQueryResultWithError</a> (const std::string &amp;errorMessage)</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pub-attribs" class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -372,6 +376,31 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <dl class="section return"><dt>Returns</dt><dd>num of tuples in query result. </dd></dl>
+
+</div>
+</div>
+<a id="a74d95f84ebe31493b13ebabd11ab3318" name="a74d95f84ebe31493b13ebabd11ab3318"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a74d95f84ebe31493b13ebabd11ab3318">&#9670;&#160;</a></span>getQueryResultWithError()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unique_ptr&lt; <a class="el" href="classkuzu_1_1main_1_1_query_result.html">QueryResult</a> &gt; kuzu::main::QueryResult::getQueryResultWithError </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>errorMessage</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>

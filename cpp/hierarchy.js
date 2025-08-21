@@ -31,6 +31,8 @@ var hierarchy =
     [ "kuzu::common::BlobVector", "structkuzu_1_1common_1_1_blob_vector.html", null ],
     [ "kuzu::common::BufferBlock", "structkuzu_1_1common_1_1_buffer_block.html", null ],
     [ "kuzu::common::BufferPoolConstants", "structkuzu_1_1common_1_1_buffer_pool_constants.html", null ],
+    [ "kuzu::main::CachedPreparedStatement", "structkuzu_1_1main_1_1_cached_prepared_statement.html", null ],
+    [ "kuzu::main::CachedPreparedStatementManager", "classkuzu_1_1main_1_1_cached_prepared_statement_manager.html", null ],
     [ "kuzu::common::CaseInsensitiveStringEquality", "structkuzu_1_1common_1_1_case_insensitive_string_equality.html", null ],
     [ "kuzu::common::CaseInsensitiveStringHashFunction", "structkuzu_1_1common_1_1_case_insensitive_string_hash_function.html", null ],
     [ "kuzu::main::ClientConfig", "structkuzu_1_1main_1_1_client_config.html", null ],

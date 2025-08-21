@@ -283,7 +283,8 @@ var namespacekuzu_1_1common =
       [ "DETACH_DATABASE", "namespacekuzu_1_1common.html#afeef9a771d4ab45b546f105ba325a557ad4e8d9001943525cc6c50b4d5588c521", null ],
       [ "USE_DATABASE", "namespacekuzu_1_1common.html#afeef9a771d4ab45b546f105ba325a557abc152ccc041e70158a9b33e1469ba2f5", null ],
       [ "CREATE_SEQUENCE", "namespacekuzu_1_1common.html#afeef9a771d4ab45b546f105ba325a557ab573a5550e41343afdd7ab4d9f39ef95", null ],
-      [ "CREATE_TYPE", "namespacekuzu_1_1common.html#afeef9a771d4ab45b546f105ba325a557abe645bfd441a89ef77bca38e08869112", null ]
+      [ "CREATE_TYPE", "namespacekuzu_1_1common.html#afeef9a771d4ab45b546f105ba325a557abe645bfd441a89ef77bca38e08869112", null ],
+      [ "EXTENSION_CLAUSE", "namespacekuzu_1_1common.html#afeef9a771d4ab45b546f105ba325a557a236f40fa2fba276ec083e78788c7bd7c", null ]
     ] ],
     [ "TypeCategory", "namespacekuzu_1_1common.html#a85fc1164fed96b1de51b78bd5eecc68d", [
       [ "INTERNAL", "namespacekuzu_1_1common.html#a85fc1164fed96b1de51b78bd5eecc68da182fa1c42a2468f8488e6dcf75a81b81", null ],

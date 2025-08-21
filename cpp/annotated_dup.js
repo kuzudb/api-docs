@@ -161,6 +161,8 @@ var annotated_dup =
       ] ],
       [ "main", "namespacekuzu_1_1main.html", [
         [ "ActiveQuery", "structkuzu_1_1main_1_1_active_query.html", "structkuzu_1_1main_1_1_active_query" ],
+        [ "CachedPreparedStatement", "structkuzu_1_1main_1_1_cached_prepared_statement.html", "structkuzu_1_1main_1_1_cached_prepared_statement" ],
+        [ "CachedPreparedStatementManager", "classkuzu_1_1main_1_1_cached_prepared_statement_manager.html", "classkuzu_1_1main_1_1_cached_prepared_statement_manager" ],
         [ "ClientConfig", "structkuzu_1_1main_1_1_client_config.html", "structkuzu_1_1main_1_1_client_config" ],
         [ "ClientConfigDefault", "structkuzu_1_1main_1_1_client_config_default.html", null ],
         [ "ClientContext", "classkuzu_1_1main_1_1_client_context.html", "classkuzu_1_1main_1_1_client_context" ],
