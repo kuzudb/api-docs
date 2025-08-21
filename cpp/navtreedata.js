@@ -66,16 +66,16 @@ var NAVTREEINDEX =
 "classkuzu_1_1common_1_1_int128__t.html#a0be90fe800de1218f8387cf8e32cc4c6",
 "classkuzu_1_1common_1_1_selection_view.html#a6e07843544f85eed0707ebb21816d61b",
 "classkuzu_1_1common_1_1_value.html#a4fd3abb25dcd5a876f8b12e6b88748cc",
-"classkuzu_1_1main_1_1_client_context.html#a04363a5f8378d932d581d18f977fe0bb",
-"classkuzu_1_1main_1_1_query_result.html#a6397bf7c35579db0c9a2a668a08d0ade",
-"classkuzu_1_1transaction_1_1_transaction.html#a109b6577214c7866cbcd14e47a0004a4",
-"globals_defs.html",
-"namespacekuzu_1_1common.html#afeef9a771d4ab45b546f105ba325a557abf8f3be424eb6a72b21549fbb24ffb57",
-"structkuzu_1_1common_1_1_buffer_pool_constants.html",
-"structkuzu_1_1common_1_1int128__t.html#aaea8e99b46b92d4036f206c3ea426fd4",
-"structkuzu_1_1function_1_1_binary_comparison_function_wrapper.html",
-"structkuzu_1_1function_1_1_table_func_shared_state.html#a5c5dfd223020c9817c09c83c41e4c712",
-"structkuzu_1_1processor_1_1_data_chunk_descriptor.html#a707602c182b386552f5259eac5f368fd"
+"classkuzu_1_1main_1_1_cached_prepared_statement_manager.html#a3644fe7d86ad1c5f97cf782bd957f15a",
+"classkuzu_1_1main_1_1_prepared_statement.html#a88e21bca711ab5bd45562ea675ac5498",
+"classkuzu_1_1processor_1_1_warning_context.html#af01ba9a385afc464f1001a0c556de4ff",
+"functions_u.html",
+"namespacekuzu_1_1common.html#aea96cbaccc7df791e248ca95ad97434ba77bc4ffc1b6dce554d9dda5d6dea1660",
+"structkuzu_1_1_o_p_print_info.html#a89b8ca6fceef374b804da9e494559455",
+"structkuzu_1_1common_1_1int128__t.html#a0b0058af5834790e86bfed72a17ff23a",
+"structkuzu_1_1common_1_1timestamp__t.html#a697c13f6d91903302313c7668da23822",
+"structkuzu_1_1function_1_1_table_func_input.html#a212a1e17940e39472c589f8e4367745f",
+"structkuzu_1_1main_1_1_system_config.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronization';

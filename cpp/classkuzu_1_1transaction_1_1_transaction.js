@@ -7,7 +7,6 @@ var classkuzu_1_1transaction_1_1_transaction =
     [ "commit", "classkuzu_1_1transaction_1_1_transaction.html#a040a6c5fc77d7513c3382a9dea034025", null ],
     [ "getCommitTS", "classkuzu_1_1transaction_1_1_transaction.html#a4e2faa51792f5ccc69d823e8ac7b9384", null ],
     [ "getCurrentTS", "classkuzu_1_1transaction_1_1_transaction.html#af78c710bbe21edcbfc47114fcf17cf78", null ],
-    [ "getEstimatedMemUsage", "classkuzu_1_1transaction_1_1_transaction.html#aff72e86b601e807ddea6facaf01f62b4", null ],
     [ "getID", "classkuzu_1_1transaction_1_1_transaction.html#ac0483a499215d9e8823b5390fc54dd8f", null ],
     [ "getLocalCacheManager", "classkuzu_1_1transaction_1_1_transaction.html#a9d82178ac01bba223221d36fdba1d6d0", null ],
     [ "getLocalRowIdx", "classkuzu_1_1transaction_1_1_transaction.html#a109b6577214c7866cbcd14e47a0004a4", null ],
